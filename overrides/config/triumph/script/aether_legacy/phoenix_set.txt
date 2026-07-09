@@ -1,0 +1,22 @@
+setIcon(<aether_legacy:phoenix_chestplate>)
+
+setTitle("Phoenix Set")
+
+setDescription("Craft a Phoenix Set with a Masterful Quality")
+
+addParent("aether_legacy:neptune_set")
+
+addRewardFunction("aether_legacy:phoenix_set")
+
+addRewardFunction("experience:challenge_medium")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:phoenix_helmet, nbt: {Quality: {Name: "quality.masterful.name"}}>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:phoenix_chestplate, nbt: {Quality: {Name: "quality.masterful.name"}}>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:phoenix_leggings, nbt: {Quality: {Name: "quality.masterful.name"}}>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:phoenix_boots, nbt: {Quality: {Name: "quality.masterful.name"}}>)

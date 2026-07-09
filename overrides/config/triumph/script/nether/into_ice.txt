@@ -1,0 +1,15 @@
+setIcon(<netherex:frost_rod>)
+
+setTitle("Into Ice")
+
+setDescription("Kill a Frost to get some Frost Rods")
+
+addParent("nether:into_fire")
+
+addRewardFunction("nether:into_ice")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:player_killed_entity")
+
+criteria.setEntityType("netherex:frost")

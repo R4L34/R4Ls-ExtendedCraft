@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "twilightforest:experiment_115",
+      "data": 2
+    },
+    "title": {
+      "translate": "advancement.twilightforest.experiment_115_3"
+    },
+    "description": {
+      "translate": "advancement.twilightforest.experiment_115_3.desc"
+    },
+    "frame": "challenge"
+  },
+  "parent": "twilightforest:experiment_115",
+  "rewards": {
+    "function": "twilightforest:experiment_115_115"
+    },
+  "criteria": {
+    "eat_115_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "twilightforest:experiment_115",
+          "count": {
+            "max": 115,
+            "min": 63
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "title": {"translate":"Getting an Upgrade"},
+        "description": {"translate":"Construct a better pickaxe"}
+    },
+    "parent": "mining:root",
+    "rewards": {
+        "function": "mining:getting_an_upgrade"
+    },
+    "criteria": {
+        "stone_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stone_pickaxe"
+                    }
+                ]
+            }
+        }
+    }
+}

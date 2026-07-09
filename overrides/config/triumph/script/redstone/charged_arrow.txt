@@ -1,0 +1,15 @@
+setIcon(<inspirations:arrow>)
+
+setTitle("Charged arrow")
+
+setDescription("I don't think I should explain how it works)")
+
+addParent("redstone:charger")
+
+addRewardFunction("redstone:charged_arrow")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("arrow_charged", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:arrow>)

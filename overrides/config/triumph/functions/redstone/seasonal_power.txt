@@ -1,0 +1,2 @@
+give @s sereneseasons:season_sensor_spring 2
+tellraw @s {"color":"blue","text":" +2 Seasonal Sensors"}

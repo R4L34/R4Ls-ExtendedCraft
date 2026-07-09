@@ -1,0 +1,18 @@
+setIcon(<minecraft:redstone_ore>)
+
+setTitle("Redstone Ore Progression")
+
+setDescription("Get access to the Redstone Ore by using Redstone Ore Exploration Book")
+
+addParent("progression:ores/overworld/lapis_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("redstone_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

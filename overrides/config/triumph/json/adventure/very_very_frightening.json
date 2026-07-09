@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "trident:trident"
+    },
+    "title": {
+      "translate": "advancements.adventure.very_very_frightening.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.very_very_frightening.description"
+    },
+        "frame": "goal"
+  },
+  "parent": "adventure:throw_trident",
+  "rewards": {
+        "function": "adventure:very_very_frightening",
+        "experience": 75
+    },
+  "criteria": {
+    "struck_villager": {
+      "trigger": "trident:channeled_lightning"
+    }
+  },
+  "requirements": [
+    [
+      "struck_villager"
+    ]
+  ]
+}

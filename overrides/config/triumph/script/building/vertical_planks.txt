@@ -1,0 +1,21 @@
+setIcon(<quark:vertical_planks>)
+
+setTitle("Vertical Planks")
+
+setDescription("Craft some vertical planks")
+
+addParent("building:yay_i_got_my_wood")
+
+addRewardFunction("building:vertical_planks")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("vertical_planks", "minecraft:inventory_changed")
+criteria.addItem(<quark:vertical_planks>)
+criteria = addCriteria("vertical_stained_planks", "minecraft:inventory_changed")
+criteria.addItem(<quark:vertical_stained_planks>)
+
+
+
+
+setRequirements("any")

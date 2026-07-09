@@ -1,0 +1,22 @@
+setIcon(<bountifulbaubles:amuletsinwrath>)
+
+setTitle("Sinful Delight")
+
+setDescription("Craft every Pendant")
+
+addParent("combat:sin_pendant")
+
+addRewardFunction("combat:sinful_delight")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<bountifulbaubles:amuletsinempty>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<bountifulbaubles:amuletsingluttony>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<bountifulbaubles:amuletsinpride>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<bountifulbaubles:amuletsinwrath>)

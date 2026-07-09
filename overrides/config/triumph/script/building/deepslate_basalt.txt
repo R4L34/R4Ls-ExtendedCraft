@@ -1,0 +1,38 @@
+setIcon(<quark:basalt>)
+
+setTitle("Deepslate Basalt")
+
+setDescription("Craft Everything possible from Deepslate Basalt")
+
+addParent("building:cave_basalt")
+
+addRewardFunction("building:deepslate_basalt")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<quark:stone_basalt_stairs>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<quark:stone_basalt_slab>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<quark:basalt:1>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<quark:basalt:0>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_pavement:3>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<quark:stone_basalt_bricks_slab>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<quark:stone_basalt_bricks_stairs>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_carved:3>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_bricks:3>)
+criteria = addCriteria("9", "minecraft:inventory_changed")
+criteria.addItem(<quark:basalt_wall>)
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<quark:basalt_speleothem>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<quark:stone_basalt_bricks_wall>)

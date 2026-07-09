@@ -1,0 +1,15 @@
+setIcon(<qualitytools:reforging_station>)
+
+setTitle("Reforging Station")
+
+setDescription("Craft a Reforging Station")
+
+addParent("mining:furnace_update")
+
+addRewardFunction("mining:reforging_station")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("reforging_station", "minecraft:inventory_changed")
+
+criteria.addItem(<qualitytools:reforging_station>)

@@ -1,0 +1,17 @@
+setIcon(<ironchest:iron_chest:5>)
+
+setTitle("Chest Master")
+
+setDescription("Craft the best chest!")
+
+addParent("building:chest_update")
+
+addRewardFunction("building:chest_master")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("crystal_chest", "minecraft:inventory_changed")
+
+criteria.addItem(<ironchest:iron_chest:5>)

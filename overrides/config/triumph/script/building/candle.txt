@@ -1,0 +1,15 @@
+setIcon(<quark:candle>)
+
+setTitle("Bring Up 18th century")
+
+setDescription("Craft some candles")
+
+addParent("building:glowing")
+
+addRewardFunction("building:candle")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("candle", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:candle>)

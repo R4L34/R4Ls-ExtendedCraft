@@ -1,0 +1,51 @@
+setIcon(<minecraft:flower_pot>)
+
+setTitle("Pot Planter")
+
+setDescription("Craft and place a flower pot")
+
+addParent("building:bricks")
+
+addRewardFunction("building:pot_planter")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("flower_pot", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:flower_pot>)
+criteria = addCriteria("colored_flowerpot0", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_white>)
+criteria = addCriteria("colored_flowerpot1", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_orange>)
+criteria = addCriteria("colored_flowerpot2", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_magenta>)
+criteria = addCriteria("colored_flowerpot3", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_light_blue>)
+criteria = addCriteria("colored_flowerpot4", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_yellow>)
+criteria = addCriteria("colored_flowerpot5", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_lime>)
+criteria = addCriteria("colored_flowerpot6", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_pink>)
+criteria = addCriteria("colored_flowerpot7", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_gray>)
+criteria = addCriteria("colored_flowerpot8", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_silver>)
+criteria = addCriteria("colored_flowerpot9", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_cyan>)
+criteria = addCriteria("colored_flowerpot10", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_purple>)
+criteria = addCriteria("colored_flowerpot11", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_blue>)
+criteria = addCriteria("colored_flowerpot12", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_brown>)
+criteria = addCriteria("colored_flowerpot13", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_green>)
+criteria = addCriteria("colored_flowerpot14", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_red>)
+criteria = addCriteria("colored_flowerpot15", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_flowerpot_black>)
+
+
+
+
+setRequirements("any")

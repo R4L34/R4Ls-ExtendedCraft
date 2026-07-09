@@ -1,0 +1,2 @@
+give @s minecraft:flower_pot 3
+tellraw @s {"color":"blue","text":" +3 Flower Pots"}

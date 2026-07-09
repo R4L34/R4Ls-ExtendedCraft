@@ -1,0 +1,15 @@
+setIcon(<toughasnails:temperature_coil:0>)
+
+setTitle("Freezer")
+
+setDescription("Craft some Cooling Coils to make your home colder")
+
+addParent("adventure:cooling_armor")
+
+addRewardFunction("adventure:freezer")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("temperature_coil", "minecraft:inventory_changed")
+
+criteria.addItem(<toughasnails:temperature_coil:0>)

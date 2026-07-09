@@ -1,0 +1,2 @@
+give @s quark:soul_powder 8
+tellraw @s {"color":"blue","text":" +8 Soul Powder"}

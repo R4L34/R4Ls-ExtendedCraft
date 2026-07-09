@@ -1,0 +1,22 @@
+setIcon(<ironfurnaces:iron_furnace_idle>)
+
+setTitle("Furnace Update")
+
+setDescription("Make a better version of Furnace to melt your sweety resourses FAST!!!")
+
+addParent("mining:fossil_fuel")
+
+addRewardFunction("mining:furnace_update")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("furnace", "minecraft:inventory_changed")
+criteria.addItem(<ironfurnaces:iron_furnace_idle>)
+criteria = addCriteria("furnace2", "minecraft:inventory_changed")
+criteria.addItem(<ironfurnaces:gold_furnace_idle>)
+criteria = addCriteria("furnace3", "minecraft:inventory_changed")
+criteria.addItem(<ironfurnaces:diamond_furnace_idle>)
+criteria = addCriteria("furnace4", "minecraft:inventory_changed")
+criteria.addItem(<ironfurnaces:glass_furnace_idle>)
+
+setRequirements("any")

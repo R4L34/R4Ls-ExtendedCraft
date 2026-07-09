@@ -1,0 +1,15 @@
+setIcon(<pickletweaks:dye_powder:6>)
+
+setTitle("Colorful Cocaine")
+
+setDescription("Craft a Dye powder")
+
+addParent("adventure:tarzan")
+
+addRewardFunction("adventure:colorful_cocaine")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("dye_powder", "minecraft:inventory_changed")
+
+criteria.addItem(<pickletweaks:dye_powder>)

@@ -1,0 +1,15 @@
+setIcon(<aether_legacy:enchanter>)
+
+setTitle("Do you believe in Magic?")
+
+setDescription("Obtain an Enchanter")
+
+addParent("aether_legacy:enter_aether")
+
+addRewardFunction("aether_legacy:craft_altar")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<aether_legacy:enchanter>)

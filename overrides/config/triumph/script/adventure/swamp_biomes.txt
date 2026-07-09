@@ -1,0 +1,40 @@
+setIcon(<biomesoplenty:mud>)
+
+setTitle("Swamp Biomes")
+
+setDescription("Find all Swamp Biomes")
+
+addParent("adventure:water_biomes")
+
+addRewardFunction("adventure:swamp_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("biomesoplenty:bayou")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("biomesoplenty:bog")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("biomesoplenty:dead_swamp")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("biomesoplenty:fen")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("biomesoplenty:land_of_lakes")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("biomesoplenty:lush_swamp")
+criteria = addCriteria("6", "minecraft:location")
+criteria.setBiome("biomesoplenty:mangrove")
+criteria = addCriteria("7", "minecraft:location")
+criteria.setBiome("biomesoplenty:moor")
+criteria = addCriteria("8", "minecraft:location")
+criteria.setBiome("biomesoplenty:quagmire")
+criteria = addCriteria("9", "minecraft:location")
+criteria.setBiome("minecraft:swampland")
+criteria = addCriteria("10", "minecraft:location")
+criteria.setBiome("minecraft:mutated_swampland")
+criteria = addCriteria("11", "minecraft:location")
+criteria.setBiome("biomesoplenty:wasteland")
+criteria = addCriteria("12", "minecraft:location")
+criteria.setBiome("pvj:willow_swamp")

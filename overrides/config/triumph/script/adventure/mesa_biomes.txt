@@ -1,0 +1,26 @@
+setIcon(<minecraft:stained_hardened_clay:1>)
+
+setTitle("Mesa Biomes")
+
+setDescription("Find all Mesa Biomes")
+
+addParent("adventure:dead_biomes")
+
+addRewardFunction("adventure:mesa_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("minecraft:mesa")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("minecraft:mutated_mesa")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("minecraft:mesa_clear_rock")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("minecraft:mesa_rock")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("minecraft:mutated_mesa_rock")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("minecraft:mutated_mesa_clear_rock")

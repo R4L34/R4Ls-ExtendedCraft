@@ -1,0 +1,18 @@
+setIcon(<pickletweaks:repair_kit>)
+
+setTitle("Medkit but for Instruments")
+
+setDescription("Craft a Repair Kit to repair your instruments")
+
+addParent("mining:aww_it_broke")
+
+addRewardFunction("mining:medkit_but_for_instruments")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:repair_kit>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:repair_kit_custom>)
+
+setRequirements("any")

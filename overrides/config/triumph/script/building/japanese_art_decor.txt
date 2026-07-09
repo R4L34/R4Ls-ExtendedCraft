@@ -1,0 +1,24 @@
+setIcon(<quark:paper_wall_sakura>)
+
+setTitle("Japanese Art Decor")
+
+setDescription("Craft three types of Paper Walls and two types of Paper Lamps!")
+
+addParent("building:wall_decoration")
+
+addRewardFunction("building:japanese_art_decor")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("japanese0", "minecraft:inventory_changed")
+criteria.addItem(<quark:paper_wall>)
+criteria = addCriteria("japanese1", "minecraft:inventory_changed")
+criteria.addItem(<quark:paper_wall_big>)
+criteria = addCriteria("japanese2", "minecraft:inventory_changed")
+criteria.addItem(<quark:paper_wall_sakura>)
+criteria = addCriteria("japanese3", "minecraft:inventory_changed")
+criteria.addItem(<quark:paper_lantern:0>)
+criteria = addCriteria("japanese4", "minecraft:inventory_changed")
+criteria.addItem(<quark:paper_lantern:1>)

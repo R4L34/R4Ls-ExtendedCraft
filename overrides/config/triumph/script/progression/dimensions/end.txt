@@ -1,0 +1,18 @@
+setIcon(<minecraft:end_stone>)
+
+setTitle("End Progression")
+
+setDescription("Get access to the End Dimension by using End Exploration Book. And again, you need to beat all Twilight Forest bosses beforehand!")
+
+addParent("progression:dimensions/twilight_forest")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("end")
+
+setFrameType("GOAL")
+
+alwaysVisible()

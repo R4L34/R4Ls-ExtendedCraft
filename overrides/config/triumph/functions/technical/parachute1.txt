@@ -1,0 +1,2 @@
+kill @s
+tellraw @s {"text":"Got tangled in the parachute. Next time check if you have all skill requirements before carrying it with you!"}

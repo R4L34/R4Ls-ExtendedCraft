@@ -1,0 +1,15 @@
+setIcon(<netherex:black_salamander_hide>)
+
+setTitle("Salamander")
+
+setDescription("Kill a Salamander")
+
+addParent("nether:the_tribal_snouts")
+
+addRewardFunction("nether:salamander")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:player_killed_entity")
+
+criteria.setEntityType("netherex:salamander")

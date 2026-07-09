@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:vine"
+        },
+        "title": {"translate":"Tarzan"},
+        "description": {"translate":"Swing (or climb) on some vines"}
+    },
+    "parent": "adventure:root",
+	"rewards": {
+        "function": "adventure:tarzan",
+        "experience": 15
+    },
+    "criteria": {
+        "enter_vine": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:vine"
+            }
+        },
+        "enter_vine2": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "biomesoplenty:willow_vine"
+            }
+        }
+    }, 
+
+    "requirements" : 
+    [[
+        "enter_vine",
+        "enter_vine2"
+    ]]
+}

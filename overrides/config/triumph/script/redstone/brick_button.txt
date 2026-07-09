@@ -1,0 +1,14 @@
+setIcon(<inspirations:bricks_button>)
+
+setTitle("Something is off!")
+
+setDescription("Craft a button that hidden in a brick!")
+
+addParent("redstone:button")
+
+addRewardFunction("redstone:brick_button")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("br_btn", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:bricks_button>)

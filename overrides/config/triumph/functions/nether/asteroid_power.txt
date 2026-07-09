@@ -1,0 +1,2 @@
+give @s futuremc:netherite_ingot 4
+tellraw @s {"color":"blue","text":" +4 Netherite Ingots"}

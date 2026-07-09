@@ -1,0 +1,15 @@
+setIcon(<futuremc:soul_fire_torch>)
+
+setTitle("Your Soul Is Mine!")
+
+setDescription("Craft a Soul Torch!")
+
+addParent("building:lights_up")
+
+addRewardFunction("building:your_soul_is_mine")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<futuremc:soul_fire_torch>)

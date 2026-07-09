@@ -1,0 +1,15 @@
+setIcon(<inspirations:books:16>)
+
+setTitle("Trap Book")
+
+setDescription("Gives redstone signal when you pu it in a bookshelf")
+
+addParent("redstone:troll_chest")
+
+addRewardFunction("redstone:trap_book")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("trap_book", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:books:16>)

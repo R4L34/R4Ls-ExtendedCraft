@@ -1,0 +1,20 @@
+setIcon(<xat:faelis_claw>)
+
+setTitle("Top Tier Attack")
+
+setDescription("Craft Poison Stone, Faelis Claw & Shield of Honor")
+
+addParent("combat:weather_resistance")
+
+addRewardFunction("combat:top_tier_attack")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<xat:poison_stone>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<xat:damage_shield>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<xat:faelis_claw>)

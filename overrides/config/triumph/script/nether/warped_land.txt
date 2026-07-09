@@ -1,0 +1,15 @@
+setIcon(<futureminecraf:warpednylium>)
+
+setTitle("Warped Land")
+
+setDescription("Mine some Warped Nylium")
+
+addParent("nether:crimson_land")
+
+addRewardFunction("nether:warped_land")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("warpednylium", "triumph:player_break_block")
+
+criteria.setBlock(<futureminecraf:warpednylium>)

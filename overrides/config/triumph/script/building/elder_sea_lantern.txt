@@ -1,0 +1,15 @@
+setIcon(<quark:elder_sea_lantern>)
+
+setTitle("Even more expensive!")
+
+setDescription("Light up the area with some elder sea lanterns")
+
+addParent("building:expensive")
+
+addRewardFunction("building:elder_sea_lantern")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("elder_sea_lantern", "minecraft:placed_block")
+
+criteria.setBlock(<quark:elder_sea_lantern>)

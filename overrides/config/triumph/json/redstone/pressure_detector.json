@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:detector_rail"
+        },
+        "title": {"translate":"Pressure Detector"},
+        "description": {"translate":"Use a pressure plate to craft a detector rail"}
+    },
+    "parent": "redstone:under_pressure",
+	"rewards": {
+		"function": "redstone:pressure_detector"
+    },
+    "criteria": {
+        "detector_rail": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:detector_rail"
+                    }
+                ]
+            }
+        }
+    }
+}

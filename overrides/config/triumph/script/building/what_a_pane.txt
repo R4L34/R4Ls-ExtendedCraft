@@ -1,0 +1,27 @@
+setIcon(<minecraft:glass_pane>)
+
+setTitle("What a pane")
+
+setDescription("Craft some glass panes")
+
+addParent("building:classy_glassy")
+
+addRewardFunction("building:what_a_pane")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:glass_pane>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:stained_glass_pane>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<betternether:quartz_glass_pane>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<betternether:quartz_glass_framed_pane>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<netherex:soul_glass_pane>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<quark:framed_glass_pane>)
+
+
+
+
+setRequirements("any")

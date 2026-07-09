@@ -1,0 +1,15 @@
+setIcon(<minecraft:wool>)
+
+setTitle("Fluffy!")
+
+setDescription("Craft a wool")
+
+addParent("building:root")
+
+addRewardFunction("building:fluffy")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("minecraft1", "minecraft:inventory_changed")
+
+criteria.addItem(<minecraft:wool>)

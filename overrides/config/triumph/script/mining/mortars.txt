@@ -1,0 +1,15 @@
+setIcon(<advancedmortars:mortar:2>)
+
+setTitle("Mortars!!")
+
+setDescription("Now you can grind up some staff!")
+
+addParent("mining:fossil_fuel")
+
+addRewardFunction("mining:mortars")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("mortar", "minecraft:inventory_changed")
+
+criteria.addItem(<advancedmortars:mortar>)

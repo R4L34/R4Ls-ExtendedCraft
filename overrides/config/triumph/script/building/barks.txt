@@ -1,0 +1,32 @@
+setIcon(<pvj:redwood_bark>)
+
+setTitle("Bark Master")
+
+setDescription("Craft all types of wood Barks")
+
+addParent("building:yay_i_got_my_wood")
+
+addRewardFunction("building:barks")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<futureminecraf:warpedhyphae>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<futureminecraf:crimsonhyphae>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<quark:bark:5>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<quark:bark:4>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<quark:bark:3>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<quark:bark:2>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<quark:bark:1>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<quark:bark:0>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<pvj:redwood_bark>)
+criteria = addCriteria("9", "minecraft:inventory_changed")
+criteria.addItem(<betternether:stalagnate_bark>)

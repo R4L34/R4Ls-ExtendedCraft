@@ -1,0 +1,2 @@
+give @s quark:stained_clay_tiles 16 12
+tellraw @s {"color":"blue","text":" +16 Brown Terracotta Shingles"}

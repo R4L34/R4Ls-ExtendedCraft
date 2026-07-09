@@ -1,0 +1,15 @@
+setIcon(<pickletweaks:coal_piece>)
+
+setTitle("Economy of the Fuel")
+
+setDescription("Craft some coal pieces to use your fuel more rationally!")
+
+addParent("mining:mortars")
+
+addRewardFunction("mining:coal_pieses")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("coal_piece", "minecraft:inventory_changed")
+
+criteria.addItem(<pickletweaks:coal_piece>)

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "title": {"translate":"Enchantix"},
+        "description": {"translate":"Craft an enchanting table"}
+    },
+    "parent": "mining:diamonds",
+    "rewards": {
+        "function": "mining:enchanter"
+    },
+    "criteria": {
+        "enchanting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:enchanting_table"
+                    }
+                ]
+            }
+        }
+    }
+}

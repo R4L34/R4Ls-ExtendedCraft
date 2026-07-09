@@ -1,0 +1,2 @@
+give @s quark:basalt 32
+tellraw @s {"color":"blue","text":" +32 Deepslate Basalt"}

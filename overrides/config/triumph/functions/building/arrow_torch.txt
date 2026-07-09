@@ -1,0 +1,2 @@
+give @s quark:arrow_torch 16
+tellraw @s {"color":"blue","text":" +16 Torch Arrow"}

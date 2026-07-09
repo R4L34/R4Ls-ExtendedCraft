@@ -1,0 +1,15 @@
+setIcon(<betternether:quartz_glass>)
+
+setTitle("Quartz Glass")
+
+setDescription("Craft some Quartz Glass")
+
+addParent("building:classy_glassy")
+
+addRewardFunction("building:quartz_glass")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<betternether:quartz_glass>)

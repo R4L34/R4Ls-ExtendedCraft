@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glowstone"
+        },
+        "title": {"translate":"Glowing!"},
+        "description": {"translate":"Light up the area with glowstone"}
+    },
+    "parent": "building:torched",
+	"rewards": {
+        "function": "building:glowing"
+    },		
+    "criteria": {
+        "glowstone": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:glowstone"
+            }
+        }
+    }
+}

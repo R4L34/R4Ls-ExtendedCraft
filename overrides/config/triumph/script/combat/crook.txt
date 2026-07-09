@@ -1,0 +1,24 @@
+setIcon(<inspirations:wooden_crook>)
+
+setTitle("Crook")
+
+setDescription("Increases chanse of dropping saplings from leaves. And allows you to hook entities!")
+
+addParent("combat:monster_hunter")
+
+addRewardFunction("combat:crook")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("crook0", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:wooden_crook>)
+criteria = addCriteria("crook1", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:stone_crook>)
+criteria = addCriteria("crook2", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:bone_crook>)
+criteria = addCriteria("crook3", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:blaze_crook>)
+criteria = addCriteria("crook4", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:wither_crook>)
+
+setRequirements("any")

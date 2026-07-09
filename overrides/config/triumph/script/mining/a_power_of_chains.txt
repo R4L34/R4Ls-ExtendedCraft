@@ -1,0 +1,15 @@
+setIcon(<craftablechainmail:chainmail_plate>)
+
+setTitle("A power of chains")
+
+setDescription("Craft some chainmail plates")
+
+addParent("mining:acquire_hardware")
+
+addRewardFunction("mining:a_power_of_chains")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("chainmail_plate", "minecraft:inventory_changed")
+
+criteria.addItem(<craftablechainmail:chainmail_plate>)

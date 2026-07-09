@@ -1,0 +1,2 @@
+give @s minecraft:stone_sword 1
+tellraw @s {"color":"blue","text":" +1 Stone Sword"}

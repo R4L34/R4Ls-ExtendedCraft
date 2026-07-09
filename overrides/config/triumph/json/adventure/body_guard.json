@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_block"
+        },
+        "title": {"translate":"Hired Help"},
+        "description": {"translate":"Summon an Iron Golem to help defend a village"},
+        "frame": "goal"
+    },
+    "parent": "adventure:archaeologist",
+    "rewards": {
+        "function": "adventure:body_guard",
+        "experience": 75
+    },	
+    "criteria": {
+        "summoned": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager_golem"
+                }
+            }
+        }
+    }
+}

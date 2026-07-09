@@ -1,0 +1,34 @@
+setIcon(<boptools:pickaxe_peridot>)
+
+setTitle("Peridot Instruments")
+
+setDescription("Craft any Peridot Instruments, Armor & Weapons")
+
+addParent("mining:cover_me_with_peridot")
+
+addRewardFunction("mining:peridot_instruments")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<boptools:axe_peridot>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<boptools:bow_peridot>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<boptools:hammer_peridot>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<boptools:pickaxe_peridot>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<boptools:hoe_peridot>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<boptools:shears_peridot>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<boptools:shovel_peridot>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<boptools:sickle_peridot>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<boptools:sword_peridot>)
+criteria = addCriteria("9", "minecraft:inventory_changed")
+criteria.addItem(<boptools:fishing_rod_peridot>)

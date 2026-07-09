@@ -1,0 +1,2 @@
+give @s futureminecraf:soulsoil 8
+tellraw @s {"color":"blue","text":" +8 Soul Soil"}

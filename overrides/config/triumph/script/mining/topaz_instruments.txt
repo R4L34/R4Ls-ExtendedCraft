@@ -1,0 +1,34 @@
+setIcon(<boptools:pickaxe_topaz>)
+
+setTitle("Topaz Instruments")
+
+setDescription("Craft any Topaz Instruments, Armor & Weapons")
+
+addParent("mining:cover_me_with_topaz")
+
+addRewardFunction("mining:topaz_instruments")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<boptools:axe_topaz>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<boptools:bow_topaz>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<boptools:hammer_topaz>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<boptools:pickaxe_topaz>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<boptools:hoe_topaz>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<boptools:shears_topaz>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<boptools:shovel_topaz>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<boptools:sickle_topaz>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<boptools:sword_topaz>)
+criteria = addCriteria("9", "minecraft:inventory_changed")
+criteria.addItem(<boptools:fishing_rod_topaz>)

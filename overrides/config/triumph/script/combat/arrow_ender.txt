@@ -1,0 +1,15 @@
+setIcon(<quark:arrow_ender>)
+
+setTitle("Ender Arrow")
+
+setDescription("Now You won't miss it! Will you?")
+
+addParent("combat:tele_morph")
+
+addRewardFunction("combat:arrow_ender")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("arrow_ender", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:arrow_ender>)

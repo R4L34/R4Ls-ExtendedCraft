@@ -1,0 +1,15 @@
+setIcon(<minecraft:leather>)
+
+setTitle("We Bare Bears")
+
+setDescription("Kill a Greezly bear")
+
+addParent("combat:eskimo")
+
+addRewardFunction("combat:bear")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("pvj_grizzly_bear", "minecraft:player_killed_entity")
+
+criteria.setEntityType("pvj:pvj_grizzly_bear")

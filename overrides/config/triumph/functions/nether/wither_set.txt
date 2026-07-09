@@ -1,0 +1,2 @@
+give @s inspirations:materials 10 7
+tellraw @s {"color":"blue","text":" +10 Wither Bones"}

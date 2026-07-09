@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "title": {"translate":"The End?"},
+        "description": {"translate":"Enter the End Portal"},
+        "frame": "goal"
+    },
+    "parent": "adventure:eye_spy",
+	"rewards": {
+        "function": "adventure:the_end",
+        "experience": 75
+    },	
+    "criteria": {
+        "entered_end_portal": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:end_portal"
+            }
+        }
+    }
+}

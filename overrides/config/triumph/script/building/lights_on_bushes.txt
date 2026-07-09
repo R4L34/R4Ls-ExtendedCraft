@@ -1,0 +1,16 @@
+setIcon(<inspirations:enlightened_bush:4>)
+
+setTitle("Lights on Bushes!")
+
+setDescription("Create an Enlightened Bush!")
+
+addParent("building:root")
+
+addRewardFunction("building:lights_on_bushes")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("bush", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:enlightened_bush>)
+

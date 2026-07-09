@@ -1,0 +1,15 @@
+setIcon(<quark:soul_bead>)
+
+setTitle("Your worst nightmare!")
+
+setDescription("Kill a wraith!")
+
+addParent("nether:the_tribal_snouts")
+
+addRewardFunction("nether:your_worst_nightmare")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("wraith", "minecraft:player_killed_entity")
+
+criteria.setEntityType("quark:wraith")

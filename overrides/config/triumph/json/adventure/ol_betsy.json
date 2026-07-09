@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "crossbows:crossbow",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.adventure.ol_betsy.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.ol_betsy.description"
+    }
+  },
+    "parent": "adventure:heres_johnny",
+  "rewards": {
+    "function": "adventure:ol_betsy"
+  },
+  "criteria": {
+    "shot_crossbow": {
+      "trigger": "crossbows:shot_crossbow",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "shot_crossbow"
+    ]
+  ]
+}

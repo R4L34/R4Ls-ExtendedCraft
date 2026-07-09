@@ -1,0 +1,15 @@
+setIcon(<aether_legacy:white_apple>)
+
+setTitle("Cure!")
+
+setDescription("Eat White Apple to Cure your Inebriation")
+
+addParent("aether_legacy:inebriation")
+
+addRewardFunction("aether_legacy:cure")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:consume_item")
+
+criteria.setItem(<aether_legacy:white_apple>)

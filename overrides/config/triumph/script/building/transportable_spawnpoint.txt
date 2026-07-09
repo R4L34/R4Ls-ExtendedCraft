@@ -1,0 +1,15 @@
+setIcon(<davincisvessels:securedbed>)
+
+setTitle("Transportable Spawnpoint!")
+
+setDescription("Carry your spawnroint with your vehicle!")
+
+addParent("building:ship_helm")
+
+addRewardFunction("building:transportable_spawnpoint")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("sbed", "minecraft:inventory_changed")
+
+criteria.addItem(<davincisvessels:securedbed>)

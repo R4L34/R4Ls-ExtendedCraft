@@ -1,0 +1,3 @@
+give @s minecraft:quartz 8
+tellraw @s {"color":"blue","text":" +8 Quartz"}
+function experience:common

@@ -1,0 +1,15 @@
+setIcon(<inspirations:glass_trapdoor>)
+
+setTitle("Glass Trapdoor")
+
+setDescription("Seems like a good decision for roof!")
+
+addParent("building:glass_door")
+
+addRewardFunction("building:glass_trapdoor")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("glass_trapdoor", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:glass_trapdoor>)

@@ -1,0 +1,15 @@
+setIcon(<pickletweaks:colored_cobblestone:1>)
+
+setTitle("Too much amphetamine!")
+
+setDescription("Craft a dyed Cobblestone")
+
+addParent("building:fake_fortress")
+
+addRewardFunction("building:too_much_amphetamine")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("colored_cobblestone", "minecraft:inventory_changed")
+
+criteria.addItem(<pickletweaks:colored_cobblestone>)

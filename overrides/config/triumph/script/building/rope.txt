@@ -1,0 +1,15 @@
+setIcon(<inspirations:rope:2>)
+
+setTitle("Rope!")
+
+setDescription("You can climb on em!")
+
+addParent("building:chain")
+
+addRewardFunction("building:rope")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("rope", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:rope>)

@@ -1,0 +1,2 @@
+give @s pickletweaks:dark_glass 8
+tellraw @s {"color":"blue","text":" +8 Tinted Glass"}

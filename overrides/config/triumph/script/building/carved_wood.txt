@@ -1,0 +1,24 @@
+setIcon(<quark:carved_wood:2>)
+
+setTitle("Carved Wood")
+
+setDescription("Craft all types of Carved wood")
+
+addParent("building:barks")
+
+addRewardFunction("building:carved_wood")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("world_stone_pavement0", "minecraft:inventory_changed")
+criteria.addItem(<quark:carved_wood:0>)
+criteria = addCriteria("world_stone_pavement1", "minecraft:inventory_changed")
+criteria.addItem(<quark:carved_wood:1>)
+criteria = addCriteria("world_stone_pavement2", "minecraft:inventory_changed")
+criteria.addItem(<quark:carved_wood:2>)
+criteria = addCriteria("world_stone_pavement3", "minecraft:inventory_changed")
+criteria.addItem(<quark:carved_wood:3>)
+criteria = addCriteria("world_stone_pavement4", "minecraft:inventory_changed")
+criteria.addItem(<quark:carved_wood:4>)
+criteria = addCriteria("world_stone_pavement5", "minecraft:inventory_changed")
+criteria.addItem(<quark:carved_wood:5>)

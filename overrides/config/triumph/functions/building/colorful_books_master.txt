@@ -1,0 +1,2 @@
+give @s inspirations:books 8 3
+tellraw @s {"color":"blue","text":" +8 Light Blue Books"}

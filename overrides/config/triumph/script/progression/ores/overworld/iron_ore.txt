@@ -1,0 +1,18 @@
+setIcon(<minecraft:iron_ore>)
+
+setTitle("Iron Ore Progression")
+
+setDescription("Get access to the Iron Ore by using Iron Ore Exploration Book")
+
+addParent("progression:ores/overworld/gold_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("iron_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

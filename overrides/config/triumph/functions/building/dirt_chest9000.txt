@@ -1,0 +1,2 @@
+give @s minecraft:dirt 64
+tellraw @s {"color":"blue","text":" +64 Dirt! Now you can store it in your premium chest!"}

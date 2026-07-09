@@ -1,0 +1,2 @@
+give @s inspirations:books 4 16
+tellraw @s {"color":"blue","text":" +4 Trapped Books"}

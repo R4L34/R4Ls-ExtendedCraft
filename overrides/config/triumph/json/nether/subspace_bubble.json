@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {"translate":"Subspace Bubble"},
+        "description": {"translate":"Use the Nether to travel 7km in the Overworld"},
+        "frame": "challenge"
+    },
+    "parent": "nether:limbo_walker",
+	"rewards": {
+		"function": "nether:subspace_bubble"
+    },	
+    "criteria": {
+        "travelled": {
+            "trigger": "minecraft:nether_travel",
+            "conditions": {
+                "distance": {
+                    "horizontal": {
+                        "min": 7000
+                    }
+                }
+            }
+        }
+    }
+}

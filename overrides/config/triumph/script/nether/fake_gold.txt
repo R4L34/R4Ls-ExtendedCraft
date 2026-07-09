@@ -1,0 +1,15 @@
+setIcon(<betternether:cincinnasite>)
+
+setTitle("Fake Gold")
+
+setDescription("Obtain some Cincinnasite")
+
+addParent("nether:root")
+
+addRewardFunction("nether:fake_gold")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<betternether:cincinnasite>)

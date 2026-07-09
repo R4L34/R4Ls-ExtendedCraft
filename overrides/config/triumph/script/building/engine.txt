@@ -1,0 +1,15 @@
+setIcon(<davincisvessels:engine>)
+
+setTitle("GAS! GAS! GAS!")
+
+setDescription("Craft some engines to make your ship FAST!")
+
+addParent("building:transportable_mobs")
+
+addRewardFunction("building:engine")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("engine", "minecraft:inventory_changed")
+
+criteria.addItem(<davincisvessels:engine>)

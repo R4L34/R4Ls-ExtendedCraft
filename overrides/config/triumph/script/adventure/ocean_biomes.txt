@@ -1,0 +1,26 @@
+setIcon(<harvestcraft:bubblywateritem>)
+
+setTitle("Ocean Biomes")
+
+setDescription("Find all Ocean Biomes")
+
+addParent("adventure:river_biomes")
+
+addRewardFunction("adventure:ocean_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("biomesoplenty:coral_reef")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("minecraft:deep_ocean")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("futureminecraf:frozenocean")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("minecraft:frozen_ocean")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("biomesoplenty:kelp_forest")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("minecraft:ocean")

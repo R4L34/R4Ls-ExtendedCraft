@@ -1,0 +1,22 @@
+setIcon(<pvj:spectral_wrappings>)
+
+setTitle("Superiour Ghostbuster")
+
+setDescription("Kill any type of ghost")
+
+addParent("combat:goon")
+
+addRewardFunction("combat:ghosts")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("pvj_ghost", "minecraft:player_killed_entity")
+criteria.setEntityType("pvj:pvj_ghost")
+criteria = addCriteria("pvj_ghost2", "minecraft:player_killed_entity")
+criteria.setEntityType("pvj:pvj_shade")
+criteria = addCriteria("pvj_ghost3", "minecraft:player_killed_entity")
+criteria.setEntityType("pvj:pvj_banshee")
+criteria = addCriteria("wraith", "minecraft:player_killed_entity")
+criteria.setEntityType("quark:wraith")
+
+setRequirements("any")

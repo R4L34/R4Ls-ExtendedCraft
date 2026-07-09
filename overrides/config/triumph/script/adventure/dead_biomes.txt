@@ -1,0 +1,32 @@
+setIcon(<biomesoplenty:plant_0:12>)
+
+setTitle("Dead Biomes")
+
+setDescription("Find all Dead Biomes")
+
+addParent("adventure:wasteland_biomes")
+
+addRewardFunction("adventure:dead_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("biomesoplenty:dead_forest")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("biomesoplenty:dead_swamp")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("biomesoplenty:fen")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("biomesoplenty:ominous_woods")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("biomesoplenty:quagmire")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("biomesoplenty:snowy_tundra")
+criteria = addCriteria("6", "minecraft:location")
+criteria.setBiome("biomesoplenty:tundra")
+criteria = addCriteria("7", "minecraft:location")
+criteria.setBiome("biomesoplenty:volcanic_island")
+criteria = addCriteria("8", "minecraft:location")
+criteria.setBiome("biomesoplenty:wasteland")

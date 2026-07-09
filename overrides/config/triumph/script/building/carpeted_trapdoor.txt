@@ -1,0 +1,15 @@
+setIcon(<inspirations:carpeted_trapdoor_white>)
+
+setTitle("Carpeted trapdoor")
+
+setDescription("Now it's much easier to hide your diamonds!")
+
+addParent("building:its_a_trap")
+
+addRewardFunction("building:carpeted_trapdoor")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<ore:trapdoorCarpeted>)

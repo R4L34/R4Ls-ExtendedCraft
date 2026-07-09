@@ -1,0 +1,24 @@
+setIcon(<netherex:lively_nether_brick>)
+
+setTitle("Lively Fortress")
+
+setDescription("Craft Everything Possible From Lively Netherack")
+
+addParent("building:gloomy_fortress")
+
+addRewardFunction("building:lively_fortress")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<netherex:lively_nether_brick_fence_gate>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<netherex:lively_nether_brick_fence>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<netherex:lively_nether_brick_wall>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<netherex:lively_nether_brick_stairs>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<netherex:lively_nether_brick_slab>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<netherex:lively_nether_brick>)

@@ -1,0 +1,15 @@
+setIcon(<backpack:backpack:200>)
+
+setTitle("Portable Storage")
+
+setDescription("Craft the biggest backpack!")
+
+addParent("adventure:medium_backpack")
+
+addRewardFunction("adventure:big_backpack")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("backpack200", "minecraft:inventory_changed")
+
+criteria.addItem(<backpack:backpack:200>)

@@ -1,0 +1,22 @@
+setIcon(<quark:soul_bead>)
+
+setTitle("Spooky Biomes")
+
+setDescription("Find all Spooky Biomes")
+
+addParent("adventure:mushroom_biomes")
+
+addRewardFunction("adventure:spooky_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("biomesoplenty:dead_swamp")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("biomesoplenty:ominous_woods")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("minecraft:roofed_forest")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("minecraft:mutated_roofed_forest")

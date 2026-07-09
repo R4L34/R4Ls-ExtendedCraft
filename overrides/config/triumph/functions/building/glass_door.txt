@@ -1,0 +1,2 @@
+give @s inspirations:glass_door 2
+tellraw @s {"color":"blue","text":" +2 Glass Doors"}

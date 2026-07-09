@@ -1,0 +1,22 @@
+setIcon(<bountifulbaubles:amuletsinwrath>)
+
+setTitle("Nether Boss")
+
+setDescription("Defeat All Nether Bosses")
+
+addParent("nether:ghast_queen")
+
+addRewardFunction("nether:nether_boss")
+
+addRewardFunction("experience:challenge_medium")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "triumph:completed_advancement")
+criteria.setAdvancement("nether:ferrous_wroughtnaut")
+criteria = addCriteria("1", "triumph:completed_advancement")
+criteria.setAdvancement("nether:frostmaw")
+criteria = addCriteria("2", "triumph:completed_advancement")
+criteria.setAdvancement("nether:wither")
+criteria = addCriteria("4", "triumph:completed_advancement")
+criteria.setAdvancement("nether:ghast_queen")

@@ -1,0 +1,15 @@
+setIcon(<futureminecraf:gildedblackstone>)
+
+setTitle("Golden Blackstone")
+
+setDescription("Mine some Gold from Glided Blackstone")
+
+addParent("nether:nether_gold")
+
+addRewardFunction("nether:golden_blackstone")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("gildedblackstone", "triumph:player_break_block")
+
+criteria.setBlock(<futureminecraf:gildedblackstone>)

@@ -1,0 +1,22 @@
+setIcon(<netherex:wither_bone_chestplate>)
+
+setTitle("Wither Set")
+
+setDescription("Craft all Wither Bone armor set")
+
+addParent("nether:bone_collection")
+
+addRewardFunction("nether:wither_set")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<netherex:wither_bone_helmet>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<netherex:wither_bone_chestplate>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<netherex:wither_bone_leggings>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<netherex:wither_bone_boots>)

@@ -1,0 +1,15 @@
+setIcon(<minecraft:structure_void>)
+
+setTitle("Invisible Undead species")
+
+setDescription("Kill a dweller")
+
+addParent("combat:desert_nomad")
+
+addRewardFunction("combat:dweller")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("dweller", "minecraft:player_killed_entity")
+
+criteria.setEntityType("quark:dweller")

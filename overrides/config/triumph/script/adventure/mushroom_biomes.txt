@@ -1,0 +1,18 @@
+setIcon(<inspirations:materials:4>)
+
+setTitle("Mushroom Biomes")
+
+setDescription("Find all Mushroom Biomes")
+
+addParent("adventure:kilometre_walk")
+
+addRewardFunction("adventure:mushroom_biomes")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("minecraft:mushroom_island")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("minecraft:mushroom_island_shore")

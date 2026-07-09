@@ -1,0 +1,15 @@
+setIcon(<aether_legacy:aechor_petal>)
+
+setTitle("Inebriation")
+
+setDescription("Get Attacked by Aechor Plant")
+
+addParent("aether_legacy:enter_aether")
+
+addRewardFunction("aether_legacy:inebriation")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:effects_changed")
+
+criteria.addEffect("aether_legacy:inebriation")

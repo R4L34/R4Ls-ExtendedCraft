@@ -1,0 +1,15 @@
+setIcon(<quark:framed_glass_pane>)
+
+setTitle("Framed Pane")
+
+setDescription("Craft a Framed Glass Pane")
+
+addParent("building:soul_glass_pane")
+
+addRewardFunction("building:framed_glass_pane")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("framed_glass_pane", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:framed_glass_pane>)

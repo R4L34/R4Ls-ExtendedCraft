@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": {"translate":"Filthy Rich"},
+        "description": {"translate":"Make 64 emeralds"},
+        "frame": "goal"
+    },
+    "parent": "adventure:what_a_deal",	
+    "rewards": {
+        "function": "adventure:filthy_rich",
+        "experience": 75
+    },		
+    "criteria": {
+        "emeralds": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:emerald",
+						"count": {
+							"min": 64
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

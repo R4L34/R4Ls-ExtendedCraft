@@ -1,0 +1,15 @@
+setIcon(<minecraft:paper>)
+
+setTitle("Paper!!")
+
+setDescription("Craft a Paper")
+
+addParent("building:stationary_storage")
+
+addRewardFunction("building:paper")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("paper", "minecraft:inventory_changed")
+
+criteria.addItem(<minecraft:paper>)

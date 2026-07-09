@@ -1,0 +1,24 @@
+setIcon(<futuremc:netherite_shovel>)
+
+setTitle("Asteroid Power")
+
+setDescription("Craft a full Netherite Tool Set")
+
+addParent("nether:hidden_in_the_depth")
+
+addRewardFunction("nether:asteroid_power")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("shulker0", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_axe>)
+criteria = addCriteria("shulker1", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_hoe>)
+criteria = addCriteria("shulker2", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_pickaxe>)
+criteria = addCriteria("shulker3", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_shovel>)
+criteria = addCriteria("shulker4", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_sword>)

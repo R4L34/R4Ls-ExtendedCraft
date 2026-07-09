@@ -1,0 +1,22 @@
+setIcon(<aether_legacy:neptune_chestplate>)
+
+setTitle("Neptune Set")
+
+setDescription("Craft a Neptune Set with a Masterful Quality")
+
+addParent("aether_legacy:gravitite_set")
+
+addRewardFunction("aether_legacy:neptune_set")
+
+addRewardFunction("experience:challenge_medium")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:neptune_helmet, nbt: {Quality: {Name: "quality.masterful.name"}}>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:neptune_chestplate, nbt: {Quality: {Name: "quality.masterful.name"}}>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:neptune_leggings, nbt: {Quality: {Name: "quality.masterful.name"}}>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:neptune_boots, nbt: {Quality: {Name: "quality.masterful.name"}}>)

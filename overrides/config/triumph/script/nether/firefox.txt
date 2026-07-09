@@ -1,0 +1,15 @@
+setIcon(<minecraft:coal:1>)
+
+setTitle("Firefox")
+
+setDescription("Tame a Firefox")
+
+addParent("nether:high_temperature_fluid_monster")
+
+addRewardFunction("nether:firefox")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("foxhound", "minecraft:tame_animal")
+
+criteria.setEntityType("quark:foxhound")

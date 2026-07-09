@@ -1,0 +1,15 @@
+<book title="Extended Minecraft Guidebook" fontSize="0.6">
+
+<chapter>
+    <section>
+      <space height="33%" />
+      <p space="0" align="center" scale="2">Welcome</p>
+      <p space="0" align="center" scale="2">to</p>
+      <p space="0" align="center" scale="2">Extended Minecraft</p>
+      <p space="0" align="center" scale="2">Ultimate Guidebook</p>
+      <p space="6" align="center" scale="2">__________</p>
+      <p align="center" scale="1.5">by R4L</p>
+    </section>
+  </chapter>
+
+</book>

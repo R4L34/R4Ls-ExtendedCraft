@@ -1,0 +1,48 @@
+setIcon(<ironchest:iron_shulker_box_blue:5>)
+
+setTitle("Shulker Master")
+
+setDescription("Craft the coolest shulker!")
+
+addParent("end:shulker_upldate")
+
+addRewardFunction("end:shulker_master")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("shulker50", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_white:5>)
+criteria = addCriteria("shulker51", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_orange:5>)
+criteria = addCriteria("shulker52", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_magenta:5>)
+criteria = addCriteria("shulker53", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_light_blue:5>)
+criteria = addCriteria("shulker54", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_yellow:5>)
+criteria = addCriteria("shulker55", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_lime:5>)
+criteria = addCriteria("shulker56", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_pink:5>)
+criteria = addCriteria("shulker57", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_gray:5>)
+criteria = addCriteria("shulker58", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_silver:5>)
+criteria = addCriteria("shulker59", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_cyan:5>)
+criteria = addCriteria("shulker510", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_purple:5>)
+criteria = addCriteria("shulker511", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_blue:5>)
+criteria = addCriteria("shulker512", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_brown:5>)
+criteria = addCriteria("shulker513", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_green:5>)
+criteria = addCriteria("shulker514", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_red:5>)
+criteria = addCriteria("shulker515", "minecraft:inventory_changed")
+criteria.addItem(<ironchest:iron_shulker_box_black:5>)
+
+setRequirements("any")

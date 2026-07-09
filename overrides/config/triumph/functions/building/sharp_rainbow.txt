@@ -1,0 +1,2 @@
+give @s quark:glass_shards 32 6
+tellraw @s {"color":"blue","text":" +32 Green Glass Shards"}

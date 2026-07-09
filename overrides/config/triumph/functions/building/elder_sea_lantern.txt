@@ -1,0 +1,2 @@
+give @s quark:elder_sea_lantern 8
+tellraw @s {"color":"blue","text":" +8 Elder Sea Lantern"}

@@ -1,0 +1,15 @@
+setIcon(<quark:slime_bucket:1>)
+
+setTitle("Happy Slime")
+
+setDescription("Why is he so happy? Seems like it's pretty good place for them to spawn!")
+
+addParent("combat:gelatinous_cube")
+
+addRewardFunction("combat:happy_slime")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("slime_bucket", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:slime_bucket:1>)

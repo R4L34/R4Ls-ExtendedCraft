@@ -1,0 +1,22 @@
+setIcon(<boptools:chestplate_amber>)
+
+setTitle("Cover me with Amber")
+
+setDescription("Craft a full Amber Armor set")
+
+addParent("mining:amber")
+
+addRewardFunction("mining:cover_me_with_amber")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<boptools:helmet_amber>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<boptools:chestplate_amber>)
+criteria = addCriteria("12", "minecraft:inventory_changed")
+criteria.addItem(<boptools:leggings_amber>)
+criteria = addCriteria("13", "minecraft:inventory_changed")
+criteria.addItem(<boptools:boots_amber>)

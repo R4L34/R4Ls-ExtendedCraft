@@ -1,0 +1,15 @@
+setIcon(<minecraft:lever>)
+
+setTitle("Pull the lever Kronk")
+
+setDescription("WROOONG LEVEEEER!")
+
+addParent("redstone:root")
+
+addRewardFunction("redstone:lever")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("lever", "minecraft:inventory_changed")
+
+criteria.addItem(<minecraft:lever>)

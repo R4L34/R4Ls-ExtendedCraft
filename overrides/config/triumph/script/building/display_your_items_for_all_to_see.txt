@@ -1,0 +1,23 @@
+setIcon(<minecraft:item_frame>)
+
+setTitle("Display your items for all to see...")
+
+setDescription("Craft an item frame for displaying your items")
+
+addParent("building:its_a_sign")
+
+addRewardFunction("building:display_your_items_for_all_to_see")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("item_frame0", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:item_frame>)
+criteria = addCriteria("item_frame1", "minecraft:inventory_changed")
+criteria.addItem(<quark:colored_item_frame>)
+criteria = addCriteria("item_frame2", "minecraft:inventory_changed")
+criteria.addItem(<quark:glass_item_frame>)
+
+
+
+
+setRequirements("any")

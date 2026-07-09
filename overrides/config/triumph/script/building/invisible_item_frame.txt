@@ -1,0 +1,15 @@
+setIcon(<quark:glass_item_frame>)
+
+setTitle("Invisible Item Frame")
+
+setDescription("Craft a glass Item Frame")
+
+addParent("building:glass_trapdoor")
+
+addRewardFunction("building:invisible_item_frame")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("glass_item_frame", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:glass_item_frame>)

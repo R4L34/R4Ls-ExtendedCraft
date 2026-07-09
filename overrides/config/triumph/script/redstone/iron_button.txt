@@ -1,0 +1,15 @@
+setIcon(<quark:iron_button>)
+
+setTitle("Iron button")
+
+setDescription("Gives lengthy redstone signal.")
+
+addParent("redstone:button")
+
+addRewardFunction("redstone:iron_button")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("iron_button", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:iron_button>)

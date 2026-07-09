@@ -1,0 +1,15 @@
+setIcon(<quark:paper_lantern:1>)
+
+setTitle("Decorated Light")
+
+setDescription("Craft a Decorated Paper Lamp")
+
+addParent("building:paper_light")
+
+addRewardFunction("building:decorated_light")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("paper_lantern", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:paper_lantern:1>)

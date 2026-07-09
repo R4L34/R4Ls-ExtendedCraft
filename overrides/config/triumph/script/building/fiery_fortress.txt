@@ -1,0 +1,24 @@
+setIcon(<netherex:fiery_nether_brick>)
+
+setTitle("Fiery Fortress")
+
+setDescription("Craft Everything Possible From Fiery Netherack")
+
+addParent("building:lively_fortress")
+
+addRewardFunction("building:fiery_fortress")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<netherex:fiery_nether_brick>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<netherex:fiery_nether_brick_slab>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<netherex:fiery_nether_brick_stairs>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<netherex:fiery_nether_brick_wall>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<netherex:fiery_nether_brick_fence>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<netherex:fiery_nether_brick_fence_gate>)

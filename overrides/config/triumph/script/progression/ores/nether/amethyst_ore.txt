@@ -1,0 +1,18 @@
+setIcon(<netherex:amethyst_ore>)
+
+setTitle("Nether Amethyst Ore Progression")
+
+setDescription("Get access to the Nether Amethyst Ore by using Nether Amethyst Ore Exploration Book")
+
+addParent("progression:ores/nether/rime_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("nether_amethyst_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

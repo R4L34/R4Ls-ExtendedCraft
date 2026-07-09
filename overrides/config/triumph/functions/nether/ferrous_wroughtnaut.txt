@@ -1,0 +1,3 @@
+advancement grant @a[r=100] only nether:ferrous_wroughtnaut
+give @s minecraft:iron_ingot 32
+tellraw @s {"color":"blue","text":" +32 Iron Ingots"}

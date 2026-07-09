@@ -1,0 +1,34 @@
+setIcon(<boptools:pickaxe_amber>)
+
+setTitle("Amber Instruments")
+
+setDescription("Craft any amber Instruments, Armor & Weapons")
+
+addParent("mining:cover_me_with_amber")
+
+addRewardFunction("mining:amber_instruments")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<boptools:axe_amber>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<boptools:bow_amber>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<boptools:hammer_amber>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<boptools:pickaxe_amber>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<boptools:hoe_amber>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<boptools:shears_amber>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<boptools:shovel_amber>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<boptools:sickle_amber>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<boptools:sword_amber>)
+criteria = addCriteria("9", "minecraft:inventory_changed")
+criteria.addItem(<boptools:fishing_rod_amber>)

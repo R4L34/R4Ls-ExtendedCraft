@@ -1,0 +1,30 @@
+setIcon(<minecraft:water_bucket>)
+
+setTitle("Water Biomes")
+
+setDescription("Find all Water Biomes")
+
+addParent("adventure:beach_biomes")
+
+addRewardFunction("adventure:water_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("biomesoplenty:coral_reef")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("minecraft:deep_ocean")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("futureminecraf:frozenocean")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("minecraft:frozen_ocean")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("minecraft:frozen_river")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("biomesoplenty:kelp_forest")
+criteria = addCriteria("6", "minecraft:location")
+criteria.setBiome("minecraft:ocean")
+criteria = addCriteria("7", "minecraft:location")
+criteria.setBiome("minecraft:river")

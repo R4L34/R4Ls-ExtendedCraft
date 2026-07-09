@@ -1,0 +1,2 @@
+give @s playertrackingcompass:tracking_compass 1
+tellraw @s {"color":"blue","text":" +1 Tracking Compass (Given after Respawn)"}

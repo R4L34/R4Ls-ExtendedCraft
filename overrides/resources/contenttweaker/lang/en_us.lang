@@ -1,0 +1,49 @@
+#Fluids
+fluid.suspicious_stew_blue_orchid=Suspicious Stew
+fluid.suspicious_stew_lily_of_the_valley=Suspicious Stew
+fluid.suspicious_stew_wither_rose=Suspicious Stew
+fluid.suspicious_stew_cornflower=Suspicious Stew
+fluid.suspicious_stew_dandelion=Suspicious Stew
+
+fluid.sugarcane_juice=Sugarcane Juice
+
+fluid.nether_wart_stew=Nether Wart Stew
+fluid.black_apple_stew=Black Apple Stew
+
+fluid.morphine=Morphine
+
+
+
+#Fixed Descriptions
+enchantment.somanyenchantments.defusion.desc=Attacks deal extra damage against Creepers.
+enchantment.somanyenchantments.rune_armorpiercing.desc=Will cause fired arrows to pierce through enemy armor at +25% per level.
+
+enchantment.trident.channeling.desc=Produces lightning when thrown at a mob while a thunderstorm is occurring.
+enchantment.trident.impaling.desc=Trident deals extra damage to aquatic mobs or to mobs in water.
+enchantment.trident.loyalty.desc=Trident returns to the owner once thrown. The speed of returning depends on the level.
+enchantment.trident.riptide.desc=When a player stands in water or when exposed to rain, a thrown trident launches the player with it.
+
+enchantment.walljump.doublejump.desc=Allows you to jump mid-air.
+enchantment.walljump.speedboost.desc=Increases your speed
+enchantment.walljump.walljump.desc=Jump towards a wall and hold the wall jump key (LSHIFT). Then while wall clinging, keep holding W and let go of LSHIFT to wall jump.
+
+enchantment.crossbows.quick_charge.desc=Reduces the time to load a crossbow with either an arrow or a firework rocket. Each level decreases the loading time by 0.25 seconds.
+enchantment.crossbows.multishot.desc=Allows crossbows to shoot three arrows or firework rockets at the cost of one.
+enchantment.crossbows.piercing.desc=Causes arrows to pierce through entities. Has no effect on firework rockets.
+
+
+
+description.potion.cold_resistance=Fully protects you from low temperatures.
+description.potion.heat_resistance=Fully protects you from high temperatures. But won't protect you against direct contact with fire or lava.
+
+
+#Fixed Names
+tile.twilightforest.StonePillar.name=Stone Pillar
+tile.twilightforest.StonePillarThin.name=Thin Stone Pillar
+
+#Villagers
+entity.Villager.miner=Miner
+entity.Villager.rifter=Rifter
+
+#Moa Egg
+item.moa_egg.name=Moa Egg

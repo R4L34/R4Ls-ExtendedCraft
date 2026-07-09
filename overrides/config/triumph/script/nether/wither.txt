@@ -1,0 +1,17 @@
+setIcon(<minecraft:skull:1>)
+
+setTitle("Withered")
+
+setDescription("Defeat a Wither! Do I really need to explain to you how to summon it?")
+
+addParent("nether:frostmaw")
+
+addRewardFunction("nether:wither")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:player_killed_entity")
+
+criteria.setEntityType("minecraft:wither")

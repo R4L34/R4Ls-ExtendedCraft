@@ -1,0 +1,21 @@
+setIcon(<bountifulbaubles:trinketmixeddragonscale>)
+
+setTitle("Dragon Scales")
+
+setDescription("Craft any Dragon Scale Bauble")
+
+addParent("combat:spectral_silt")
+
+addRewardFunction("combat:dragon_scales")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<bountifulbaubles:trinketblackdragonscale>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<bountifulbaubles:trinketmixeddragonscale>)
+
+
+setRequirements("any")

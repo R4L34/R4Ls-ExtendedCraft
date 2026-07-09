@@ -1,0 +1,2 @@
+give @s aether_legacy:enchanted_blueberry 4
+tellraw @s {"color":"blue","text":" +4 Enchanted Blueberries"}

@@ -1,0 +1,17 @@
+setIcon(<minecraft:diamond_pickaxe>)
+
+setTitle("Mining")
+
+setDescription("Dig underground, gather resources")
+
+setBackground("minecraft:textures/gui/advancements/backgrounds/stone.png")
+
+addRewardFunction("mining:root")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("0", "triumph:completed_advancement")
+
+criteria.setAdvancement("progression:wooden_pickaxe")

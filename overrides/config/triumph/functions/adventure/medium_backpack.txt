@@ -1,0 +1,2 @@
+give @s minecraft:leather 7
+tellraw @s {"color":"blue","text":" +7 Leather"}

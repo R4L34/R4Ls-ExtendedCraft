@@ -1,0 +1,17 @@
+setIcon(<xat:glowing_gem>)
+
+setTitle("Glowing Gem")
+
+setDescription("Craft some Glowing Gem")
+
+addParent("combat:glowing_ingot")
+
+addRewardFunction("combat:glowing_gem")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<xat:glowing_gem>)

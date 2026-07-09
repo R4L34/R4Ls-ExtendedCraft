@@ -1,0 +1,24 @@
+setIcon(<pvj:basalt>)
+
+setTitle("Cave Basalt")
+
+setDescription("Craft Everything possible from Cave Basalt")
+
+addParent("building:nether_basalt")
+
+addRewardFunction("building:cave_basalt")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<pvj:basalt>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<pvj:basalt_brick>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<pvj:basalt_stairs>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<pvj:basalt_brick_stairs>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<pvj:basalt_slab>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<pvj:basalt_brick_slab>)

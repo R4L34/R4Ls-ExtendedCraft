@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "crossbows:crossbow",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.adventure.arbalistic.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.arbalistic.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "adventure:ol_betsy",
+  "rewards": {
+    "function": "adventure:arbalistic"
+  },
+  "criteria": {
+    "arbalistic": {
+      "trigger": "crossbows:pierced_entities",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "arbalistic"
+    ]
+  ]
+}

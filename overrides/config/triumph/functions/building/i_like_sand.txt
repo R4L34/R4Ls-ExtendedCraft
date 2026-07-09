@@ -1,0 +1,2 @@
+give @s minecraft:sand 64
+tellraw @s {"color":"blue","text":" +64 NOT coarse, rough or irritating substance!"}

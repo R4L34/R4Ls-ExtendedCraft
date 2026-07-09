@@ -1,0 +1,20 @@
+setIcon(<ichunutil:compact_porkchop>)
+
+setTitle("Nether Villager Slayer")
+
+setDescription("Kill Pigificate, Pigificate Leader & Gold Golem")
+
+addParent("nether:the_tribal_snouts")
+
+addRewardFunction("nether:nether_village")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:player_killed_entity")
+criteria.setEntityType("netherex:pigtificate_leader")
+criteria = addCriteria("1", "minecraft:player_killed_entity")
+criteria.setEntityType("netherex:pigtificate")
+criteria = addCriteria("2", "minecraft:player_killed_entity")
+criteria.setEntityType("netherex:gold_golem")

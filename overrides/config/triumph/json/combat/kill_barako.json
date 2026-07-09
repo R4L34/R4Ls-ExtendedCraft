@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "mowziesmobs:barako_mask"
+    },
+    "title": {
+      "translate": "advancements.mowziesmobs.kill_barako.title"
+    },
+    "description": {
+      "translate": "Kill Barako the Sun Chief"
+    },
+    "frame": "challenge"
+  },
+  "parent": "combat:monster_hunter",
+  "rewards": {
+        "function": "combat:kill_barako"
+    },
+  "criteria": {
+    "barako": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mowziesmobs:barako"
+        }
+      }
+    }
+  }
+}

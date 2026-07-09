@@ -1,0 +1,15 @@
+setIcon(<toolbelt:belt>)
+
+setTitle("Tool Belt")
+
+setDescription("Craft a Tool Belt to quickly switch between your instruments!")
+
+addParent("adventure:big_backpack")
+
+addRewardFunction("adventure:tool_belt")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<toolbelt:belt>)

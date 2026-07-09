@@ -1,0 +1,27 @@
+{
+  	"display": {
+	  	"icon": {
+			"item": "aether_legacy:aether_portal_frame"
+		},
+		"title": {
+			"translate": "advancement.aether_legacy.enter_aether"
+		},
+		"description": {
+			"translate": "advancement.aether_legacy.enter_aether.desc"
+		},
+		"background": "aether_legacy:textures/blocks/carved_stone.png"
+	},
+	"rewards": {
+		"function": "aether_legacy:enter_aether",
+		"loot": [ "aether_legacy:travel/enter_aether" ]
+	},
+	"criteria": {
+		"enter_aether": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "AetherI",
+				"from": "overworld"
+			}
+		}
+	}
+}

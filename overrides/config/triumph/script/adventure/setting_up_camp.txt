@@ -1,0 +1,15 @@
+setIcon(<toughasnails:campfire>)
+
+setTitle("Setting up a Camp")
+
+setDescription("First we need to set up a campfire")
+
+addParent("adventure:root")
+
+addRewardFunction("adventure:setting_up_camp")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("campfire", "minecraft:placed_block")
+
+criteria.setBlock(<toughasnails:campfire>)

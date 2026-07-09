@@ -1,0 +1,15 @@
+setIcon(<pickletweaks:magnet>)
+
+setTitle("A Power of Magnetism")
+
+setDescription("Craft the Magnet to attract items to you!")
+
+addParent("mining:acquire_hardware")
+
+addRewardFunction("mining:a_power_of_magnetism")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("magnet", "minecraft:inventory_changed")
+
+criteria.addItem(<pickletweaks:magnet>)

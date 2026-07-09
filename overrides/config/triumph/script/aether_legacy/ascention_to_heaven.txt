@@ -1,0 +1,22 @@
+setIcon(<lost_aether:sentry_shield>)
+
+setTitle("Ascention to Heaven")
+
+setDescription("Defeat all Aether Bosses")
+
+addParent("aether_legacy:ascended")
+
+addRewardFunction("aether_legacy:ascention_to_heaven")
+
+addRewardFunction("experience:challenge_medium")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "triumph:completed_advancement")
+criteria.setAdvancement("aether_legacy:like_a_bossaru")
+criteria = addCriteria("1", "triumph:completed_advancement")
+criteria.setAdvancement("aether_legacy:dethroned")
+criteria = addCriteria("2", "triumph:completed_advancement")
+criteria.setAdvancement("aether_legacy:extinquished")
+criteria = addCriteria("3", "triumph:completed_advancement")
+criteria.setAdvancement("aether_legacy:ascended")

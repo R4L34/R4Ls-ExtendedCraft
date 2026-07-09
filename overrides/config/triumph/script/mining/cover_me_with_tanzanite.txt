@@ -1,0 +1,22 @@
+setIcon(<boptools:chestplate_tanzanite>)
+
+setTitle("Cover me with Tanzanite")
+
+setDescription("Craft a full Tanzanite Armor set")
+
+addParent("mining:tanzanite")
+
+addRewardFunction("mining:cover_me_with_tanzanite")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<boptools:helmet_tanzanite>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<boptools:chestplate_tanzanite>)
+criteria = addCriteria("12", "minecraft:inventory_changed")
+criteria.addItem(<boptools:leggings_tanzanite>)
+criteria = addCriteria("13", "minecraft:inventory_changed")
+criteria.addItem(<boptools:boots_tanzanite>)

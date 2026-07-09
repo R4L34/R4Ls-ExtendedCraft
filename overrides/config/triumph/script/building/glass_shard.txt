@@ -1,0 +1,15 @@
+setIcon(<quark:glass_shards>)
+
+setTitle("Broken Glass")
+
+setDescription("Now you've got 7 years of unluck... Good Job!")
+
+addParent("building:classy_glassy")
+
+addRewardFunction("building:glass_shard")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("glass_shards", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:glass_shards>)

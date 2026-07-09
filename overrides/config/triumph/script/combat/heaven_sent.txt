@@ -1,0 +1,17 @@
+setIcon(<bountifulbaubles:shieldankh>)
+
+setTitle("Heaven Sent")
+
+setDescription("Craft an Ankh Shield")
+
+addParent("combat:holy_power")
+
+addRewardFunction("combat:heaven_sent")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<bountifulbaubles:shieldankh>)

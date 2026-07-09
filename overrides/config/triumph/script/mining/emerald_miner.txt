@@ -1,0 +1,15 @@
+setIcon(<minecraft:emerald_ore>)
+
+setTitle("Emerald Miner")
+
+setDescription("Mine an Emerald Ore")
+
+addParent("mining:isnt_it_iron_pick")
+
+addRewardFunction("mining:emerald_miner")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "triumph:player_break_block")
+
+criteria.setBlock(<minecraft:emerald_ore>)

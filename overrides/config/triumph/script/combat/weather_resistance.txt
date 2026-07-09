@@ -1,0 +1,20 @@
+setIcon(<xat:sea_stone>)
+
+setTitle("Weather Resistance")
+
+setDescription("Craft Stone of th Sea, Ender Queen's Crown & Dragon's Eye")
+
+addParent("combat:glowing_gem")
+
+addRewardFunction("combat:weather_resistance")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<xat:sea_stone>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<xat:ender_tiara>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<xat:dragons_eye>)

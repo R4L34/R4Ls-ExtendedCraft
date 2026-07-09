@@ -1,0 +1,2 @@
+give @s minecraft:cobblestone_wall 8 0
+tellraw @s {"color":"blue","text":" +8 Cobblestone Walls"}

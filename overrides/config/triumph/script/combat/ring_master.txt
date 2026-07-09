@@ -1,0 +1,32 @@
+setIcon(<potionfingers:ring:1>)
+
+setTitle("Ring Master")
+
+setDescription("Craft all Potion Rings")
+
+addParent("combat:glowing_ring")
+
+addRewardFunction("combat:ring_master")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<potionfingers:ring:1, nbt: { effect: "minecraft:speed"}>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<potionfingers:ring:1, nbt: { effect: "minecraft:haste"}>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<potionfingers:ring:1, nbt: { effect: "minecraft:resistance"}>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<potionfingers:ring:1, nbt: { effect: "minecraft:jump_boost"}>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<potionfingers:ring:1, nbt: { effect: "minecraft:strength"}>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<potionfingers:ring:1, nbt: { effect: "minecraft:regeneration"}>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<potionfingers:ring:0>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<xat:glow_ring>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<xat:wither_ring>)

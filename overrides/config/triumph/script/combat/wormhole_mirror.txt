@@ -1,0 +1,17 @@
+setIcon(<bountifulbaubles:wormholemirror>)
+
+setTitle("Wormhole Mirror")
+
+setDescription("Craft a Wormhole Mirror")
+
+addParent("combat:magic_mirror")
+
+addRewardFunction("combat:wormhole_mirror")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<bountifulbaubles:wormholemirror>)

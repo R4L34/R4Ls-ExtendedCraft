@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "biomesoplenty:fleshchunk"
+        },
+        "title": {
+            "translate": "advancements.biomesoplenty.flesh_and_blood.title"
+        },
+        "description": {
+            "translate": "advancements.biomesoplenty.flesh_and_blood.description"
+        }
+    },
+    "parent": "nether:smoker",
+    "rewards": {
+        "function": "nether:flesh_and_blood"
+    },  
+    "criteria": {
+        "flesh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:fleshchunk"
+                    }
+                ]
+            }
+        }
+    }
+}

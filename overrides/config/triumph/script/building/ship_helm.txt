@@ -1,0 +1,15 @@
+setIcon(<davincisvessels:marker>)
+
+setTitle("Are you ready kids?")
+
+setDescription("Yes Captain!")
+
+addParent("building:root")
+
+addRewardFunction("building:ship_helm")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("helm", "minecraft:inventory_changed")
+
+criteria.addItem(<davincisvessels:marker>)

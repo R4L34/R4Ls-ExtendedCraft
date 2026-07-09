@@ -1,0 +1,18 @@
+setIcon(<biomesoplenty:gem_ore:4>)
+
+setTitle("Biome Gems Progression")
+
+setDescription("Get access to the Ruby, Peridot, Topaz, Tanzanite, Malachite, Sappire, Amber ores by using Biome Gems Exploration Book")
+
+addParent("progression:ores/overworld/redstone_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("biome_gems")
+
+setFrameType("GOAL")
+
+alwaysVisible()

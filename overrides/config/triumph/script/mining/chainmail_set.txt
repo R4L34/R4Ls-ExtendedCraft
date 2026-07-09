@@ -1,0 +1,20 @@
+setIcon(<minecraft:chainmail_helmet>)
+
+setTitle("Chainmail Set")
+
+setDescription("Craft all 4 pieses of chainmail armor!")
+
+addParent("mining:cover_me_with_chainmail")
+
+addRewardFunction("mining:chainmail_set")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("shulker0", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chainmail_helmet>)
+criteria = addCriteria("shulker1", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chainmail_chestplate>)
+criteria = addCriteria("shulker2", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chainmail_leggings>)
+criteria = addCriteria("shulker3", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chainmail_boots>)

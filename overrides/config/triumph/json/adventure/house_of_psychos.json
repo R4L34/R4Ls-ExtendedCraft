@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dark_oak_door"
+        },
+        "title": {"translate":"House of Psychos"},
+        "description": {"translate":"Find a Woodland Mansion"},
+        "frame": "goal"
+    },
+    "parent": "adventure:treasure_map",
+    "rewards": {
+        "function": "adventure:house_of_psychos",
+        "experience": 75
+    },		
+    "criteria": {
+        "mansion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mansion"
+            }
+        }
+    }
+}

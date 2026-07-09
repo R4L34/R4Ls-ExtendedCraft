@@ -1,0 +1,15 @@
+setIcon(<pvj:goon_bile>)
+
+setTitle("Even More Dead")
+
+setDescription("Kill Goon")
+
+addParent("combat:dead_dont_die")
+
+addRewardFunction("combat:goon")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("pvj_goon", "minecraft:player_killed_entity")
+
+criteria.setEntityType("pvj:pvj_goon")

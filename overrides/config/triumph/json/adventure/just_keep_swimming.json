@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": {"translate":"Just Keep Swimming"},
+        "description": {"translate":"Go for a swim"}
+    },
+    "parent": "adventure:root",
+	"rewards": {
+        "function": "adventure:just_keep_swimming",
+        "experience": 5
+    },
+    "criteria": {
+        "enter_water": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:water"
+            }
+        }
+    }
+}

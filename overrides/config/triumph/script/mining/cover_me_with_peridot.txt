@@ -1,0 +1,22 @@
+setIcon(<boptools:chestplate_peridot>)
+
+setTitle("Cover me with Peridot")
+
+setDescription("Craft a full Peridot Armor set")
+
+addParent("mining:peridot")
+
+addRewardFunction("mining:cover_me_with_peridot")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<boptools:helmet_peridot>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<boptools:chestplate_peridot>)
+criteria = addCriteria("12", "minecraft:inventory_changed")
+criteria.addItem(<boptools:leggings_peridot>)
+criteria = addCriteria("13", "minecraft:inventory_changed")
+criteria.addItem(<boptools:boots_peridot>)

@@ -1,0 +1,2 @@
+give @s toughasnails:temperature_coil 2
+tellraw @s {"color":"blue","text":" +2 Cooling Coil"}

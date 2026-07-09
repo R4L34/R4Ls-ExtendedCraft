@@ -1,0 +1,2 @@
+give @s minecraft:rabbit_hide 16
+tellraw @s {"color":"blue","text":" +16 Rabbit Hide"}

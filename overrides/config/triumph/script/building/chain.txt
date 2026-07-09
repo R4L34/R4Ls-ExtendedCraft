@@ -1,0 +1,15 @@
+setIcon(<futuremc:chain>)
+
+setTitle("Chain")
+
+setDescription("Craft a Chain")
+
+addParent("building:ladder_climbers_inc")
+
+addRewardFunction("building:chain")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("chain", "minecraft:inventory_changed")
+
+criteria.addItem(<futuremc:chain>)

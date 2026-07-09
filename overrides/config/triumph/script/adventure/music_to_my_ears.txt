@@ -1,0 +1,57 @@
+setIcon(<minecraft:record_cat>)
+
+setTitle("Music To My Ears")
+
+setDescription("Find a music disc")
+
+addParent("adventure:i_hereby_dub_thee")
+
+addRewardFunction("adventure:music_to_my_ears")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("disk0", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_13>)
+criteria = addCriteria("disk1", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_cat>)
+criteria = addCriteria("disk2", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_blocks>)
+criteria = addCriteria("disk3", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_chirp>)
+criteria = addCriteria("disk4", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_far>)
+criteria = addCriteria("disk5", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_mall>)
+criteria = addCriteria("disk6", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_mellohi>)
+criteria = addCriteria("disk7", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_stal>)
+criteria = addCriteria("disk8", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_strad>)
+criteria = addCriteria("disk9", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_ward>)
+criteria = addCriteria("disk10", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_11>)
+criteria = addCriteria("disk11", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:record_wait>)
+criteria = addCriteria("disk12", "minecraft:inventory_changed")
+criteria.addItem(<biomesoplenty:record_wanderer>)
+criteria = addCriteria("disk13", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:record_pigstep>)
+
+
+criteria = addCriteria("disk14", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:aether_tune>)
+criteria = addCriteria("disk15", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:ascending_dawn>)
+criteria = addCriteria("disk16", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:welcoming_skies>)
+criteria = addCriteria("disk17", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:legacy>)
+
+
+
+
+setRequirements("any")

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mowziesmobs:captured_grottol"
+    },
+    "title": {
+      "translate": "advancements.mowziesmobs.kill_grottol_silk_touch.title"
+    },
+    "description": {
+      "translate": "advancements.mowziesmobs.kill_grottol_silk_touch.description"
+    }
+  },
+  "parent": "mining:kill_grottol",
+  "rewards": {
+        "function": "mining:kill_grottol_silk_touch"
+    },
+  "criteria": {
+    "steal_crystal": {
+      "trigger": "mowziesmobs:kill_grottol_silk_touch"
+      }
+    }
+  }
+}

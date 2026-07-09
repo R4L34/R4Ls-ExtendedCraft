@@ -1,0 +1,15 @@
+setIcon(<inspirations:collector>)
+
+setTitle("Space Collector!")
+
+setDescription("Not the one you thought adout) Gathers blocks in front of it")
+
+addParent("redstone:space_hopper")
+
+addRewardFunction("redstone:collector")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("collector", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:collector>)

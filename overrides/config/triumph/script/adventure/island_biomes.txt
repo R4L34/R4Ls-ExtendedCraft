@@ -1,0 +1,26 @@
+setIcon(<biomesoplenty:grass:5>)
+
+setTitle("Island Biomes")
+
+setDescription("Find all Island Biomes")
+
+addParent("adventure:magical_biomes")
+
+addRewardFunction("adventure:island_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("biomesoplenty:origin_island")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("minecraft:mushroom_island_shore")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("biomesoplenty:flower_island")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("minecraft:mushroom_island")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("biomesoplenty:tropical_island")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("biomesoplenty:volcanic_island")

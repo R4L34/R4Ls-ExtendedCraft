@@ -1,0 +1,2 @@
+give @s ironchest:iron_shulker_box_purple 1 5
+tellraw @s {"color":"blue","text":" +1 Crystal Shulker Box"}

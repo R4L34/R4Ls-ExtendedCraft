@@ -1,0 +1,15 @@
+setIcon(<bountifulbaubles:magicmirror>)
+
+setTitle("Magic Mirror")
+
+setDescription("Craft a Magic Mirror")
+
+addParent("combat:spectral_silt")
+
+addRewardFunction("combat:magic_mirror")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<bountifulbaubles:magicmirror>)

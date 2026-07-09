@@ -1,0 +1,15 @@
+setIcon(<aether_legacy:quicksoil>)
+
+setTitle("Soul Speed")
+
+setDescription("Obtain a Quicksoil Block")
+
+addParent("aether_legacy:to_infinity_and_beyond")
+
+addRewardFunction("aether_legacy:soul_speed")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<aether_legacy:quicksoil>)

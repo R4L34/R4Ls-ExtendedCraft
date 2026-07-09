@@ -1,0 +1,22 @@
+setIcon(<boptools:chestplate_ruby>)
+
+setTitle("Cover me with Ruby")
+
+setDescription("Craft a full Ruby Armor set")
+
+addParent("mining:ruby")
+
+addRewardFunction("mining:cover_me_with_ruby")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<boptools:helmet_ruby>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<boptools:chestplate_ruby>)
+criteria = addCriteria("12", "minecraft:inventory_changed")
+criteria.addItem(<boptools:leggings_ruby>)
+criteria = addCriteria("13", "minecraft:inventory_changed")
+criteria.addItem(<boptools:boots_ruby>)

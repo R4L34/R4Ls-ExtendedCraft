@@ -1,0 +1,15 @@
+setIcon(<futuremc:campfire>)
+
+setTitle("Eternal Flame")
+
+setDescription("Craft an Eternal Campfire!")
+
+addParent("adventure:setting_up_camp")
+
+addRewardFunction("adventure:eternal_flame")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("campfire", "minecraft:placed_block")
+
+criteria.setBlock(<futuremc:campfire>)

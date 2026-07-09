@@ -1,0 +1,37 @@
+setIcon(<minecraft:glass>)
+
+setTitle("Classy Glassy")
+
+setDescription("melt sand in a furnace to get glass")
+
+addParent("building:root")
+
+addRewardFunction("building:classy_glassy")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:glass>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:stained_glass>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<betternether:quartz_glass>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<betternether:quartz_glass_framed>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<betternether:quartz_stained_glass>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<netherex:soul_glass>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:dark_glass>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<quark:framed_glass>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<sereneseasons:greenhouse_glass>)
+criteria = addCriteria("9", "minecraft:inventory_changed")
+criteria.addItem(<aether_legacy:quicksoil_glass>)
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:auroralized_glass>)
+
+
+
+
+setRequirements("any")

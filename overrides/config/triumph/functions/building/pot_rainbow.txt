@@ -1,0 +1,2 @@
+give @s quark:colored_flowerpot_white 8
+tellraw @s {"color":"blue","text":" +8 White Flower Pots"}

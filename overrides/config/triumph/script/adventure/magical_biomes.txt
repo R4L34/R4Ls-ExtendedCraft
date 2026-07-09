@@ -1,0 +1,28 @@
+setIcon(<biomesoplenty:sapling_1:7>)
+
+setTitle("Magical Biomes")
+
+setDescription("Find all Magical Biomes")
+
+addParent("adventure:kilometre_walk")
+
+addRewardFunction("adventure:magical_biomes")
+
+addRewardFunction("experience:challenge_medium")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("biomesoplenty:cherry_blossom_grove")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("biomesoplenty:crag")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("biomesoplenty:flower_island")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("biomesoplenty:lavender_fields")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("biomesoplenty:mystic_grove")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("biomesoplenty:ominous_woods")
+criteria = addCriteria("6", "minecraft:location")
+criteria.setBiome("biomesoplenty:sacred_springs")

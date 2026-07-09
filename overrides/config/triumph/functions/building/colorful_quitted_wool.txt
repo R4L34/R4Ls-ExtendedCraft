@@ -1,0 +1,2 @@
+give @s quark:quilted_wool 16 1
+tellraw @s {"color":"blue","text":" +16 Orange Quilted Wool"}

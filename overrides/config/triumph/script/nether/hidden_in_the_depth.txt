@@ -1,0 +1,17 @@
+setIcon(<futuremc:ancient_debris>)
+
+setTitle("Hidden in the Depths")
+
+setDescription("Obtain Ancient Debris")
+
+addParent("nether:nether_gold")
+
+addRewardFunction("nether:hidden_in_the_depth")
+
+addRewardFunction("experience:common")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("ancient_debris", "minecraft:inventory_changed")
+
+criteria.addItem(<ore:oreAncientDebris>)

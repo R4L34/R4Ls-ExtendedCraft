@@ -1,0 +1,2 @@
+give @s comforts:sleeping_bag 1 8
+tellraw @s {"color":"blue","text":" +1 Light Gray Sleeping Bag"}

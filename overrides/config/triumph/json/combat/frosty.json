@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snowball"
+        },
+        "title": {"translate":"Frosty"},
+        "description": {"translate":"Kill a stray"}
+    },
+    "parent": "combat:he_is_a_pirate",
+    "rewards": {
+        "function": "combat:frosty"
+    },
+    "criteria": {
+        "stray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "stray"
+                }
+            }
+        }
+    }
+}

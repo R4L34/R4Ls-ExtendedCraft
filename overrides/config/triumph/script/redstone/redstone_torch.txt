@@ -1,0 +1,20 @@
+setIcon(<minecraft:redstone_torch>)
+
+setTitle("Electric Torch")
+
+setDescription("Obtain a Redstone Torch")
+
+addParent("redstone:root")
+
+addRewardFunction("redstone:redstone_torch")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<minecraft:redstone_torch>)
+
+
+
+
+//setRequirements("any")

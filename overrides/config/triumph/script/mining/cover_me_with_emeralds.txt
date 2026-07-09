@@ -1,0 +1,22 @@
+setIcon(<emerald_mod:emeraldarmorbody>)
+
+setTitle("Cover me with Emeralds")
+
+setDescription("Craft a piece of Emerald Armor set")
+
+addParent("mining:emerald_miner")
+
+addRewardFunction("mining:cover_me_with_emeralds")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<emerald_mod:emeraldarmorhelmet>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<emerald_mod:emeraldarmorbody>)
+criteria = addCriteria("12", "minecraft:inventory_changed")
+criteria.addItem(<emerald_mod:emeraldarmorlegs>)
+criteria = addCriteria("13", "minecraft:inventory_changed")
+criteria.addItem(<emerald_mod:emeraldarmorboots>)
+
+setRequirements("any")

@@ -1,0 +1,2 @@
+give @s quark:soul_bead 1
+tellraw @s {"color":"blue","text":" +1 Soul Bead"}

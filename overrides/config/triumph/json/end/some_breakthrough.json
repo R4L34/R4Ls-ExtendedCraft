@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra",
+			"data": 431
+        },
+        "title": {"translate":"Some Breakthrough"},
+        "description": {"translate":"Exhaust your elytra"},
+        "frame": "challenge"
+    },
+    "parent": "end:skys_the_limit",
+    "rewards": {
+        "function": "end:some_breakthrough"
+    },	
+    "criteria": {
+        "exhaust_elytra": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"item": {
+					"item": "minecraft:elytra"
+				},
+				"durability": 1
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+setIcon(<inspirations:dyed_bottle:1>)
+
+setTitle("Liquid Dye")
+
+setDescription("Get some Liquid Dye")
+
+addParent("adventure:colorful_cocaine")
+
+addRewardFunction("adventure:liquid_dye")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("dyed_bottle", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:dyed_bottle>)

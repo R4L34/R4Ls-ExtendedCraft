@@ -1,0 +1,2 @@
+give @s minecraft:redstone_torch 8
+tellraw @s {"color":"blue","text":" +8 Redstone Torches"}

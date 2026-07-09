@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:coal",
+			"data": 1
+        },
+        "title": {"translate":"Renewable Energy"},
+        "description": {"translate":"Smelt wood trunks using charcoal to make more charcoal"}
+    },
+    "parent": "mining:fossil_fuel",
+	"rewards": {
+        "function": "mining:renewable_energy"
+    },
+    "criteria": {
+        "charcoal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:coal",
+						"data": 1
+                    }
+                ]
+            }
+        }
+    }
+}

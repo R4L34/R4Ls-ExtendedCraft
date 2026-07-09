@@ -1,0 +1,15 @@
+setIcon(<inspirations:glass_door>)
+
+setTitle("Glass Door")
+
+setDescription("Now everybody can see what's in your house!")
+
+addParent("building:classy_glassy")
+
+addRewardFunction("building:glass_door")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("glass_door", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:glass_door>)

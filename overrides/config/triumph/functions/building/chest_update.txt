@@ -1,0 +1,2 @@
+give @s minecraft:iron_ingot 8
+tellraw @s {"color":"blue","text":" +8 Iron Ingots"}

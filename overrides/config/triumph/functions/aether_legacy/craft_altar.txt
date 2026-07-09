@@ -1,0 +1,2 @@
+give @s aether_legacy:enchanter 1
+tellraw @s {"color":"blue","text":" +1 Enchanter"}

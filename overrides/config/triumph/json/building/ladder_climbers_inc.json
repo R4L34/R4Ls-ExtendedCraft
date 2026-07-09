@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ladder"
+        },
+        "title": {"translate":"Ladder Climbers Inc."},
+        "description": {"translate":"Climb the ladder!"}
+    },
+    "parent": "building:your_door_was_locked",
+	"rewards": {
+        "function": "building:ladder_climbers_inc"
+    },
+    "criteria": {
+        "enter_ladder": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:ladder"
+            }
+        },
+        "enter_ladder2" : {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "quark:iron_ladder"
+            }
+        },
+
+        "enter_ladder3": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "betternether:reeds_ladder"
+            }
+        },
+        "enter_ladder4": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "twilightforest:iron_ladder"
+            }
+        }
+    },
+
+    "requirements" : [[
+        "enter_ladder",
+        "enter_ladder2",
+        "enter_ladder3",
+        "enter_ladder4"
+    ]]
+}

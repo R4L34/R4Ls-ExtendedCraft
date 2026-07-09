@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": {"translate":"Limbo Walker"},
+        "description": {"translate":"Get above the roof in the nether"},
+        "frame": "goal"
+    },
+    "parent": "nether:quicksand",
+    "rewards": {
+        "function": "nether:limbo_walker"
+    },		
+    "criteria": {
+        "world_height": {
+            "trigger": "minecraft:location",
+            "conditions": {
+				"dimension": "the_nether",
+				"position": {
+					"y": {
+						"min": 128.0
+					}
+				}
+            }
+        }	
+    }
+}

@@ -1,0 +1,2 @@
+give @s netherex:black_salamander_hide 10
+tellraw @s {"color":"blue","text":" +10 Black Salamander Hides"}

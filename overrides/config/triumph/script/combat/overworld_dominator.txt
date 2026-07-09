@@ -1,0 +1,18 @@
+setIcon(<bountifulbaubles:crowngold>)
+
+setTitle("Overworld Dominator")
+
+setDescription("Defeat all Owerworld Bosses")
+
+addParent("combat:kill_golem")
+
+addRewardFunction("combat:overworld_dominator")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "triumph:completed_advancement")
+criteria.setAdvancement("combat:kill_golem")
+criteria = addCriteria("1", "triumph:completed_advancement")
+criteria.setAdvancement("combat:kill_barako")

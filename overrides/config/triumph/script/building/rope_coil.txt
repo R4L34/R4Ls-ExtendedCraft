@@ -1,0 +1,15 @@
+setIcon(<quark:rope>)
+
+setTitle("Rope Coil")
+
+setDescription("Craft a Rope coil, so you can steal blocks underneath")
+
+addParent("building:rope")
+
+addRewardFunction("building:rope_coil")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("rope", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:rope>)

@@ -1,0 +1,2 @@
+give @s quark:stained_planks_green_slab 16
+tellraw @s {"color":"blue","text":" +16 Stained Green Slabs"}

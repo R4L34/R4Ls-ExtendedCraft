@@ -1,0 +1,15 @@
+setIcon(<sereneseasons:greenhouse_glass>)
+
+setTitle("Greenhouse Glass")
+
+setDescription("Craft or Find some Greenhouse Glass")
+
+addParent("building:framed_glass")
+
+addRewardFunction("building:greenhouse_glass")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<sereneseasons:greenhouse_glass>)

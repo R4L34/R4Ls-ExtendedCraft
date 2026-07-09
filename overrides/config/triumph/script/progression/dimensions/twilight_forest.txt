@@ -1,0 +1,18 @@
+setIcon(<twilightforest:miniature_structure>)
+
+setTitle("Twilight Forest Progression")
+
+setDescription("Get access to the Twilight Forest Dimension by using Twilight Forest Exploration Book!. Alright... Fine! I'll list all of the bosses here: Ferrous Wroughtnaut, Frostmaw, Wither, the Ghast Queen!")
+
+addParent("progression:dimensions/nether")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("twilight_forest")
+
+setFrameType("GOAL")
+
+alwaysVisible()

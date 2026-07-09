@@ -1,0 +1,16 @@
+{ 
+	Profession: "vtt:rifter", 
+	Career:"rifter",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"minecraft:emerald",Count:8},sell:{id:"gamestagebooks:aether",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:16},sell:{id:"gamestagebooks:nether",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:24},sell:{id:"gamestagebooks:twilight_forest",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:32},sell:{id:"gamestagebooks:end",Count:1}, CareerLevel:1}
+
+		]
+	}
+
+}

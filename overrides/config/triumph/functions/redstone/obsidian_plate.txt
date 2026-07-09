@@ -1,0 +1,2 @@
+give @s quark:obsidian_pressure_plate 4
+tellraw @s {"color":"blue","text":" +4 Obsidian Pressure Plates"}

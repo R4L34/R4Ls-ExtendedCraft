@@ -1,0 +1,19 @@
+setIcon(<aether_legacy:cold_parachute>)
+
+setTitle("respawn_compass")
+
+setDescription("respawn_compass")
+
+addParent("building:root")
+
+addRewardFunction("technical:respawn_compass")
+
+criteria = addCriteria("impossible", "minecraft:impossible")
+
+setRepeatTime(1)
+
+alwaysHidden()
+
+setShowToast(false)
+
+setAnnounceToChat(false)

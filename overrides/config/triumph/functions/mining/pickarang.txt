@@ -1,0 +1,2 @@
+give @s quark:diamond_heart 1
+tellraw @s {"color":"blue","text":" +1 Heart of Diamond"}

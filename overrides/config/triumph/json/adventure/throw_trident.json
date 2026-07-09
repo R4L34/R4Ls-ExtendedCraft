@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "trident:trident"
+    },
+    "title": {
+      "translate": "advancements.adventure.throw_trident.title"
+    },
+    "description": {
+      "translate": "advancements.adventure.throw_trident.description"
+    }
+  },
+  "parent": "adventure:laser_sharks",
+  "rewards": {
+        "function": "adventure:throw_trident",
+        "experience": 15
+    },
+  "criteria": {
+    "shot_trident": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "trident:trident"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shot_trident"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+setIcon(<minecraft:netherrack>)
+
+setTitle("Hell Yeah!!")
+
+setDescription("Find every nether biome")
+
+addParent("nether:warped_land")
+
+addRewardFunction("nether:hell_yeah")
+
+addRewardFunction("experience:challenge_medium")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("netherex:arctic_abyss")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("biomesoplenty:corrupted_sands")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("biomesoplenty:fungi_forest")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("netherex:fungi_forest")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("minecraft:hell")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("biomesoplenty:phantasmagoric_inferno")
+criteria = addCriteria("6", "minecraft:location")
+criteria.setBiome("netherex:ruthless_sands")
+criteria = addCriteria("7", "minecraft:location")
+criteria.setBiome("netherex:torrid_wasteland")
+criteria = addCriteria("8", "minecraft:location")
+criteria.setBiome("biomesoplenty:undergarden")
+criteria = addCriteria("9", "minecraft:location")
+criteria.setBiome("biomesoplenty:visceral_heap")

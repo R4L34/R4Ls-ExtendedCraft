@@ -1,0 +1,15 @@
+setIcon(<quark:archaeologist_hat>)
+
+setTitle("Now you are an Archaeologist!")
+
+setDescription("Trade an Archaeologist hat from an Archaeologist.")
+
+addParent("adventure:magic_book")
+
+addRewardFunction("adventure:archaeologist")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("archaeologist_hat", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:archaeologist_hat>)

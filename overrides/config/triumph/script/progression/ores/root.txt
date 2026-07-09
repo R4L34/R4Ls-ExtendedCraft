@@ -1,0 +1,54 @@
+setIcon(<futuremc:blast_furnace>)
+
+setTitle("Ores Progression")
+
+setDescription("By default you can't see the ores (they will appear to you as stone, netherack, etc.). To unlock them, you must use Exploration books. Only after using the corresponding book, you'll be able to see and mine the ore!")
+
+addParent("progression:wooden_pickaxe")
+
+setFrameType("CHALLENGE")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:challenge_medium")
+
+criteria = addCriteria("0", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/overworld/gold_ore")
+criteria = addCriteria("1", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/overworld/iron_ore")
+criteria = addCriteria("2", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/overworld/lapis_ore")
+criteria = addCriteria("3", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/overworld/redstone_ore")
+criteria = addCriteria("4", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/overworld/biome_gems")
+criteria = addCriteria("5", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/overworld/emerald_ore")
+criteria = addCriteria("6", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/overworld/diamond_ore")
+criteria = addCriteria("7", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/overworld/heart_crystal_ore")
+
+criteria = addCriteria("0a", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/aether/zanite_ore")
+criteria = addCriteria("1a", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/aether/gravitite_ore")
+
+criteria = addCriteria("0n", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/nether/quartz_ore")
+criteria = addCriteria("1n", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/nether/rime_ore")
+criteria = addCriteria("2n", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/nether/amethyst_ore")
+criteria = addCriteria("3n", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/nether/cincinnasite_ore")
+criteria = addCriteria("4n", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/nether/ancient_debris")
+
+criteria = addCriteria("0t", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/twilight_forest/liveroot")
+
+criteria = addCriteria("0e", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/end/amethyst")
+criteria = addCriteria("1e", "triumph:completed_advancement")
+criteria.setAdvancement("progression:ores/end/biotite")

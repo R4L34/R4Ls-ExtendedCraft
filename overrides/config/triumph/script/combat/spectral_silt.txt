@@ -1,0 +1,15 @@
+setIcon(<bountifulbaubles:spectralsilt>)
+
+setTitle("Basic Component")
+
+setDescription("Craft some Spectral Silt")
+
+addParent("combat:trinkets_and_baubles")
+
+addRewardFunction("combat:spectral_silt")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<bountifulbaubles:spectralsilt>)

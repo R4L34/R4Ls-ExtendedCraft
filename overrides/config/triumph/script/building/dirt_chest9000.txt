@@ -1,0 +1,15 @@
+setIcon(<ironchest:iron_chest:7>)
+
+setTitle("DirtChest 9000")
+
+setDescription("Welcome to your new DirtChest 9000. We hope you will enjoy many happy years of storing your stack of dirt in our storage utility.")
+
+addParent("building:chest_update")
+
+addRewardFunction("building:dirt_chest9000")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("dirt_chest9000", "minecraft:inventory_changed")
+
+criteria.addItem(<ironchest:iron_chest:7>)

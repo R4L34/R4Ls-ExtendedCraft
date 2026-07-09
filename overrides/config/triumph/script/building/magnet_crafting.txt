@@ -1,0 +1,15 @@
+setIcon(<craftingstation:crafting_station>)
+
+setTitle("Magnet Crafting")
+
+setDescription("Craft a Crafting Station")
+
+addParent("building:your_door_was_locked")
+
+addRewardFunction("building:magnet_crafting")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("crafting_station", "minecraft:inventory_changed")
+
+criteria.addItem(<craftingstation:crafting_station>)

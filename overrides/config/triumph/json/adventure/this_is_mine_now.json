@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:web"
+        },
+        "title": {"translate":"This is Mine Now!"},
+        "description": {"translate":"Find an abandoned mineshaft that was not dug out by you"}
+    },
+    "parent": "adventure:root",
+    "rewards": {
+        "function": "adventure:this_is_mine_now",
+        "experience": 15
+    },	
+    "criteria": {
+        "mineshaft": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Mineshaft"
+            }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+give @s biomesoplenty:white_sandstone 16 1
+tellraw @s {"color":"blue","text":" +16 Chiseled White Sandstone"}

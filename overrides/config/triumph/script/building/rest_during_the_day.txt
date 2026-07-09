@@ -1,0 +1,15 @@
+setIcon(<comforts:hammock>)
+
+setTitle("Rest During The Day")
+
+setDescription("Craft a Hammock to skip the day!")
+
+addParent("building:sweet_dreams")
+
+addRewardFunction("building:rest_during_the_day")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<comforts:hammock>)

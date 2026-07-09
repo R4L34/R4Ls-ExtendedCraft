@@ -1,0 +1,15 @@
+setIcon(<quark:ender_watcher>)
+
+setTitle("Ender watcher")
+
+setDescription("Craft a ender watcher.")
+
+addParent("redstone:lever")
+
+addRewardFunction("redstone:ender_watcher")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("ender_watcher", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:ender_watcher>)

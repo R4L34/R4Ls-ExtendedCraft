@@ -1,0 +1,17 @@
+setIcon(<xat:ender_tiara>)
+
+setTitle("Ghast Royalty")
+
+setDescription("Defeat a Ghast Queen! In order to summon it you will have to find a small black structure resembling a ghast, get a Potion of Sorrow, right click on the block that summons the Queen inside the structure.")
+
+addParent("nether:wither")
+
+addRewardFunction("nether:ghast_queen")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:player_killed_entity")
+
+criteria.setEntityType("netherex:ghast_queen")

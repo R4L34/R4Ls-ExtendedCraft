@@ -1,0 +1,15 @@
+setIcon(<biomesoplenty:gem:1>)
+
+setTitle("Ruby")
+
+setDescription("Find a Ruby")
+
+addParent("mining:terrestrial_artifact")
+
+addRewardFunction("mining:ruby")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<biomesoplenty:gem:1>)

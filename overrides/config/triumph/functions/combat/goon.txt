@@ -1,0 +1,2 @@
+give @s pvj:goon_bile 16
+tellraw @s {"color":"blue","text":" +16 Goon Bile"}

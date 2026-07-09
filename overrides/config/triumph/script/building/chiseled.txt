@@ -1,0 +1,53 @@
+setIcon(<minecraft:stonebrick:3>)
+
+setTitle("Chiseled")
+
+setDescription("Craft any type of chiseled stone")
+
+addParent("building:fake_fortress")
+
+addRewardFunction("building:chiseled")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:sandstone:1>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:stonebrick:3>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:quartz_block:1>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:red_sandstone:1>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<biomesoplenty:white_sandstone:1>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<futureminecraf:chiseledpolishedblackstone>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<futureminecraf:chiselednetherbricks>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_carved:0>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_carved:1>)
+criteria = addCriteria("9", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_carved:2>)
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_carved:3>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_carved:4>)
+criteria = addCriteria("12", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_carved:5>)
+criteria = addCriteria("13", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_carved:6>)
+criteria = addCriteria("14", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_carved:7>)
+criteria = addCriteria("15", "minecraft:inventory_changed")
+criteria.addItem(<quark:soul_sandstone:1>)
+criteria = addCriteria("16", "minecraft:inventory_changed")
+criteria.addItem(<quark:biotite_block:1>)
+criteria = addCriteria("17", "minecraft:inventory_changed")
+criteria.addItem(<twilightforest:maze_stone:2>)
+
+
+
+
+setRequirements("any")

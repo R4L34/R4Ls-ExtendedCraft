@@ -1,0 +1,2 @@
+give @s bountifulbaubles:amuletcross 1
+tellraw @s {"color":"blue","text":" +1 Cross Necklace"}

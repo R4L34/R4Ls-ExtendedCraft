@@ -1,0 +1,18 @@
+setIcon(<aether_legacy:gravitite_ore>)
+
+setTitle("Gravitite Ore Progression")
+
+setDescription("Get access to the Gravitite Ore by using Gravitite Ore Exploration Book")
+
+addParent("progression:ores/aether/zanite_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("gravitite_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

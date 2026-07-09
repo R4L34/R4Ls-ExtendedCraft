@@ -1,0 +1,913 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:log"
+        },
+        "title": {"translate":"Master Logger"},
+        "description": {"translate":"Cut down a full stack of logs of all types"},
+        "frame": "challenge"
+    },
+    "parent": "building:colorful_planks",
+    "rewards": {
+        "function": "building:master_logger"
+    },         
+    "criteria": {
+        "0": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_0",
+                        "count": 64,
+                        "data": 6
+
+                    }
+                ]
+            }
+        },
+        
+    "1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_0",
+                        "count": 64,
+                        "data": 5
+
+                    }
+                ]
+            }
+        },
+        
+    "2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_0",
+                        "count": 64,
+                        "data": 4
+
+                    }
+                ]
+            }
+        },
+        
+    "3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:log2",
+                        "count": 64,
+                        "data": 1
+
+                    }
+                ]
+            }
+        },
+        
+    "4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:log2",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:log",
+                        "count": 64,
+                        "data": 3
+
+                    }
+                ]
+            }
+        },
+        
+    "6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:log",
+                        "count": 64,
+                        "data": 2
+
+                    }
+                ]
+            }
+        },
+        
+    "7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:log",
+                        "count": 64,
+                        "data": 1
+
+                    }
+                ]
+            }
+        },
+        
+    "8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "9": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_cottonwood",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "10": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_baobab",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "11": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_maple",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "12": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_aspen",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "13": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_pine",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "14": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_fir",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "15": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_redwood",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "16": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_palm",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "17": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_mangrove",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "18": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_willow",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "19": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "harvestcraft:pampaperbark",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "20": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "harvestcraft:pammaple",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "21": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "harvestcraft:pamcinnamon",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "22": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_4",
+                        "count": 64,
+                        "data": 5
+
+                    }
+                ]
+            }
+        },
+        
+    "23": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_3",
+                        "count": 64,
+                        "data": 7
+
+                    }
+                ]
+            }
+        },
+        
+    "24": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_3",
+                        "count": 64,
+                        "data": 6
+
+                    }
+                ]
+            }
+        },
+        
+    "25": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_3",
+                        "count": 64,
+                        "data": 5
+
+                    }
+                ]
+            }
+        },
+        
+    "26": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_3",
+                        "count": 64,
+                        "data": 4
+
+                    }
+                ]
+            }
+        },
+        
+    "27": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_2",
+                        "count": 64,
+                        "data": 7
+
+                    }
+                ]
+            }
+        },
+        
+    "28": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_2",
+                        "count": 64,
+                        "data": 6
+
+                    }
+                ]
+            }
+        },
+        
+    "29": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_2",
+                        "count": 64,
+                        "data": 5
+
+                    }
+                ]
+            }
+        },
+        
+    "30": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_2",
+                        "count": 64,
+                        "data": 4
+
+                    }
+                ]
+            }
+        },
+        
+    "31": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_1",
+                        "count": 64,
+                        "data": 7
+
+                    }
+                ]
+            }
+        },
+        
+    "32": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_1",
+                        "count": 64,
+                        "data": 6
+
+                    }
+                ]
+            }
+        },
+        
+    "33": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_1",
+                        "count": 64,
+                        "data": 5
+
+                    }
+                ]
+            }
+        },
+        
+    "34": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_1",
+                        "count": 64,
+                        "data": 4
+
+                    }
+                ]
+            }
+        },
+        
+    "35": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "biomesoplenty:log_0",
+                        "count": 64,
+                        "data": 7
+
+                    }
+                ]
+            }
+        },
+        
+    "36": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "twilightforest:magic_log",
+                        "count": 64,
+                        "data": 1
+
+                    }
+                ]
+            }
+        },
+        
+    "37": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "twilightforest:magic_log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "38": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "twilightforest:twilight_log",
+                        "count": 64,
+                        "data": 3
+
+                    }
+                ]
+            }
+        },
+        
+    "39": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "twilightforest:twilight_log",
+                        "count": 64,
+                        "data": 2
+
+                    }
+                ]
+            }
+        },
+        
+    "40": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "twilightforest:twilight_log",
+                        "count": 64,
+                        "data": 1
+
+                    }
+                ]
+            }
+        },
+        
+    "41": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "twilightforest:twilight_log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "42": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_jacaranda",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "43": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_cherry_blossom",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "44": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pvj:log_juniper",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "45": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_dark_oak_wood",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "46": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_spruce_wood",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "47": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_oak_wood",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "48": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_birch_wood",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "49": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_jungle_wood",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "50": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_acacia_wood",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "51": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futureminecraf:strippedcrimsonstem",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "52": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futureminecraf:strippedwarpedstem",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "53": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_dark_oak_log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "54": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_spruce_log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "55": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_oak_log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "56": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_birch_log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "57": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_jungle_log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "58": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "futuremc:stripped_acacia_log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "59": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "twilightforest:giant_log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "60": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "aether_legacy:aether_log",
+                        "count": 64,
+                        "data": 1
+
+                    }
+                ]
+            }
+        },
+        
+    "61": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "aether_legacy:aether_log",
+                        "count": 64,
+                        "data": 0
+
+                    }
+                ]
+            }
+        },
+        
+    "62": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "twilightforest:magic_log",
+                        "count": 64,
+                        "data": 3
+
+                    }
+                ]
+            }
+        },
+        
+    "63": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "twilightforest:magic_log",
+                        "count": 64,
+                        "data": 2
+
+                    }
+                ]
+            }
+        }
+        
+     
+    }
+}

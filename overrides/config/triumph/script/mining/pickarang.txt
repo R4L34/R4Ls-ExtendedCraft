@@ -1,0 +1,15 @@
+setIcon(<quark:pickarang>)
+
+setTitle("Return to Sender")
+
+setDescription("Craft a Pickarang")
+
+addParent("mining:diamonds")
+
+addRewardFunction("mining:pickarang")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("pickarang", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:pickarang>)

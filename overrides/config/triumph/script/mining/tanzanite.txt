@@ -1,0 +1,15 @@
+setIcon(<biomesoplenty:gem:4>)
+
+setTitle("Tanzanite")
+
+setDescription("Find a Tanzanite")
+
+addParent("mining:terrestrial_artifact")
+
+addRewardFunction("mining:tanzanite")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<biomesoplenty:gem:4>)

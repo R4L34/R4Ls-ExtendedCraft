@@ -1,0 +1,2 @@
+give @s quark:world_stone_pavement 8 2
+tellraw @s {"color":"blue","text":" +8 Andesite Pavement"}

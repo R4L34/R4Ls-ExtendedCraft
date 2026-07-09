@@ -1,0 +1,18 @@
+setIcon(<betternether:cincinnasite_ore>)
+
+setTitle("Cincinnasite Ore Progression")
+
+setDescription("Get access to the Cincinnasite Ore by using Cincinnasite Ore Exploration Book")
+
+addParent("progression:ores/nether/amethyst_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("cincinnasite_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

@@ -1,0 +1,15 @@
+setIcon(<quark:iron_rod>)
+
+setTitle("Iron rod")
+
+setDescription("Craft an iron rod.")
+
+addParent("redstone:sticky_parts")
+
+addRewardFunction("redstone:iron_rod")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("iron_rod", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:iron_rod>)

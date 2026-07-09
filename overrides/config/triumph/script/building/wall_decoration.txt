@@ -1,0 +1,15 @@
+setIcon(<minecraft:painting>)
+
+setTitle("Wall decoration")
+
+setDescription("Craft a painting")
+
+addParent("building:paper")
+
+addRewardFunction("building:wall_decoration")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("painting", "minecraft:inventory_changed")
+
+criteria.addItem(<minecraft:painting>)

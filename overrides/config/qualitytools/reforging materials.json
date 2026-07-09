@@ -1,0 +1,1138 @@
+[
+  {
+    "comment": "This file contains custom reforging materials. By default, you can reforge
+                a tool with its repair item (like iron ingots for an iron sword), but some
+                items don't have a repair item, like bows. This adds items to reforge those.
+                It can also add an item for 'any', which will work for any item that can't be
+                reforged otherwise. For more info about how to add materials, visit:
+                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+    "tool": "any",
+    "material": {
+        "item": "minecraft:nether_star"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:bow"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:fishing_rod"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:wooden_hoe"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:stone_hoe"
+    },
+    "material": {
+        "ore_dict": "cobblestone"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:iron_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:shears"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:iron_horse_armor"
+    },
+    "material": {
+        "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:golden_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:golden_horse_armor"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:diamond_hoe"
+    },
+    "material": {
+        "ore_dict": "gemDiamond"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:diamond_horse_armor"
+    },
+    "material": {
+        "ore_dict": "gemDiamond"
+    }
+  },
+  {
+    "tool": {
+        "item": "qualitytools:emerald_ring"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "qualitytools:emerald_amulet"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "minecraft:totem_of_undying"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+
+
+
+  {
+    "tool": {
+        "item": "emerald_mod:emeraldarmorboots"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "emerald_mod:emeraldarmorlegs"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "emerald_mod:emeraldarmorbody"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "emerald_mod:emeraldarmorhelmet"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "emerald_mod:emeraldhoe"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "emerald_mod:emeraldshovel"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "emerald_mod:emeraldaxe"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "emerald_mod:emeraldpick"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+  {
+    "tool": {
+        "item": "emerald_mod:emeraldsword"
+    },
+    "material": {
+        "ore_dict": "gemEmerald"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "futuremc:netherite_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotNetherite"
+    }
+  },
+
+
+
+  {
+    "tool": {
+        "item": "inspirations:blaze_crook"
+    },
+    "material": {
+        "item": "netherex:blazed_wither_bone"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "inspirations:wither_crook"
+    },
+    "material": {
+        "ore_dict": "boneWithered"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "mowziesmobs:naga_fang_dagger"
+    },
+    "material": {
+        "item": "mowziesmobs:naga_fang"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "netherex:wither_bone_helmet"
+    },
+    "material": {
+        "ore_dict": "boneWithered"
+    }
+  },
+  {
+    "tool": {
+        "item": "netherex:wither_bone_chestplate"
+    },
+    "material": {
+        "ore_dict": "boneWithered"
+    }
+  },
+  {
+    "tool": {
+        "item": "netherex:wither_bone_leggings"
+    },
+    "material": {
+        "ore_dict": "boneWithered"
+    }
+  },
+  {
+    "tool": {
+        "item": "netherex:wither_bone_boots"
+    },
+    "material": {
+        "ore_dict": "boneWithered"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "netherex:orange_salamander_hide_helmet"
+    },
+    "material": {
+        "item": "netherex:orange_salamander_hide"
+    }
+  },
+  {
+    "tool": {
+        "item": "netherex:orange_salamander_hide_chestplate"
+    },
+    "material": {
+        "item": "netherex:orange_salamander_hide"
+    }
+  },
+  {
+    "tool": {
+        "item": "netherex:orange_salamander_hide_leggings"
+    },
+    "material": {
+        "item": "netherex:orange_salamander_hide"
+    }
+  },
+  {
+    "tool": {
+        "item": "netherex:orange_salamander_hide_boots"
+    },
+    "material": {
+        "item": "netherex:orange_salamander_hide"
+    }
+  },
+
+
+
+  {
+    "tool": {
+        "item": "netherex:black_salamander_hide_helmet"
+    },
+    "material": {
+        "item": "netherex:black_salamander_hide"
+    }
+  },
+  {
+    "tool": {
+        "item": "netherex:black_salamander_hide_chestplate"
+    },
+    "material": {
+        "item": "netherex:black_salamander_hide"
+    }
+  },
+  {
+    "tool": {
+        "item": "netherex:black_salamander_hide_leggings"
+    },
+    "material": {
+        "item": "netherex:black_salamander_hide"
+    }
+  },
+  {
+    "tool": {
+        "item": "netherex:black_salamander_hide_boots"
+    },
+    "material": {
+        "item": "netherex:black_salamander_hide"
+    }
+  },
+
+
+
+  {
+    "tool": {
+        "item": "lost_aether:gravitite_shield"
+    },
+    "material": {
+        "ore_dict": "ingotGravitite"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:gravitite_pickaxe"
+    },
+    "material": {
+        "ore_dict": "ingotGravitite"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:gravitite_axe"
+    },
+    "material": {
+        "ore_dict": "ingotGravitite"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:gravitite_shovel"
+    },
+    "material": {
+        "ore_dict": "ingotGravitite"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:gravitite_helmet"
+    },
+    "material": {
+        "ore_dict": "ingotGravitite"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:gravitite_chestplate"
+    },
+    "material": {
+        "ore_dict": "ingotGravitite"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:gravitite_leggings"
+    },
+    "material": {
+        "ore_dict": "ingotGravitite"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:gravitite_boots"
+    },
+    "material": {
+        "ore_dict": "ingotGravitite"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:gravitite_sword"
+    },
+    "material": {
+        "ore_dict": "ingotGravitite"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "twilightforest:ironwood_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotIronwood"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "twilightforest:steeleaf_hoe"
+    },
+    "material": {
+        "ore_dict": "ingotSteeleaf"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "twilightforest:giant_sword"
+    },
+    "material": {
+        "item": "twilightforest:giant_cobblestone"
+    }
+  },
+  {
+    "tool": {
+        "item": "twilightforest:giant_pickaxe"
+    },
+    "material": {
+        "item": "twilightforest:giant_cobblestone"
+    }
+  },
+
+
+
+  {
+    "tool": {
+        "item": "toughasnails:wool_helmet"
+    },
+    "material": {
+        "ore_dict": "wool"
+    }
+  },
+  {
+    "tool": {
+        "item": "toughasnails:wool_chestplate"
+    },
+    "material": {
+        "ore_dict": "wool"
+    }
+  },
+  {
+    "tool": {
+        "item": "toughasnails:wool_leggings"
+    },
+    "material": {
+        "ore_dict": "wool"
+    }
+  },
+  {
+    "tool": {
+        "item": "toughasnails:wool_boots"
+    },
+    "material": {
+        "ore_dict": "wool"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "toughasnails:jelled_slime_helmet"
+    },
+    "material": {
+        "item": "toughasnails:jelled_slime"
+    }
+  },
+  {
+    "tool": {
+        "item": "toughasnails:jelled_slime_chestplate"
+    },
+    "material": {
+        "item": "toughasnails:jelled_slime"
+    }
+  },
+  {
+    "tool": {
+        "item": "toughasnails:jelled_slime_leggings"
+    },
+    "material": {
+        "item": "toughasnails:jelled_slime"
+    }
+  },
+  {
+    "tool": {
+        "item": "toughasnails:jelled_slime_boots"
+    },
+    "material": {
+        "item": "toughasnails:jelled_slime"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "lost_aether:zanite_shield"
+    },
+    "material": {
+        "ore_dict": "gemZanite"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "bountifulbaubles:crowngold"
+    },
+    "material": {
+        "ore_dict": "ingotGold"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "toolbelt:belt"
+    },
+    "material": {
+        "item": "backpack:tanned_leather"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketshulkerheart"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:ringoverclocking"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketvitamins"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketapple"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketmagiclenses"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:shieldobsidian"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketobsidianskull"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:shieldcobalt"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketballoon"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "xat:faelis_claw"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "xat:damage_shield"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "xat:ender_tiara"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "xat:poison_stone"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "xat:wither_ring"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "xat:dragons_eye"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "xat:sea_stone"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "xat:glow_ring"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "xat:greater_inertia_stone"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "xat:inertia_null_stone"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletcross"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketbrokenheart"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletsinwrath"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletsinpride"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletsingluttony"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:amuletsinempty"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketluckyhorseshoe"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:shieldankh"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketankhcharm"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketmixeddragonscale"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketblackdragonscale"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:trinketbezoar"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+  {
+    "tool": {
+        "item": "bountifulbaubles:ringfreeaction"
+    },
+    "material": {
+        "ore_dict": "ingotGlowing"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "mowziesmobs:spear"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "mowziesmobs:blowgun"
+    },
+    "material": {
+        "item": "biomesoplenty:bamboo"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "harvestcraft:hardenedleatherhelmitem"
+    },
+    "material": {
+        "item": "backpack:tanned_leather"
+    }
+  },
+  {
+    "tool": {
+        "item": "harvestcraft:hardenedleatherchestitem"
+    },
+    "material": {
+        "item": "backpack:tanned_leather"
+    }
+  },
+  {
+    "tool": {
+        "item": "harvestcraft:hardenedleatherleggingsitem"
+    },
+    "material": {
+        "item": "backpack:tanned_leather"
+    }
+  },
+  {
+    "tool": {
+        "item": "harvestcraft:hardenedleatherbootsitem"
+    },
+    "material": {
+        "item": "backpack:tanned_leather"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "potionfingers:ring"
+    },
+    "material": {
+        "item": "xat:glowing_ingot"
+    }
+  },
+
+  {
+    "tool": {
+        "item": "potionfingers:ring",
+        "data" : 1
+    },
+    "material": {
+        "item": "xat:glowing_ingot"
+    }
+  },
+
+
+  {
+    "tool": {
+        "item": "aether_legacy:obsidian_helmet"
+    },
+    "material": {
+        "item": "futureminecraf:cryingobsidian"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:obsidian_chestplate"
+    },
+    "material": {
+        "item": "futureminecraf:cryingobsidian"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:obsidian_leggings"
+    },
+    "material": {
+        "item": "futureminecraf:cryingobsidian"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:obsidian_boots"
+    },
+    "material": {
+        "item": "futureminecraf:cryingobsidian"
+    }
+  },
+
+    {
+    "tool": {
+        "item": "aether_legacy:neptune_helmet"
+    },
+    "material": {
+        "ore_dict": "gemLapis"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:neptune_chestplate"
+    },
+    "material": {
+        "ore_dict": "gemLapis"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:neptune_leggings"
+    },
+    "material": {
+        "ore_dict": "gemLapis"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:neptune_boots"
+    },
+    "material": {
+        "ore_dict": "gemLapis"
+    }
+  },
+    {
+    "tool": {
+        "item": "aether_legacy:phoenix_helmet"
+    },
+    "material": {
+        "item": "netherex:blazed_wither_bone"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:phoenix_chestplate"
+    },
+    "material": {
+        "item": "netherex:blazed_wither_bone"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:phoenix_leggings"
+    },
+    "material": {
+        "item": "netherex:blazed_wither_bone"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:phoenix_boots"
+    },
+    "material": {
+        "item": "netherex:blazed_wither_bone"
+    }
+  },
+
+    {
+    "tool": {
+        "item": "lost_aether:phoenix_pickaxe"
+    },
+    "material": {
+        "item": "netherex:blazed_wither_bone"
+    }
+  },
+  {
+    "tool": {
+        "item": "lost_aether:phoenix_axe"
+    },
+    "material": {
+        "item": "netherex:blazed_wither_bone"
+    }
+  },
+  {
+    "tool": {
+        "item": "lost_aether:phoenix_shovel"
+    },
+    "material": {
+        "item": "netherex:blazed_wither_bone"
+    }
+  },
+  {
+    "tool": {
+        "item": "lost_aether:phoenix_sword"
+    },
+    "material": {
+        "item": "netherex:blazed_wither_bone"
+    }
+  },
+  {
+    "tool": {
+        "item": "aether_legacy:phoenix_bow"
+    },
+    "material": {
+        "item": "netherex:blazed_wither_bone"
+    }
+  },
+  {
+    "tool": {
+        "item": "futuremc:netherite_axe"
+    },
+    "material": {
+        "item": "futuremc:netherite_scrap"
+    }
+  },
+  {
+    "tool": {
+        "item": "futuremc:netherite_hoe"
+    },
+    "material": {
+        "item": "futuremc:netherite_scrap"
+    }
+  },
+  {
+    "tool": {
+        "item": "futuremc:netherite_pickaxe"
+    },
+    "material": {
+        "item": "futuremc:netherite_scrap"
+    }
+  },
+  {
+    "tool": {
+        "item": "futuremc:netherite_shovel"
+    },
+    "material": {
+        "item": "futuremc:netherite_scrap"
+    }
+  },
+  {
+    "tool": {
+        "item": "futuremc:netherite_sword"
+    },
+    "material": {
+        "item": "futuremc:netherite_scrap"
+    }
+  },
+  {
+    "tool": {
+        "item": "futuremc:netherite_helmet"
+    },
+    "material": {
+        "item": "futuremc:netherite_scrap"
+    }
+  },
+  {
+    "tool": {
+        "item": "futuremc:netherite_chestplate"
+    },
+    "material": {
+        "item": "futuremc:netherite_scrap"
+    }
+  },
+  {
+    "tool": {
+        "item": "futuremc:netherite_leggings"
+    },
+    "material": {
+        "item": "futuremc:netherite_scrap"
+    }
+  },
+  {
+    "tool": {
+        "item": "futuremc:netherite_boots"
+    },
+    "material": {
+        "item": "futuremc:netherite_scrap"
+    }
+  },
+  {
+    "tool": {
+        "item": "pickletweaks:platinum_paxel"
+    },
+    "material": {
+        "item": "futuremc:netherite_scrap"
+    }
+  },
+  {
+    "tool": {
+        "item": "pickletweaks:bronze_paxel"
+    },
+    "material": {
+        "ore_dict": "gemZanite"
+    }
+  },
+  {
+    "tool": {
+        "item": "pickletweaks:steel_paxel"
+    },
+    "material": {
+        "ore_dict": "ingotGravitite"
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "tool": {
+        "item": "minecraft:shield"
+    },
+    "material": {
+        "ore_dict": "plankWood"
+    }
+  }
+
+]

@@ -1,0 +1,2 @@
+give @s backpack:tanned_leather 7
+tellraw @s {"color":"blue","text":" +7 Tanned Leather"}

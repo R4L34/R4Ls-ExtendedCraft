@@ -1,0 +1,15 @@
+setIcon(<pickletweaks:dark_glass>)
+
+setTitle("Tinted Glass")
+
+setDescription("Craft a Tinted Glass!")
+
+addParent("building:soul_glass")
+
+addRewardFunction("building:tinted_glass")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("dark_glass", "minecraft:inventory_changed")
+
+criteria.addItem(<pickletweaks:dark_glass>)

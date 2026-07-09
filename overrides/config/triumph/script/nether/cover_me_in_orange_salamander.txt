@@ -1,0 +1,25 @@
+setIcon(<netherex:orange_salamander_hide_chestplate>)
+
+setTitle("Cover Me In Orange Salamander")
+
+setDescription("Craft an Orange Salamander piece of Armor")
+
+addParent("nether:salamander")
+
+addRewardFunction("nether:cover_me_in_orange_salamander")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<netherex:orange_salamander_hide_helmet>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<netherex:orange_salamander_hide_chestplate>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<netherex:orange_salamander_hide_leggings>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<netherex:orange_salamander_hide_boots>)
+
+
+
+
+setRequirements("any")

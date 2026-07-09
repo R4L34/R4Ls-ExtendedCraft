@@ -1,0 +1,20 @@
+setIcon(<biomesoplenty:white_sandstone:1>)
+
+setTitle("Creepers, Withers, Ghasts and... mushrooms?")
+
+setDescription("Craft every type of chiseled sandstone")
+
+addParent("building:sandstone")
+
+addRewardFunction("building:creepers_withers_ghasts_and_mushrooms")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("sandstone0", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:sandstone:1>)
+criteria = addCriteria("sandstone1", "minecraft:inventory_changed")
+criteria.addItem(<biomesoplenty:white_sandstone:1>)
+criteria = addCriteria("sandstone2", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:red_sandstone:1>)
+criteria = addCriteria("sandstone3", "minecraft:inventory_changed")
+criteria.addItem(<quark:soul_sandstone:1>)

@@ -1,0 +1,15 @@
+setIcon(<quark:redstone_inductor>)
+
+setTitle("Redstone inductor")
+
+setDescription("Craft a Redstone inductor.")
+
+addParent("redstone:comparing_comparator")
+
+addRewardFunction("redstone:inductor")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("redstone_inductor", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:redstone_inductor>)

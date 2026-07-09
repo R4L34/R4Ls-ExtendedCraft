@@ -1,0 +1,18 @@
+setIcon(<netherex:rime_ore>)
+
+setTitle("Rime Ore Progression")
+
+setDescription("Get access to the Rime Ore by using Rime Ore Exploration Book")
+
+addParent("progression:ores/nether/quartz_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("rime_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

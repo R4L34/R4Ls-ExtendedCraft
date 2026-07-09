@@ -1,0 +1,15 @@
+setIcon(<quark:arrow_explosive>)
+
+setTitle("Talib Arrow 3000")
+
+setDescription("New model is out!!")
+
+addParent("combat:bombs_away")
+
+addRewardFunction("combat:arrow_explosive")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("arrow_explosive", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:arrow_explosive>)

@@ -1,0 +1,14 @@
+setIcon(<quark:quilted_wool:3>)
+
+setTitle("Quitted Wool")
+
+setDescription("Craft a Quitted Wool")
+
+addParent("building:fluffy")
+
+addRewardFunction("building:quitted_wool")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("duskbound14", "minecraft:inventory_changed")
+criteria.addItem(<quark:quilted_wool>)

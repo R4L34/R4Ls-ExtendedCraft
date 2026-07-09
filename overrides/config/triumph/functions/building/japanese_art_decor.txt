@@ -1,0 +1,2 @@
+give @s quark:paper_wall_sakura 16
+tellraw @s {"color":"blue","text":" +16 Sakura Paper Walls"}

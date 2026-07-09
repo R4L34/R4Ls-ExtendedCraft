@@ -1,0 +1,15 @@
+setIcon(<minecraft:stone>)
+
+setTitle("Stoneling")
+
+setDescription("WHY!! You had your own slave that could carry your items! I mean, item...")
+
+addParent("mining:moar_tools")
+
+addRewardFunction("mining:stoneling")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("stoneling", "minecraft:player_killed_entity")
+
+criteria.setEntityType("quark:stoneling")

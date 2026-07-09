@@ -1,0 +1,2 @@
+give @s minecraft:stone_slab 64 0
+tellraw @s {"color":"blue","text":" +64 Stone Slabs"}

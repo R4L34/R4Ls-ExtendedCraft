@@ -1,0 +1,17 @@
+setIcon(<lost_aether:jeb_shield>)
+
+setTitle("The Mighty Shield of Minecraft's Creators")
+
+setDescription("Find the Shield of Jeb")
+
+addParent("combat:not_today_thank_you")
+
+addRewardFunction("combat:the_mighty_shield_of_minecraft_creators")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<lost_aether:jeb_shield>)

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:planks"
+        },
+        "title": {"translate":"Do You Want to Trade?"},
+        "description": {"translate":"Find an NPC village"}
+    },
+    "parent": "adventure:root",
+    "rewards": {
+        "function": "adventure:do_you_want_to_trade",
+        "experience": 15
+    },	
+    "criteria": {
+        "village": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Village"
+            }
+        }
+    }
+}

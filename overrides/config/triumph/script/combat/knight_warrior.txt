@@ -1,0 +1,15 @@
+setIcon(<twilightforest:knightmetal_shield>)
+
+setTitle("Knight Warrior")
+
+setDescription("Craft a Knyghtly Shield")
+
+addParent("combat:the_mighty_shield_of_minecraft_creators")
+
+addRewardFunction("combat:knight_warrior")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<twilightforest:knightmetal_shield>)

@@ -1,0 +1,2 @@
+give @s quark:paper_lantern 4 1
+tellraw @s {"color":"blue","text":" +4 Decorated Lantern"}

@@ -1,0 +1,22 @@
+setIcon(<boptools:chestplate_malachite>)
+
+setTitle("Cover me with Malachite")
+
+setDescription("Craft a full Malachite Armor set")
+
+addParent("mining:malachite")
+
+addRewardFunction("mining:cover_me_with_malachite")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<boptools:helmet_malachite>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<boptools:chestplate_malachite>)
+criteria = addCriteria("12", "minecraft:inventory_changed")
+criteria.addItem(<boptools:leggings_malachite>)
+criteria = addCriteria("13", "minecraft:inventory_changed")
+criteria.addItem(<boptools:boots_malachite>)

@@ -1,0 +1,15 @@
+setIcon(<inspirations:torch_lever>)
+
+setTitle("Torch Lever")
+
+setDescription("It's lever, but it's also a torch")
+
+addParent("redstone:lever")
+
+addRewardFunction("redstone:torch_lever")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("torch_lever", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:torch_lever>)

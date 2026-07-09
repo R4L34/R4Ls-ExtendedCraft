@@ -1,0 +1,15 @@
+setIcon(<quark:gravisand>)
+
+setTitle("Gravisand")
+
+setDescription("Craft a gravisand.")
+
+addParent("redstone:root")
+
+addRewardFunction("redstone:gravisand")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("gravisand", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:gravisand>)

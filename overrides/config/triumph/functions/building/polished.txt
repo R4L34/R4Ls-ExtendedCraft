@@ -1,0 +1,2 @@
+give @s quark:sandstone_new 8 0
+tellraw @s {"color":"blue","text":" +8 Polished Sandstone"}

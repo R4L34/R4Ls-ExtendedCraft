@@ -1,0 +1,15 @@
+setIcon(<netherex:soul_glass>)
+
+setTitle("Soul Glass")
+
+setDescription("Craft Some Soul Glass")
+
+addParent("building:framed_quartz_glass")
+
+addRewardFunction("building:soul_glass")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<netherex:soul_glass>)

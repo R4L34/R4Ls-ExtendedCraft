@@ -1,0 +1,2 @@
+advancement grant @a[r=250] only twilightforest:progress_troll
+function experience:challenge

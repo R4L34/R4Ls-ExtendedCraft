@@ -1,0 +1,15 @@
+setIcon(<inspirations:path>)
+
+setTitle("The Path")
+
+setDescription("Craft some fansy roads!")
+
+addParent("building:pathways")
+
+addRewardFunction("building:path")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("road", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:path>)

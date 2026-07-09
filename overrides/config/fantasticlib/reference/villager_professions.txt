@@ -1,0 +1,11 @@
+minecraft:farmer
+minecraft:librarian
+minecraft:priest
+minecraft:smith
+minecraft:butcher
+minecraft:nitwit
+vtt:brewer
+vtt:miner
+vtt:redstoner
+vtt:rifter
+vtt:tinkerer

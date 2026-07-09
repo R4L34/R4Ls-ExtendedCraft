@@ -1,0 +1,15 @@
+setIcon(<realistictorches:torch_lit>)
+
+setTitle("Lights Up!")
+
+setDescription("Obtain some lit torches!")
+
+addParent("building:not_so_easy")
+
+addRewardFunction("building:lights_up")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("torch_lit", "minecraft:inventory_changed")
+
+criteria.addItem(<realistictorches:torch_lit>)

@@ -1,0 +1,15 @@
+setIcon(<toughasnails:temperature_coil:1>)
+
+setTitle("Battery")
+
+setDescription("Craft some Heating Coils to make your home warmer")
+
+addParent("adventure:wool_clothes")
+
+addRewardFunction("adventure:battery")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("123", "minecraft:inventory_changed")
+
+criteria.addItem(<toughasnails:temperature_coil:1>)

@@ -1,0 +1,2 @@
+give @s minecraft:wooden_pressure_plate 4
+tellraw @s {"color":"blue","text":" +4 Oak Pressure Plates"}

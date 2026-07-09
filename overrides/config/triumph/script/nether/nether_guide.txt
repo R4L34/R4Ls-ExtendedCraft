@@ -1,0 +1,15 @@
+setIcon(<quark:soul_powder>)
+
+setTitle("Nether guide!")
+
+setDescription("Craft a soul powder! It can help you find the closest Nether Fortress")
+
+addParent("nether:spawning_curse")
+
+addRewardFunction("nether:nether_guide")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("soul_powder", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:soul_powder>)

@@ -1,0 +1,2 @@
+give @s minecraft:record_cat 1
+tellraw @s {"color":"blue","text":" +1 C418 - cat Music Disk"}

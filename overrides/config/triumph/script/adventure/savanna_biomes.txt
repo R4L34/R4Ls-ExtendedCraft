@@ -1,0 +1,30 @@
+setIcon(<minecraft:log2>)
+
+setTitle("Savanna Biomes")
+
+setDescription("Find all Savanna Biomes")
+
+addParent("adventure:sandy_biomes")
+
+addRewardFunction("adventure:savanna_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("biomesoplenty:brushland")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("biomesoplenty:lush_desert")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("biomesoplenty:outback")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("minecraft:savanna")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("minecraft:mutated_savanna")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("minecraft:savanna_rock")
+criteria = addCriteria("6", "minecraft:location")
+criteria.setBiome("minecraft:mutated_savanna_rock")
+criteria = addCriteria("7", "minecraft:location")
+criteria.setBiome("biomesoplenty:xeric_shrubland")

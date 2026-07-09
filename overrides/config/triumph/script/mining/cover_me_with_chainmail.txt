@@ -1,0 +1,25 @@
+setIcon(<minecraft:chainmail_chestplate>)
+
+setTitle("Cover me with Chainmail")
+
+setDescription("Protect yourself with chainmail armor!")
+
+addParent("mining:a_power_of_chains")
+
+addRewardFunction("mining:cover_me_with_chainmail")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("shulker0", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chainmail_helmet>)
+criteria = addCriteria("shulker1", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chainmail_chestplate>)
+criteria = addCriteria("shulker2", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chainmail_leggings>)
+criteria = addCriteria("shulker3", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:chainmail_boots>)
+
+
+
+
+setRequirements("any")

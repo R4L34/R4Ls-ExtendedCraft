@@ -1,0 +1,18 @@
+setIcon(<biomesoplenty:gem_ore>)
+
+setTitle("End Amethyst Ore Progression")
+
+setDescription("Get access to the End Amethyst Ore by using End Amethyst Ore Exploration Book")
+
+addParent("progression:ores/root")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("end_amethyst_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

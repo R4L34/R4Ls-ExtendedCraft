@@ -1,0 +1,2 @@
+give @s craftablechainmail:chainmail_plate 24
+tellraw @s {"color":"blue","text":" +24 Chainmail Plates"}

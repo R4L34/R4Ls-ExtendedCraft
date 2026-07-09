@@ -1,0 +1,34 @@
+setIcon(<boptools:pickaxe_tanzanite>)
+
+setTitle("Tanzanite Instruments")
+
+setDescription("Craft any Tanzanite Instruments, Armor & Weapons")
+
+addParent("mining:cover_me_with_tanzanite")
+
+addRewardFunction("mining:tanzanite_instruments")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<boptools:axe_tanzanite>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<boptools:bow_tanzanite>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<boptools:hammer_tanzanite>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<boptools:pickaxe_tanzanite>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<boptools:hoe_tanzanite>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<boptools:shears_tanzanite>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<boptools:shovel_tanzanite>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<boptools:sickle_tanzanite>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<boptools:sword_tanzanite>)
+criteria = addCriteria("9", "minecraft:inventory_changed")
+criteria.addItem(<boptools:fishing_rod_tanzanite>)

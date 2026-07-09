@@ -1,0 +1,15 @@
+setIcon(<quark:blaze_lantern>)
+
+setTitle("Into Light")
+
+setDescription("Craft a Blaze Lantern")
+
+addParent("building:elder_sea_lantern")
+
+addRewardFunction("building:blaze_lantern")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("blaze_lantern", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:blaze_lantern>)

@@ -1,0 +1,15 @@
+setIcon(<ironchest:iron_chest>)
+
+setTitle("Chest Update")
+
+setDescription("Make a better version of Chest to store MORE ITEMS!!!")
+
+addParent("building:stationary_storage")
+
+addRewardFunction("building:chest_update")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("chest_update", "minecraft:inventory_changed")
+
+criteria.addItem(<ironchest:iron_chest>)

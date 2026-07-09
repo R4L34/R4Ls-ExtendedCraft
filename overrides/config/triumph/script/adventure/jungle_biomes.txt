@@ -1,0 +1,42 @@
+setIcon(<harvestcraft:coconut_sapling>)
+
+setTitle("Jungle Biomes")
+
+setDescription("Find all Jungle Biomes")
+
+addParent("adventure:mountain_biomes")
+
+addRewardFunction("adventure:jungle_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("biomesoplenty:bamboo_forest")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("biomesoplenty:eucalyptus_forest")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("minecraft:jungle")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("minecraft:mutated_jungle")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("minecraft:jungle_edge")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("minecraft:mutated_jungle_edge")
+criteria = addCriteria("6", "minecraft:location")
+criteria.setBiome("minecraft:jungle_hills")
+criteria = addCriteria("7", "minecraft:location")
+criteria.setBiome("biomesoplenty:oasis")
+criteria = addCriteria("8", "minecraft:location")
+criteria.setBiome("biomesoplenty:overgrown_cliffs")
+criteria = addCriteria("9", "minecraft:location")
+criteria.setBiome("pvj:overgrown_spires")
+criteria = addCriteria("10", "minecraft:location")
+criteria.setBiome("biomesoplenty:rainforest")
+criteria = addCriteria("11", "minecraft:location")
+criteria.setBiome("biomesoplenty:sacred_springs")
+criteria = addCriteria("12", "minecraft:location")
+criteria.setBiome("biomesoplenty:tropical_island")
+criteria = addCriteria("13", "minecraft:location")
+criteria.setBiome("biomesoplenty:tropical_rainforest")

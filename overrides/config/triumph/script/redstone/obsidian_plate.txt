@@ -1,0 +1,15 @@
+setIcon(<quark:obsidian_pressure_plate>)
+
+setTitle("Obsidian pressure plate")
+
+setDescription("Craft an obsidian pressure plate.")
+
+addParent("redstone:bling_plate")
+
+addRewardFunction("redstone:obsidian_plate")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("obsidian_pressure_plate", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:obsidian_pressure_plate>)

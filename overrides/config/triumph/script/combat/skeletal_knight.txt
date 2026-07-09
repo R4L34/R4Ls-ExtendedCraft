@@ -1,0 +1,15 @@
+setIcon(<minecraft:stone_sword>)
+
+setTitle("Cross the swords!")
+
+setDescription("Beat a skeletal knight!")
+
+addParent("combat:spooky_skeleton")
+
+addRewardFunction("combat:skeletal_knight")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("pvj_skeletal_knight", "minecraft:player_killed_entity")
+
+criteria.setEntityType("pvj:pvj_skeletal_knight")

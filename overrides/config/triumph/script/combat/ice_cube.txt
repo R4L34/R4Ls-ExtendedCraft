@@ -1,0 +1,15 @@
+setIcon(<minecraft:ice>)
+
+setTitle("Icy Slime")
+
+setDescription("Kill an ice cube")
+
+addParent("combat:gelatinous_cube")
+
+addRewardFunction("combat:ice_cube")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("pvj_icecube", "minecraft:player_killed_entity")
+
+criteria.setEntityType("pvj:pvj_icecube")

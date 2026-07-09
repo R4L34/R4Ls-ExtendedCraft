@@ -1,0 +1,2 @@
+give @s inspirations:path 3 0
+tellraw @s {"color":"blue","text":" +3 Cobble Path"}

@@ -1,0 +1,26 @@
+setIcon(<quark:color_slime:1>)
+
+setTitle("Rainbow Trampoline")
+
+setDescription("Craft all 6 colors of Slime Block")
+
+addParent("combat:trampoline")
+
+addRewardFunction("combat:rainbow_trampoline")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("colored_item_frame0", "minecraft:inventory_changed")
+criteria.addItem(<quark:color_slime:0>)
+criteria = addCriteria("colored_item_frame1", "minecraft:inventory_changed")
+criteria.addItem(<quark:color_slime:1>)
+criteria = addCriteria("colored_item_frame2", "minecraft:inventory_changed")
+criteria.addItem(<quark:color_slime:2>)
+criteria = addCriteria("colored_item_frame3", "minecraft:inventory_changed")
+criteria.addItem(<quark:color_slime:3>)
+criteria = addCriteria("colored_item_frame4", "minecraft:inventory_changed")
+criteria.addItem(<quark:color_slime:4>)
+criteria = addCriteria("colored_item_frame5", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:slime>)

@@ -1,0 +1,17 @@
+setIcon(<minecraft:ender_eye>)
+
+setTitle("I Rate This 9/11")
+
+setDescription("Kill a Battletower Golem")
+
+addParent("combat:kill_barako")
+
+addRewardFunction("combat:kill_golem")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:player_killed_entity")
+
+criteria.setEntityType("battletowers:golem")

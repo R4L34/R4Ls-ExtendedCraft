@@ -1,0 +1,18 @@
+setIcon(<futuremc:ancient_debris>)
+
+setTitle("Ancient Debris Progression")
+
+setDescription("Get access to the Ancient Debris by using Ancient Debris Exploration Book")
+
+addParent("progression:ores/nether/cincinnasite_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("netherite_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

@@ -1,0 +1,25 @@
+setIcon(<toughasnails:wool_chestplate>)
+
+setTitle("Wool Clothes")
+
+setDescription("Craft some Wool Armor")
+
+addParent("adventure:temperature_detector")
+
+addRewardFunction("adventure:wool_clothes")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("shulker0", "minecraft:inventory_changed")
+criteria.addItem(<toughasnails:wool_helmet>)
+criteria = addCriteria("shulker1", "minecraft:inventory_changed")
+criteria.addItem(<toughasnails:wool_chestplate>)
+criteria = addCriteria("shulker2", "minecraft:inventory_changed")
+criteria.addItem(<toughasnails:wool_leggings>)
+criteria = addCriteria("shulker3", "minecraft:inventory_changed")
+criteria.addItem(<toughasnails:wool_boots>)
+
+
+
+
+setRequirements("any")

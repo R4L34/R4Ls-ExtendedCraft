@@ -1,0 +1,25 @@
+setIcon(<minecraft:sandstone>)
+
+setTitle("Sandstone")
+
+setDescription("Obtain any type of Sandstone")
+
+addParent("building:fake_fortress")
+
+addRewardFunction("building:sandstone")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("sandstone0", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:sandstone:0>)
+criteria = addCriteria("sandstone1", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:red_sandstone:0>)
+criteria = addCriteria("sandstone2", "minecraft:inventory_changed")
+criteria.addItem(<biomesoplenty:white_sandstone:0>)
+criteria = addCriteria("sandstone3", "minecraft:inventory_changed")
+criteria.addItem(<quark:soul_sandstone:0>)
+
+
+
+
+setRequirements("any")

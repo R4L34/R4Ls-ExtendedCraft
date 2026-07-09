@@ -1,0 +1,15 @@
+setIcon(<sereneseasons:season_sensor_spring>)
+
+setTitle("Seasonal Power")
+
+setDescription("Crart a Seasonal Sensor")
+
+addParent("redstone:solar_power")
+
+addRewardFunction("redstone:seasonal_power")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("season_sensor_spring", "minecraft:inventory_changed")
+
+criteria.addItem(<sereneseasons:season_sensor_spring>)

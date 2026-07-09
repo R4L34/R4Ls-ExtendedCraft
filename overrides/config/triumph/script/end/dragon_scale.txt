@@ -1,0 +1,15 @@
+setIcon(<quark:enderdragon_scale>)
+
+setTitle("Clone Spell")
+
+setDescription("Obtain an enderdragon scale. Clones Elytra, by combing it in the crafting table!")
+
+addParent("end:free_the_end")
+
+addRewardFunction("end:dragon_scale")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("enderdragon_scale", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:enderdragon_scale>)

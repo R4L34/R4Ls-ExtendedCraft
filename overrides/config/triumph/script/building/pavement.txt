@@ -1,0 +1,20 @@
+setIcon(<quark:world_stone_pavement:7>)
+
+setTitle("Pavement")
+
+setDescription("Craft a Pavement")
+
+addParent("building:fake_monument")
+
+addRewardFunction("building:pavement")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("world_stone_pavement", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:world_stone_pavement>)
+
+
+
+
+setRequirements("any")

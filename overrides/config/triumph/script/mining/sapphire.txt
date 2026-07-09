@@ -1,0 +1,15 @@
+setIcon(<biomesoplenty:gem:6>)
+
+setTitle("Sapphire")
+
+setDescription("Find a Sapphire")
+
+addParent("mining:terrestrial_artifact")
+
+addRewardFunction("mining:sapphire")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<biomesoplenty:gem:6>)

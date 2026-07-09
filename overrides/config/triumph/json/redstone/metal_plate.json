@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:heavy_weighted_pressure_plate"
+        },
+        "title": {"translate":"Metal Plate"},
+        "description": {"translate":"Dinner time!"}
+    },
+    "parent": "redstone:under_pressure",
+	"rewards": {
+		"function": "redstone:metal_plate"
+    },
+    "criteria": {
+        "heavy_weighted_pressure_plate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:heavy_weighted_pressure_plate"
+                    }
+                ]
+            }
+        }
+    }
+}

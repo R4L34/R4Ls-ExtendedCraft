@@ -1,0 +1,18 @@
+setIcon(<minecraft:quartz_ore>)
+
+setTitle("Quartz Ore Progression")
+
+setDescription("Get access to the Quartz Ore by using Quartz Ore Exploration Book")
+
+addParent("progression:ores/root")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("quartz_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

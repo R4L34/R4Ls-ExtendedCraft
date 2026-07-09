@@ -1,0 +1,2 @@
+give @s quark:biotite_block 16 0
+tellraw @s {"color":"blue","text":" +16 Blocks of Biotite"}

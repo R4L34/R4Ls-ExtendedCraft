@@ -1,0 +1,15 @@
+setIcon(<futuremc:soul_fire_lantern>)
+
+setTitle("Neon Ambience")
+
+setDescription("Craft a Soul Lantern to make your road to home shine with soft Neon Light!")
+
+addParent("building:bright_streets")
+
+addRewardFunction("building:neon_ambience")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("soul_fire_lantern", "minecraft:inventory_changed")
+
+criteria.addItem(<futuremc:soul_fire_lantern>)

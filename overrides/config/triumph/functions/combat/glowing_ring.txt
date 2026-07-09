@@ -1,0 +1,2 @@
+give @s potionfingers:ring 1 0
+tellraw @s {"color":"blue","text":" +1 Potion Ring"}

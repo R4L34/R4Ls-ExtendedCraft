@@ -1,0 +1,34 @@
+setIcon(<pickletweaks:iron_paxel>)
+
+setTitle("Multitool")
+
+setDescription("Craft a Paxel")
+
+addParent("mining:moar_tools")
+
+addRewardFunction("mining:multitool")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("shulker0", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:wooden_paxel>)
+criteria = addCriteria("shulker1", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:stone_paxel>)
+criteria = addCriteria("shulker2", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:iron_paxel>)
+criteria = addCriteria("shulker3", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:golden_paxel>)
+criteria = addCriteria("shulker4", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:diamond_paxel>)
+criteria = addCriteria("shulker5", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:flint_paxel>)
+
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:platinum_paxel>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:steel_paxel>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:bronze_paxel>)
+
+
+setRequirements("any")

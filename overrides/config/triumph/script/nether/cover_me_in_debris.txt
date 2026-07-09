@@ -1,0 +1,19 @@
+setIcon(<futuremc:netherite_chestplate>)
+
+setTitle("Cover Me in Debris")
+
+setDescription("Get a full suit of Netherite armor")
+
+addParent("nether:hidden_in_the_depth")
+
+addRewardFunction("nether:cover_me_in_debris")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("netherite_helmet", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:netherite_helmet>)
+criteria.addItem(<futuremc:netherite_chestplate>)
+criteria.addItem(<futuremc:netherite_leggings>)
+criteria.addItem(<futuremc:netherite_boots>)

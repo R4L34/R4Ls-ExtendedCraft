@@ -1,0 +1,15 @@
+setIcon(<backpack:backpack:100>)
+
+setTitle("Adventurer Starter Pack")
+
+setDescription("Craft a medium backpack!")
+
+addParent("adventure:small_backpack")
+
+addRewardFunction("adventure:medium_backpack")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("backpack100", "minecraft:inventory_changed")
+
+criteria.addItem(<backpack:backpack:100>)

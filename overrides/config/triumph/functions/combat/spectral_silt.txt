@@ -1,0 +1,2 @@
+give @s bountifulbaubles:spectralsilt 2
+tellraw @s {"color":"blue","text":" +2 Spectral Silt"}

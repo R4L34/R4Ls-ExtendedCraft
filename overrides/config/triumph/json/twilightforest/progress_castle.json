@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "twilightforest:castle_rune_brick",
+      "data": 3
+    },
+    "title": {
+      "translate": "advancement.twilightforest.progress_castle"
+    },
+    "description": {
+      "translate": "advancement.twilightforest.progress_castle.desc"
+    },
+    "frame": "challenge"
+  },
+  "parent": "twilightforest:progress_thorns",
+  "rewards": {
+    "function": "twilightforest:progress_castle"
+    },
+  "criteria": {
+    "discover": {
+      "trigger": "minecraft:location",
+      "conditions": { "feature": "twilightforest:final_castle" }
+    },
+    "previous_progression": {
+      "trigger": "twilightforest:has_advancement",
+      "conditions": {
+        "advancement": "twilightforest:progress_thorns"
+      }
+    }
+  }
+}

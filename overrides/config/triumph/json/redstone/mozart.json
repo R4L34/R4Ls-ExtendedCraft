@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:noteblock"
+        },
+        "title": {"translate":"Mozart"},
+        "description": {"translate":"Craft a note block"}
+    },
+    "parent": "redstone:root",
+	"rewards": {
+		"function": "redstone:mozart"
+    },
+    "criteria": {
+        "noteblock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:noteblock"
+                    }
+                ]
+            }
+        }
+    }
+}

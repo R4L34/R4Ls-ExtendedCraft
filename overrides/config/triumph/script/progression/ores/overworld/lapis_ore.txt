@@ -1,0 +1,18 @@
+setIcon(<minecraft:lapis_ore>)
+
+setTitle("Lapis Ore Progression")
+
+setDescription("Get access to the Lapis Ore by using Lapis Ore Exploration Book")
+
+addParent("progression:ores/overworld/iron_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("lapis_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

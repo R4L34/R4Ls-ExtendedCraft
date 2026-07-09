@@ -1,0 +1,28 @@
+setIcon(<minecraft:sand>)
+
+setTitle("Beach Biomes")
+
+setDescription("Find All Beach Biomes")
+
+addParent("adventure:ocean_biomes")
+
+addRewardFunction("adventure:beach_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("minecraft:beaches")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("minecraft:cold_beach")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("biomesoplenty:gravel_beach")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("minecraft:mushroom_island_shore")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("biomesoplenty:origin_beach")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("minecraft:stone_beach")
+criteria = addCriteria("6", "minecraft:location")
+criteria.setBiome("biomesoplenty:white_beach")

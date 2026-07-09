@@ -1,0 +1,14 @@
+setIcon(<xpbook:xp_tome>)
+
+setTitle("XP Book")
+
+setDescription("Find or Craft an XP Book")
+
+addParent("combat:monster_hunter")
+
+addRewardFunction("combat:xp_book")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<xpbook:xp_tome>)

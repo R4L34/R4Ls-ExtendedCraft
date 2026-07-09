@@ -1,0 +1,2 @@
+give @s netherex:fiery_nether_brick 16
+tellraw @s {"color":"blue","text":" +16 Fiery Nether Bricks"}

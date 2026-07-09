@@ -1,0 +1,22 @@
+setIcon(<boptools:chestplate_sapphire>)
+
+setTitle("Cover me with Sapphire")
+
+setDescription("Craft a full Sapphire Armor set")
+
+addParent("mining:sapphire")
+
+addRewardFunction("mining:cover_me_with_sapphire")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<boptools:helmet_sapphire>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<boptools:chestplate_sapphire>)
+criteria = addCriteria("12", "minecraft:inventory_changed")
+criteria.addItem(<boptools:leggings_sapphire>)
+criteria = addCriteria("13", "minecraft:inventory_changed")
+criteria.addItem(<boptools:boots_sapphire>)

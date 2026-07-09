@@ -1,0 +1,4 @@
+give @s quark:reed_block 16
+give @s quark:turf 16
+tellraw @s {"color":"blue","text":" +16 Sugar Cane Block"}
+tellraw @s {"color":"blue","text":" +16 Turf Block"}

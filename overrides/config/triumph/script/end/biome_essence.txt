@@ -1,0 +1,15 @@
+setIcon(<biomesoplenty:biome_essence>)
+
+setTitle("Biome Essence")
+
+setDescription("Biome Essence")
+
+addParent("end:free_the_end")
+
+addRewardFunction("end:biome_essence")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("biome_essence", "minecraft:inventory_changed")
+
+criteria.addItem(<biomesoplenty:biome_essence>)

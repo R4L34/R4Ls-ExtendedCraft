@@ -1,0 +1,15 @@
+setIcon(<davincisvessels:balloon>)
+
+setTitle("Air Superiority")
+
+setDescription("Craft Air Balloon to conquer the sky!")
+
+addParent("building:engine")
+
+addRewardFunction("building:balloon")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("baloon", "minecraft:inventory_changed")
+
+criteria.addItem(<davincisvessels:balloon>)

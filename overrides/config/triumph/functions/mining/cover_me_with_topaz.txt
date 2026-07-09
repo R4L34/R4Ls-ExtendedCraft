@@ -1,0 +1,2 @@
+give @s biomesoplenty:gem 10 3
+tellraw @s {"color":"blue","text":" +10 Topaz"}

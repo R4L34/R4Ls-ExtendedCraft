@@ -1,0 +1,25 @@
+setIcon(<toughasnails:jelled_slime_chestplate>)
+
+setTitle("Cooling Armor")
+
+setDescription("Craft some Jelled Slime Armor to make your body cold")
+
+addParent("adventure:temperature_detector")
+
+addRewardFunction("adventure:cooling_armor")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("shulker0", "minecraft:inventory_changed")
+criteria.addItem(<toughasnails:jelled_slime_helmet>)
+criteria = addCriteria("shulker1", "minecraft:inventory_changed")
+criteria.addItem(<toughasnails:jelled_slime_chestplate>)
+criteria = addCriteria("shulker2", "minecraft:inventory_changed")
+criteria.addItem(<toughasnails:jelled_slime_leggings>)
+criteria = addCriteria("shulker3", "minecraft:inventory_changed")
+criteria.addItem(<toughasnails:jelled_slime_boots>)
+
+
+
+
+setRequirements("any")

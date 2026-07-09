@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Postmortal"},
+        "description": {"translate":"Use a Totem of Undying to cheat death"},
+        "frame": "goal"
+    },
+    "parent": "adventure:wololo",
+    "rewards": {
+        "function": "adventure:postmortal",
+        "experience": 75
+    },
+    "criteria": {
+        "used_totem": {
+            "trigger": "minecraft:used_totem",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:totem_of_undying"
+                }
+            }
+        }
+    }
+}

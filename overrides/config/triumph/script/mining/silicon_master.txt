@@ -1,0 +1,28 @@
+setIcon(<pickletweaks:flint_paxel>)
+
+setTitle("Silicon Master")
+
+setDescription("Craft all flint tools!")
+
+addParent("mining:silicon_valley")
+
+addRewardFunction("mining:silicon_master")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("flint_pickaxe0", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:flint_sword>)
+criteria = addCriteria("flint_pickaxe1", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:flint_pickaxe>)
+criteria = addCriteria("flint_pickaxe11", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:flint_axe>)
+criteria = addCriteria("flint_pickaxe2", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:flint_shovel>)
+criteria = addCriteria("flint_pickaxe3", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:flint_hoe>)
+criteria = addCriteria("flint_pickaxe4", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:flint_paxel>)
+criteria = addCriteria("flint_pickaxe5", "minecraft:inventory_changed")
+criteria.addItem(<pickletweaks:flint_shears>)

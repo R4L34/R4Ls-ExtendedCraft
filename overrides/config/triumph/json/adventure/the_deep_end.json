@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "title": {"translate":"The Deep End"},
+        "description": {"translate":"Defeat an Elder Guardian"},
+        "frame": "goal"
+    },
+    "parent": "adventure:laser_sharks",
+    "rewards": {
+        "function": "adventure:the_deep_end",
+        "experience": 75
+    },	
+    "criteria": {
+        "elder_guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                }
+            }
+        }
+    }
+}

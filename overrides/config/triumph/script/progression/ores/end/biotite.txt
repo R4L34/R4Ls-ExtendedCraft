@@ -1,0 +1,18 @@
+setIcon(<quark:biotite_ore>)
+
+setTitle("Biotite Ore Progression")
+
+setDescription("Get access to the Biotite Ore by using Biotite Ore Exploration Book")
+
+addParent("progression:ores/end/amethyst")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("biotite_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

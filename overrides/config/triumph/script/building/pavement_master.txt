@@ -1,0 +1,30 @@
+setIcon(<quark:world_stone_pavement:6>)
+
+setTitle("Pavement Master")
+
+setDescription("Craft all types of Pavement")
+
+addParent("building:pavement")
+
+addRewardFunction("building:pavement_master")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("world_stone_pavement0", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_pavement:0>)
+criteria = addCriteria("world_stone_pavement1", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_pavement:1>)
+criteria = addCriteria("world_stone_pavement2", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_pavement:2>)
+criteria = addCriteria("world_stone_pavement3", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_pavement:3>)
+criteria = addCriteria("world_stone_pavement4", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_pavement:4>)
+criteria = addCriteria("world_stone_pavement5", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_pavement:5>)
+criteria = addCriteria("world_stone_pavement6", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_pavement:6>)
+criteria = addCriteria("world_stone_pavement7", "minecraft:inventory_changed")
+criteria.addItem(<quark:world_stone_pavement:7>)

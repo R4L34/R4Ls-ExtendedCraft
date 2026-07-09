@@ -1,0 +1,18 @@
+setIcon(<minecraft:diamond_ore>)
+
+setTitle("Diamond Ore Progression")
+
+setDescription("Get access to the Diamond Ore by using diamond_ore Exploration Book")
+
+addParent("progression:ores/overworld/emerald_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("diamond_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

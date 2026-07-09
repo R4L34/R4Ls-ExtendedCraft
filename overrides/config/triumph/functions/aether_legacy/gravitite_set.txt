@@ -1,0 +1,2 @@
+give @s contenttweaker:material_part 8
+tellraw @s {"color":"blue","text":" +8 Gravitite Ingots"}

@@ -1,0 +1,15 @@
+setIcon(<inspirations:redstone_barrel>)
+
+setTitle("Redstone barrel")
+
+setDescription("You can keep your redstone here")
+
+addParent("redstone:comparing_comparator")
+
+addRewardFunction("redstone:redstone_barrel")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("red_barrel", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:redstone_barrel>)

@@ -1,0 +1,15 @@
+setIcon(<inspirations:pipe>)
+
+setTitle("Pipe")
+
+setDescription("Now you don't need to make 1000 hoppers to connect your mechanism. You just need one!")
+
+addParent("redstone:space_hopper")
+
+addRewardFunction("redstone:pipe")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("pipe", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:pipe>)

@@ -1,0 +1,20 @@
+setIcon(<quark:polished_netherrack:1>)
+
+setTitle("Netherwrought Decoration")
+
+setDescription("Craft Netherwrought stone, bricks, stairs and slabs")
+
+addParent("nether:flesh_and_blood")
+
+addRewardFunction("nether:netherwrought")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("duskbound0", "minecraft:inventory_changed")
+criteria.addItem(<quark:polished_netherrack:0>)
+criteria = addCriteria("duskbound1", "minecraft:inventory_changed")
+criteria.addItem(<quark:polished_netherrack:1>)
+criteria = addCriteria("duskbound2", "minecraft:inventory_changed")
+criteria.addItem(<quark:polished_netherrack_bricks_stairs>)
+criteria = addCriteria("duskbound3", "minecraft:inventory_changed")
+criteria.addItem(<quark:polished_netherrack_bricks_slab>)

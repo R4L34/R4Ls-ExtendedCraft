@@ -1,0 +1,22 @@
+setIcon(<inspirations:bookshelf:1>)
+
+setTitle("Bookshelf diversity")
+
+setDescription("Craft all types of Advanced Bookshelves!")
+
+addParent("building:bookshelf")
+
+addRewardFunction("building:bookshelf_master")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("bookshelf0", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:bookshelf:0>)
+criteria = addCriteria("bookshelf1", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:bookshelf:1>)
+criteria = addCriteria("bookshelf2", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:bookshelf:2>)
+criteria = addCriteria("bookshelf3", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:bookshelf:3>)

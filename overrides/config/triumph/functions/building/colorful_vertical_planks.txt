@@ -1,0 +1,2 @@
+give @s quark:vertical_stained_planks 16 2
+tellraw @s {"color":"blue","text":" +16 Magenta Vertical Stained Planks"}

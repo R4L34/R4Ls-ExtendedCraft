@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "title": {"translate":"Eye Spy"},
+        "description": {"translate":"Follow an Ender Eye"}
+    },
+    "parent": "adventure:tomb_raider",
+	"rewards": {
+        "function": "adventure:eye_spy",
+        "experience": 15
+    },	
+    "criteria": {
+        "stronghold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Stronghold"
+            }
+        }
+    }
+}

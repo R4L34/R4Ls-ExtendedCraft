@@ -1,0 +1,2 @@
+give @s quark:slime_bucket 1
+tellraw @s {"color":"blue","text":" +1 Slime Bucket"}

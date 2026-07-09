@@ -1,0 +1,17 @@
+setIcon(<futuremc:blue_ice>)
+
+setTitle("Frostmaw")
+
+setDescription("Defeat a Frostmaw! Spawns in an Arctic Abyss.")
+
+addParent("nether:ferrous_wroughtnaut")
+
+addRewardFunction("nether:frostmaw")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:player_killed_entity")
+
+criteria.setEntityType("mowziesmobs:frostmaw")

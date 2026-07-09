@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "title": {"translate":"Tinderbox!"},
+        "description": {"translate":"Use gunpowder and sand to craft TNT."}
+    },
+    "parent": "combat:what_a_creep",
+    "rewards": {
+        "function": "combat:bombs_away"
+    },	
+    "criteria": {
+        "tnt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:tnt"
+                    }
+                ]
+            }
+        }
+    }
+}

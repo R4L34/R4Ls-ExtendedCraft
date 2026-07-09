@@ -1,0 +1,15 @@
+setIcon(<quark:chute>)
+
+setTitle("Chute")
+
+setDescription("Works just like your ass. Throws all shit away!")
+
+addParent("redstone:pipe")
+
+addRewardFunction("redstone:chute")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("chute", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:chute>)

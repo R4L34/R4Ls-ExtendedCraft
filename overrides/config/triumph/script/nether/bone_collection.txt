@@ -1,0 +1,22 @@
+setIcon(<netherex:frosted_wither_bone>)
+
+setTitle("Bone Collection")
+
+setDescription("Find or Craft all types of Bones")
+
+addParent("nether:spooky_scary_skeleton")
+
+addRewardFunction("nether:bone_collection")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bone>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<ore:boneWithered>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<ore:boneWitheredBlazed>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<ore:boneWitheredFrosted>)

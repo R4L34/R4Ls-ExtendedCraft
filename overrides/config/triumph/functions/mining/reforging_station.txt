@@ -1,0 +1,2 @@
+give @s qualitytools:reforging_station 1
+tellraw @s {"color":"blue","text":" +1 Reforging Station"}

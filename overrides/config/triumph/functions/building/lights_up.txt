@@ -1,0 +1,2 @@
+give @s realistictorches:torch_lit 16
+tellraw @s {"color":"blue","text":" +16 Lit Torches"}

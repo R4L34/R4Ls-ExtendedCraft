@@ -1,0 +1,24 @@
+setIcon(<quark:biotite_block:2>)
+
+setTitle("Black art decor")
+
+setDescription("Craft biotite blocks, stairs, slabs, pillars and chiseled")
+
+addParent("building:greek_art_decor")
+
+addRewardFunction("building:black_art_decor")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("chiseled0", "minecraft:inventory_changed")
+criteria.addItem(<quark:biotite_block:0>)
+criteria = addCriteria("chiseled1", "minecraft:inventory_changed")
+criteria.addItem(<quark:biotite_block:1>)
+criteria = addCriteria("chiseled2", "minecraft:inventory_changed")
+criteria.addItem(<quark:biotite_block:2>)
+criteria = addCriteria("chiseled3", "minecraft:inventory_changed")
+criteria.addItem(<quark:biotite_slab>)
+criteria = addCriteria("chiseled4", "minecraft:inventory_changed")
+criteria.addItem(<quark:biotite_stairs>)

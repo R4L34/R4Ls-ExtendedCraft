@@ -1,0 +1,15 @@
+setIcon(<xat:glowing_ingot>)
+
+setTitle("Glowing Ingot")
+
+setDescription("Craft some Glowing Ingot")
+
+addParent("combat:trinkets_and_baubles")
+
+addRewardFunction("combat:glowing_ingot")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<xat:glowing_ingot>)

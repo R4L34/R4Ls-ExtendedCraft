@@ -1,0 +1,15 @@
+setIcon(<realistictorches:torch_unlit>)
+
+setTitle("Not So Easy!")
+
+setDescription("Now you need something to lit that fellow!")
+
+addParent("building:torched")
+
+addRewardFunction("building:not_so_easy")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("torch_unlit", "minecraft:inventory_changed")
+
+criteria.addItem(<realistictorches:torch_unlit>)

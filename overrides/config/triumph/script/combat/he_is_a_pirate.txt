@@ -1,0 +1,15 @@
+setIcon(<quark:pirate_hat>)
+
+setTitle("He is a Pirate!")
+
+setDescription("Get a pirate hat from the captain of the pirate ship!")
+
+addParent("combat:skeletal_knight")
+
+addRewardFunction("combat:he_is_a_pirate")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("pirate_hat", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:pirate_hat>)

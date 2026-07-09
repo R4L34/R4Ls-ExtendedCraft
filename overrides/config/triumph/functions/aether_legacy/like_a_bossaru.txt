@@ -1,0 +1,2 @@
+advancement grant @a[r=50] only aether_legacy:like_a_bossaru
+function experience:challenge

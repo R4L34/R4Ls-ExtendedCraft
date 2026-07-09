@@ -1,0 +1,2 @@
+give @s quark:carved_wood 8
+tellraw @s {"color":"blue","text":" +8 Oak Carved Wood"}

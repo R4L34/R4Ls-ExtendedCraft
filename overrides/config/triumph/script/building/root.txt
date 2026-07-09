@@ -1,0 +1,17 @@
+setIcon(<minecraft:planks>)
+
+setTitle("Building")
+
+setDescription("Your only limit is your imagination... and resources")
+
+setBackground("minecraft:textures/blocks/planks_oak.png")
+
+addRewardFunction("building:root")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("0", "triumph:completed_advancement")
+
+criteria.setAdvancement("progression:wooden_pickaxe")

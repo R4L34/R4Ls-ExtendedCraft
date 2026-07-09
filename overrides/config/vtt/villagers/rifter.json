@@ -1,0 +1,10 @@
+{
+	profession: {
+		name: "vtt:rifter",
+		texture: "vtt:textures/entity/villager/rifter.png",
+		zombieTexture: "vtt:textures/entity/zombie_villager/zombie_rifter.png"
+	},
+	careers: [
+		"rifter"
+	]
+}

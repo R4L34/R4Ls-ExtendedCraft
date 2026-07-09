@@ -1,0 +1,17 @@
+setIcon(<ironfurnaces:glass_furnace_idle>)
+
+setTitle("Furnace Master")
+
+setDescription("Jews' worst nightmare!")
+
+addParent("mining:furnace_update")
+
+addRewardFunction("mining:furnace_master")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("glass_furnace_idle", "minecraft:inventory_changed")
+
+criteria.addItem(<ironfurnaces:glass_furnace_idle>)

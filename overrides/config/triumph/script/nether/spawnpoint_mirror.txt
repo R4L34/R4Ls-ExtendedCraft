@@ -1,0 +1,15 @@
+setIcon(<netherex:dull_mirror>)
+
+setTitle("Spawnpoint Mirror")
+
+setDescription("Craft a Dull Mirror")
+
+addParent("nether:spawnpoint_statue")
+
+addRewardFunction("nether:spawnpoint_mirror")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<netherex:dull_mirror>)

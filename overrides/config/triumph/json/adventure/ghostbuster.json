@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_sword"
+        },
+        "title": {"translate":"Ghostbuster!"},
+        "description": {"translate":"Bust a Vex summoned by an Evoker"}
+    },
+    "parent": "adventure:heres_johnny",
+    "rewards": {
+        "function": "adventure:ghostbuster",
+        "experience": 15
+    },	
+    "criteria": {
+        "vex": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "vex"
+                }
+            }
+        }
+    }
+}

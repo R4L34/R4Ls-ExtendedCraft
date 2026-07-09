@@ -1,0 +1,15 @@
+setIcon(<futuremc:lantern>)
+
+setTitle("Bright Streets!")
+
+setDescription("Craft a Lantern to make your road to home safe!")
+
+addParent("building:torched")
+
+addRewardFunction("building:bright_streets")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("lantern", "minecraft:inventory_changed")
+
+criteria.addItem(<futuremc:lantern>)

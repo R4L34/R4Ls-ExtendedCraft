@@ -1,0 +1,15 @@
+setIcon(<biomesoplenty:jar_filled:1>)
+
+setTitle("Lose Control!")
+
+setDescription("Be cursed by blue fire!")
+
+addParent("nether:soul_soil")
+
+addRewardFunction("nether:lose_control")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("curse_blue_fire", "minecraft:effects_changed")
+
+criteria.addEffect("biomesoplenty:curse")

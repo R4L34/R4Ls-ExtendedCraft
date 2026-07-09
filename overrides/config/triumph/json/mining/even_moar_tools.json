@@ -1,0 +1,78 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_shovel"
+        },
+        "title": {"translate":"Even MOAR Tools"},
+        "description": {"translate":"Craft a full diamond tools set"},
+        "frame": "challenge"
+    },
+    "parent": "mining:pickarang",
+    "rewards": {
+        "function": "mining:even_moar_tools"
+    },
+    "criteria": {
+        "diamond_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_pickaxe"
+                    }
+                ]
+            }
+        },
+        "diamond_axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_axe"
+                    }
+                ]
+            }
+        },
+        "diamond_shovel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_shovel"
+                    }
+                ]
+            }
+        },
+        "diamond_hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_hoe"
+                    }
+                ]
+            }
+        },
+        "diamond_hoe1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "pickletweaks:diamond_paxel"
+                    }
+                ]
+            }
+        },
+        "diamond_hoe2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "quark:pickarang"
+                    }
+                ]
+            }
+        }
+        
+        
+    }
+}

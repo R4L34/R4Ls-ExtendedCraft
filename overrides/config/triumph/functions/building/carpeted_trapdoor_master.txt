@@ -1,0 +1,2 @@
+give @s inspirations:carpeted_trapdoor_white 16
+tellraw @s {"color":"blue","text":" +16 White Carpeted Trapdoors"}

@@ -1,0 +1,15 @@
+setIcon(<inspirations:redstone_charger>)
+
+setTitle("Portable Button")
+
+setDescription("Gives temporary redstone signal when you right click")
+
+addParent("redstone:redstone_torch_lever")
+
+addRewardFunction("redstone:charger")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("charger", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:redstone_charger>)

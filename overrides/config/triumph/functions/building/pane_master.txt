@@ -1,0 +1,2 @@
+give @s minecraft:stained_glass_pane 16 2
+tellraw @s {"color":"blue","text":" +16 Magenta Glass Panes"}

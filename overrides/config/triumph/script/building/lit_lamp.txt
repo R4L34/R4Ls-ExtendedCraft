@@ -1,0 +1,15 @@
+setIcon(<quark:lit_lamp>)
+
+setTitle("Always Active")
+
+setDescription("Craft a Lit Redstone lamp.")
+
+addParent("building:electric")
+
+addRewardFunction("building:lit_lamp")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("lit_lamp", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:lit_lamp>)

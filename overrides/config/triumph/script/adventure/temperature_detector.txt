@@ -1,0 +1,15 @@
+setIcon(<toughasnails:thermometer>)
+
+setTitle("Temperature Detector")
+
+setDescription("Craft a Thermometer")
+
+addParent("adventure:setting_up_camp")
+
+addRewardFunction("adventure:temperature_detector")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("thermometer", "minecraft:inventory_changed")
+
+criteria.addItem(<toughasnails:thermometer>)

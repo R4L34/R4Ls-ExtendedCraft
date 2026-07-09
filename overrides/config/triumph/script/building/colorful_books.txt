@@ -1,0 +1,49 @@
+setIcon(<inspirations:books:8>)
+
+setTitle("Colorful Books")
+
+setDescription("They will defenetly look nice in a bookshelf!")
+
+addParent("building:bookshelf_master")
+
+addRewardFunction("building:colorful_books")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("books_dyed", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:0>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:1>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:2>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:3>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:4>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:5>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:6>)
+criteria = addCriteria("7", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:7>)
+criteria = addCriteria("8", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:8>)
+criteria = addCriteria("9", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:9>)
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:10>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:11>)
+criteria = addCriteria("12", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:12>)
+criteria = addCriteria("13", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:13>)
+criteria = addCriteria("14", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:14>)
+criteria = addCriteria("15", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:books:15>)
+
+
+
+
+setRequirements("any")

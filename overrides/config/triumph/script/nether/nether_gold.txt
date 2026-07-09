@@ -1,0 +1,15 @@
+setIcon(<futureminecraf:nethergoldore>)
+
+setTitle("Nether Gold")
+
+setDescription("Mine some Gold in nether")
+
+addParent("nether:root")
+
+addRewardFunction("nether:nether_gold")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("nethergoldore", "triumph:player_break_block")
+
+criteria.setBlock(<futureminecraf:nethergoldore>)

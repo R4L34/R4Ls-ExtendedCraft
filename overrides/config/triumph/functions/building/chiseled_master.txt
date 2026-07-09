@@ -1,0 +1,2 @@
+give @s futureminecraf:chiseledpolishedblackstone 16
+tellraw @s {"color":"blue","text":" +16 Chiseled Polished Blackstone"}

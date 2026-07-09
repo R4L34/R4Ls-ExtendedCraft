@@ -1,0 +1,15 @@
+setIcon(<inspirations:redstone_torch_lever>)
+
+setTitle("Redstone Lever")
+
+setDescription("Toggles when it gets redstone signal")
+
+addParent("redstone:torch_lever")
+
+addRewardFunction("redstone:redstone_torch_lever")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("red_torch_lever", "minecraft:inventory_changed")
+
+criteria.addItem(<inspirations:redstone_torch_lever>)

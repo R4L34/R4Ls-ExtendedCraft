@@ -1,0 +1,15 @@
+setIcon(<quark:trowel>)
+
+setTitle("Randomised blocks")
+
+setDescription("Now you can easly build diverse structures with different types of blocks!!!")
+
+addParent("building:root")
+
+addRewardFunction("building:trowel")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("trowel", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:trowel>)

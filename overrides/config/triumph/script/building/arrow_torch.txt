@@ -1,0 +1,15 @@
+setIcon(<quark:arrow_torch>)
+
+setTitle("Torched Arrow")
+
+setDescription("Idk why you need this since you can just hold normal torch and get the exact same effect)")
+
+addParent("building:torched")
+
+addRewardFunction("building:arrow_torch")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("arrow_torch", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:arrow_torch>)

@@ -1,0 +1,2 @@
+give @s pickletweaks:colored_cobblestone 16 4
+tellraw @s {"color":"blue","text":" +16 Yellow Colored Cobblestone"}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "title": {"translate":"Filthy Stinkin' Rich"},
+        "description": {"translate":"Make 64 emerald blocks"},
+        "frame": "challenge"
+    },
+    "parent": "adventure:filthy_rich",	
+    "rewards": {
+        "function": "adventure:filthy_stinkin_rich",
+        "experience": 250
+    },	
+    "criteria": {
+        "emerald_blocks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:emerald_block",
+						"count": {
+							"min": 64
+						}
+                    }
+                ]
+            }
+        }
+    }
+}

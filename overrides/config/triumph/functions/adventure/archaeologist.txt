@@ -1,0 +1,2 @@
+give @s quark:archaeologist_hat 1
+tellraw @s {"color":"blue","text":" +1 Archaeologist Hat"}

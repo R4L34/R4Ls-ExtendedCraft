@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:deadbush"
+        },
+        "title": {"translate":"Desert Nomad"},
+        "description": {"translate":"Kill a husk"}
+    },
+    "parent": "combat:dead_dont_die",
+    "rewards": {
+        "function": "combat:desert_nomad"
+    },	
+    "criteria": {
+        "husk": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "husk"
+                }
+            }
+        }
+    }
+}

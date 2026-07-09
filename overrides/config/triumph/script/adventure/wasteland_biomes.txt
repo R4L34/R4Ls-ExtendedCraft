@@ -1,0 +1,30 @@
+setIcon(<forge:bucketfilled, nbt:{FluidName: "sand"}>)
+
+setTitle("Wasteland Biomes")
+
+setDescription("Find all Wasteland Biomes")
+
+addParent("adventure:spooky_biomes")
+
+addRewardFunction("adventure:wastland_biomes")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("biomesoplenty:crag")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("biomesoplenty:glacier")
+criteria = addCriteria("2", "minecraft:location")
+criteria.setBiome("minecraft:ice_flats")
+criteria = addCriteria("3", "minecraft:location")
+criteria.setBiome("biomesoplenty:quagmire")
+criteria = addCriteria("4", "minecraft:location")
+criteria.setBiome("biomesoplenty:snowy_tundra")
+criteria = addCriteria("5", "minecraft:location")
+criteria.setBiome("biomesoplenty:tundra")
+criteria = addCriteria("6", "minecraft:location")
+criteria.setBiome("biomesoplenty:volcanic_island")
+criteria = addCriteria("7", "minecraft:location")
+criteria.setBiome("biomesoplenty:wasteland")

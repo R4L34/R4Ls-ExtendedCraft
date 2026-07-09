@@ -1,0 +1,2 @@
+give @s betternether:quartz_glass 4
+tellraw @s {"color":"blue","text":" +4 Quartz Glass"}

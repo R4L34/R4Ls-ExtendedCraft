@@ -1,0 +1,15 @@
+setIcon(<biomesoplenty:gem:5>)
+
+setTitle("malachite")
+
+setDescription("Find a malachite")
+
+addParent("mining:terrestrial_artifact")
+
+addRewardFunction("mining:malachite")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<biomesoplenty:gem:5>)

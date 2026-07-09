@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "title": {"translate":"What a Deal!"},
+        "description": {"translate":"Successfully trade with a Villager"}
+    },
+    "parent": "adventure:do_you_want_to_trade",
+    "rewards": {
+        "function": "adventure:what_a_deal",
+        "experience": 15
+    },		
+    "criteria": {
+        "trade": {
+            "trigger": "minecraft:villager_trade"
+        }
+    }
+}

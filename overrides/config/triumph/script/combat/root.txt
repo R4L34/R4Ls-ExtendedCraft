@@ -1,0 +1,17 @@
+setIcon(<minecraft:stone_sword>)
+
+setTitle("Combat")
+
+setDescription("Battle against the monsters of this world")
+
+setBackground("minecraft:textures/blocks/cobblestone_mossy.png")
+
+addRewardFunction("combat:root")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+criteria = addCriteria("0", "triumph:completed_advancement")
+
+criteria.setAdvancement("progression:wooden_sword")

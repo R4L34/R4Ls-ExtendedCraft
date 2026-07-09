@@ -1,0 +1,15 @@
+setIcon(<backpack:backpack>)
+
+setTitle("Add Some Pockets")
+
+setDescription("Craft a small backpack!")
+
+addParent("adventure:setting_up_camp")
+
+addRewardFunction("adventure:small_backpack")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("backpack", "minecraft:inventory_changed")
+
+criteria.addItem(<backpack:backpack:0>)

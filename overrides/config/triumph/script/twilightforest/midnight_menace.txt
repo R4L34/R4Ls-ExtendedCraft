@@ -1,0 +1,30 @@
+setIcon(<twilightforest:miniature_structure>)
+
+setTitle("Midnight Menace")
+
+setDescription("Defeat all bosses in Twilight Forest")
+
+addParent("twilightforest:root")
+
+addRewardFunction("twilightforest:midnight_menace")
+
+addRewardFunction("experience:challenge_hard")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "triumph:completed_advancement")
+criteria.setAdvancement("twilightforest:progress_naga")
+criteria = addCriteria("1", "triumph:completed_advancement")
+criteria.setAdvancement("twilightforest:progress_lich")
+criteria = addCriteria("2", "triumph:completed_advancement")
+criteria.setAdvancement("twilightforest:progress_hydra")
+criteria = addCriteria("3", "triumph:completed_advancement")
+criteria.setAdvancement("twilightforest:progress_labyrinth")
+criteria = addCriteria("4", "triumph:completed_advancement")
+criteria.setAdvancement("twilightforest:progress_ur_ghast")
+criteria = addCriteria("5", "triumph:completed_advancement")
+criteria.setAdvancement("twilightforest:progress_knights")
+criteria = addCriteria("6", "triumph:completed_advancement")
+criteria.setAdvancement("twilightforest:progress_yeti")
+criteria = addCriteria("7", "triumph:completed_advancement")
+criteria.setAdvancement("twilightforest:progress_glacier")

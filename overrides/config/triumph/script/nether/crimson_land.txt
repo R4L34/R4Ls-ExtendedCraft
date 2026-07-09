@@ -1,0 +1,15 @@
+setIcon(<futureminecraf:crimsonnylium>)
+
+setTitle("Crimson Land")
+
+setDescription("Mine some Crimson Nylium")
+
+addParent("nether:quicksand")
+
+addRewardFunction("nether:crimson_land")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("crimsonnylium", "triumph:player_break_block")
+
+criteria.setBlock(<futureminecraf:crimsonnylium>)

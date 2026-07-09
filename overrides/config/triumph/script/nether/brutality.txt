@@ -1,0 +1,15 @@
+setIcon(<futuremc:chain>)
+
+setTitle("Brutality")
+
+setDescription("Kill a Brute")
+
+addParent("nether:nether_village")
+
+addRewardFunction("nether:brutality")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:player_killed_entity")
+
+criteria.setEntityType("netherex:brute")

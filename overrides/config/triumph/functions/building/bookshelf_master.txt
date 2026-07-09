@@ -1,0 +1,2 @@
+give @s minecraft:book 16
+tellraw @s {"color":"blue","text":" +16 Books"}

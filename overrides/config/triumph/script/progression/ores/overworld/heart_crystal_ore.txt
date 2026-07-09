@@ -1,0 +1,18 @@
+setIcon(<scalinghealth:crystalore>)
+
+setTitle("Heart Crystal Ore Progression")
+
+setDescription("Get access to the Heart Crystal Ore by using Heart Crystal Ore Exploration Book")
+
+addParent("progression:ores/overworld/diamond_ore")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("heart_crystal_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

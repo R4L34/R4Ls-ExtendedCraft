@@ -1,0 +1,17 @@
+setIcon(<mowziesmobs:wrought_axe>)
+
+setTitle("Ferrous")
+
+setDescription("Defeat a Ferrous Wroughtnaut! Spawns in a big blackstone structure!")
+
+addParent("nether:root")
+
+addRewardFunction("nether:ferrous_wroughtnaut")
+
+addRewardFunction("experience:challenge")
+
+setFrameType("CHALLENGE")
+
+criteria = addCriteria("0", "minecraft:player_killed_entity")
+
+criteria.setEntityType("mowziesmobs:ferrous_wroughtnaut")

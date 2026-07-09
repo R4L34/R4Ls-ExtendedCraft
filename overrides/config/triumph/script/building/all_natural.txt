@@ -1,0 +1,26 @@
+setIcon(<quark:turf_stairs>)
+
+setTitle("All Natural")
+
+setDescription("Craft Sugar Cane and Turf blocks, stairs and slabs. (And Sugar Cane Wall)")
+
+addParent("building:lights_on_bushes")
+
+addRewardFunction("building:all_natural")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+criteria.addItem(<quark:reed_block>)
+criteria = addCriteria("1", "minecraft:inventory_changed")
+criteria.addItem(<quark:reed_block_stairs>)
+criteria = addCriteria("2", "minecraft:inventory_changed")
+criteria.addItem(<quark:reed_block_slab>)
+criteria = addCriteria("3", "minecraft:inventory_changed")
+criteria.addItem(<quark:reed_block_wall>)
+criteria = addCriteria("4", "minecraft:inventory_changed")
+criteria.addItem(<quark:turf>)
+criteria = addCriteria("5", "minecraft:inventory_changed")
+criteria.addItem(<quark:turf_stairs>)
+criteria = addCriteria("6", "minecraft:inventory_changed")
+criteria.addItem(<quark:turf_slab>)

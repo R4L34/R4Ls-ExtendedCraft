@@ -1,0 +1,27 @@
+{
+  	"display": {
+	  	"icon": {
+			"item": "aether_legacy:incubator"
+		},
+		"title": {
+			"translate": "advancement.aether_legacy.incubator"
+		},
+		"description": {
+			"translate": "advancement.aether_legacy.incubator.desc"
+		}
+	},
+  	"parent": "aether_legacy:loreception",
+  	"rewards": {
+		"function": "aether_legacy:craft_incubator"
+	},
+	"criteria": {
+		"enter_aether": {
+			"trigger": "aether_legacy:craft_item",
+			"conditions": {
+				"item": {
+					"item": "aether_legacy:incubator"
+				}
+			}
+		}
+	}
+}

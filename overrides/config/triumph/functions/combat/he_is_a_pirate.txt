@@ -1,0 +1,2 @@
+give @s quark:parrot_egg 2
+tellraw @s {"color":"blue","text":" +2 Red Parrot Eggs"}

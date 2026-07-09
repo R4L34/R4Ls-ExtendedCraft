@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lit_pumpkin"
+        },
+        "title": {"translate":"Halloween!"},
+        "description": {"translate":"Light up the area with jack o'lanterns!"}
+    },
+    "parent": "building:torched",
+	"rewards": {
+        "function": "building:halloween"
+    },	
+    "criteria": {
+        "lit_pumpkin": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:lit_pumpkin"
+            }
+        }
+    }
+}

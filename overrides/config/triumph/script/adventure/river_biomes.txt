@@ -1,0 +1,18 @@
+setIcon(<minecraft:potion, nbt:{Potion: "minecraft:water"}>)
+
+setTitle("River Biomes")
+
+setDescription("Find all River Biomes")
+
+addParent("adventure:kilometre_walk")
+
+addRewardFunction("adventure:river_biomes")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("0", "minecraft:location")
+criteria.setBiome("minecraft:frozen_river")
+criteria = addCriteria("1", "minecraft:location")
+criteria.setBiome("minecraft:river")

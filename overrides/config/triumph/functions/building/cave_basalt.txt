@@ -1,0 +1,2 @@
+give @s pvj:basalt 32
+tellraw @s {"color":"blue","text":" +32 Cave Basalt"}

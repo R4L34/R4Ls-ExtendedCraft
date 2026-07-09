@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": {"translate":"The Shielding"},
+        "description": {"translate":"A shield does no better than a locked door. Block a vindication illager's damage by a shield"}
+    },
+    "parent": "adventure:heres_johnny",
+	"rewards": {
+        "function": "adventure:the_shielding",
+        "experience": 15
+    },
+    "criteria": {
+        "deflected_vindicator": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": true,
+					"source_entity": {
+						"type": "vindication_illager"
+					}
+                }
+            }
+        }
+    }
+}

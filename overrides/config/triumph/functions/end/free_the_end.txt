@@ -1,0 +1,4 @@
+advancement grant @a[r=500] only end:free_the_end
+title @s title {"color":"red","text":"Сongratulations on completing"}
+title @s subtitle {"color":"red","text":"Extended Minecraft Modpack! (by R4L_34)"}
+function experience:challenge_hard

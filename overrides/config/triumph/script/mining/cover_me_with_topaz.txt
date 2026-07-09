@@ -1,0 +1,22 @@
+setIcon(<boptools:chestplate_topaz>)
+
+setTitle("Cover me with Topaz")
+
+setDescription("Craft a full Topaz Armor set")
+
+addParent("mining:topaz")
+
+addRewardFunction("mining:cover_me_with_topaz")
+
+addRewardFunction("experience:goal")
+
+setFrameType("GOAL")
+
+criteria = addCriteria("10", "minecraft:inventory_changed")
+criteria.addItem(<boptools:helmet_topaz>)
+criteria = addCriteria("11", "minecraft:inventory_changed")
+criteria.addItem(<boptools:chestplate_topaz>)
+criteria = addCriteria("12", "minecraft:inventory_changed")
+criteria.addItem(<boptools:leggings_topaz>)
+criteria = addCriteria("13", "minecraft:inventory_changed")
+criteria.addItem(<boptools:boots_topaz>)

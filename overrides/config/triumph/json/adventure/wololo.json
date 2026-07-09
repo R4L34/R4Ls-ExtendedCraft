@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Wololo!"},
+        "description": {"translate":"Defeat an Evoker"},
+		"frame": "goal"
+    },
+    "parent": "adventure:ghostbuster",
+    "rewards": {
+        "function": "adventure:wololo",
+        "experience": 75
+    },		
+    "criteria": {
+        "evocation_illager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "evocation_illager"
+                }
+            }
+        }
+    }
+}

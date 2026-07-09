@@ -1,0 +1,2 @@
+give @s aether_legacy:white_apple 8
+tellraw @s {"color":"blue","text":" +8 White Apples"}

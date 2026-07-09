@@ -1,0 +1,15 @@
+setIcon(<quark:smoker>)
+
+setTitle("Smoke every day")
+
+setDescription("Obtain Nether Smoker")
+
+addParent("nether:dont_step_on_it")
+
+addRewardFunction("nether:smoker")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("smoker", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:smoker>)

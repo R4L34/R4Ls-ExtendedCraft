@@ -1,0 +1,15 @@
+setIcon(<futuremc:stonecutter>)
+
+setTitle("Stonecutter")
+
+setDescription("Craft a Stonecutter to makr fansy stone blocks")
+
+addParent("building:root")
+
+addRewardFunction("building:rock_collection")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("stonecutter", "minecraft:inventory_changed")
+
+criteria.addItem(<futuremc:stonecutter>)

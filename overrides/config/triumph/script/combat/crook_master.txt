@@ -1,0 +1,22 @@
+setIcon(<inspirations:blaze_crook>)
+
+setTitle("Crook Master")
+
+setDescription("Craft all types of crooks")
+
+addParent("combat:crook")
+
+addRewardFunction("combat:crook_master")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("crook0", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:wooden_crook>)
+criteria = addCriteria("crook1", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:stone_crook>)
+criteria = addCriteria("crook2", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:bone_crook>)
+criteria = addCriteria("crook3", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:blaze_crook>)
+criteria = addCriteria("crook4", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:wither_crook>)

@@ -1,0 +1,2 @@
+give @s quark:redstone_inductor 4
+tellraw @s {"color":"blue","text":" +4 Redstone Inductors"}

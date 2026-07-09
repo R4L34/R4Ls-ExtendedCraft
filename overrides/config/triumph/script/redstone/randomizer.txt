@@ -1,0 +1,15 @@
+setIcon(<quark:redstone_randomizer>)
+
+setTitle("Redstone randomize")
+
+setDescription("Craft a redstone randomizer.")
+
+addParent("redstone:inductor")
+
+addRewardFunction("redstone:randomizer")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("redstone_randomizer", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:redstone_randomizer>)

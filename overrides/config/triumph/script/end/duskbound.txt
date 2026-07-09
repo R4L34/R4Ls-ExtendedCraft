@@ -1,0 +1,18 @@
+setIcon(<quark:duskbound_block>)
+
+setTitle("Duskbound")
+
+setDescription("Craft duskbound blocks, slabs, lanterns and stairs")
+
+addParent("end:purpurfect")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("duskbound0", "minecraft:inventory_changed")
+criteria.addItem(<quark:duskbound_block>)
+criteria = addCriteria("duskbound1", "minecraft:inventory_changed")
+criteria.addItem(<quark:duskbound_lantern>)
+criteria = addCriteria("duskbound2", "minecraft:inventory_changed")
+criteria.addItem(<quark:duskbound_block_stairs>)
+criteria = addCriteria("duskbound3", "minecraft:inventory_changed")
+criteria.addItem(<quark:duskbound_block_slab>)

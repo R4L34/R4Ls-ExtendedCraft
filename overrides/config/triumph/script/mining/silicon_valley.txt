@@ -1,0 +1,15 @@
+setIcon(<minecraft:flint>)
+
+setTitle("Silicon Valley")
+
+setDescription("Obtain or craft a flint")
+
+addParent("mining:root")
+
+addRewardFunction("mining:silicon_valley")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("flint", "minecraft:inventory_changed")
+
+criteria.addItem(<minecraft:flint>)

@@ -1,0 +1,2 @@
+give @s quark:colored_item_frame 16 11
+tellraw @s {"color":"blue","text":" +16 Blue Item Frames"}

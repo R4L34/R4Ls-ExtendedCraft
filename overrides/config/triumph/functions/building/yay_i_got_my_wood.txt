@@ -1,0 +1,2 @@
+give @s minecraft:log 32 0
+tellraw @s {"color":"blue","text":" +32 Oak Logs"}

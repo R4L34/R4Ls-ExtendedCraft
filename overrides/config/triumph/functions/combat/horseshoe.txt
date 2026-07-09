@@ -1,0 +1,2 @@
+give @s bountifulbaubles:trinketluckyhorseshoe 1
+tellraw @s {"color":"blue","text":" +1 Lucky Horsehoe"}

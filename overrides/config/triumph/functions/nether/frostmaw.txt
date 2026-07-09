@@ -1,0 +1,1 @@
+advancement grant @a[r=250] only nether:frostmaw

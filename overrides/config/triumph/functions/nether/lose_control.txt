@@ -1,0 +1,2 @@
+give @s biomesoplenty:jar_filled 1 1
+tellraw @s {"color":"blue","text":" +1 Blue Fire Jar"}

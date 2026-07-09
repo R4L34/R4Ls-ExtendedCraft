@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spectral_arrow"
+        },
+        "title": {"translate":"Glows in the Dark"},
+        "description": {"translate":"Shoot someone with a spectral arrow"}
+    },
+    "parent": "combat:bow_spammer",
+    "rewards": {
+        "function": "combat:glows_in_the_dark"
+    },
+    "criteria": {
+        "bow_spammer": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true,
+                        "direct_entity": {
+                            "type": "minecraft:spectral_arrow"
+							}
+						}
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+give @s quark:candle 32 14
+tellraw @s {"color":"blue","text":" +32 Red Candles"}

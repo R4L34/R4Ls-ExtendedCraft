@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:trapped_chest"
+        },
+        "title": {"translate":"Troll Chest"},
+        "description": {"translate":"Craft a trapped chest to troll your friends"}
+    },
+    "parent": "redstone:tripping_over",
+	"rewards": {
+		"function": "redstone:troll_chest"
+    },
+    "criteria": {
+        "trapped_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:trapped_chest"
+                    }
+                ]
+            }
+        },
+        "trapped_chest2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "quark:custom_chest_trap"
+                    }
+                ]
+            }
+        }
+    },
+
+    "requirements" : [[
+        "trapped_chest",
+        "trapped_chest2"
+    ]]
+}

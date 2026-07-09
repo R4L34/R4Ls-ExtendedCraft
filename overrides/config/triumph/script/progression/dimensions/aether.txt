@@ -1,0 +1,18 @@
+setIcon(<aether_legacy:aether_portal_frame>)
+
+setTitle("Aether Progression")
+
+setDescription("Get access to the Aether Dimension by using Aether Exploration Book. Also you will have to beat Barako the Sun Chef & the Tower Golem!")
+
+addParent("progression:wooden_pickaxe")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("aether")
+
+setFrameType("GOAL")
+
+alwaysVisible()

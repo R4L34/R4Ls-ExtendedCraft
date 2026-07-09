@@ -1,0 +1,15 @@
+setIcon(<comforts:sleeping_bag>)
+
+setTitle("Portable Bed")
+
+setDescription("Craft a Sleeping Bag. (Does not set any spawnpoint)")
+
+addParent("building:sweet_dreams")
+
+addRewardFunction("building:portable_bed")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:inventory_changed")
+
+criteria.addItem(<comforts:sleeping_bag>)

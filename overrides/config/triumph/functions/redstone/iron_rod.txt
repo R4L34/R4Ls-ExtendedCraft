@@ -1,0 +1,2 @@
+give @s quark:iron_rod 2
+tellraw @s {"color":"blue","text":" +2 Iron Rods"}

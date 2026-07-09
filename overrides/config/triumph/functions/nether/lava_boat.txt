@@ -1,0 +1,2 @@
+give @s netherex:obsidian_boat 1
+tellraw @s {"color":"blue","text":" +1 Obsidian Boat"}

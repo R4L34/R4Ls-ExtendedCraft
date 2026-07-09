@@ -1,0 +1,18 @@
+setIcon(<minecraft:emerald_ore>)
+
+setTitle("Emerald Ore Progression")
+
+setDescription("Get access to the Emerald Ore by using Emerald Ore Exploration Book")
+
+addParent("progression:ores/overworld/biome_gems")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("emerald_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

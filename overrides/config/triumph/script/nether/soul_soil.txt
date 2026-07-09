@@ -1,0 +1,15 @@
+setIcon(<futureminecraf:soulsoil>)
+
+setTitle("Soul Soil")
+
+setDescription("Mine some Soul Soil")
+
+addParent("nether:quicksand")
+
+addRewardFunction("nether:soul_soil")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("soulsoil", "triumph:player_break_block")
+
+criteria.setBlock(<futureminecraf:soulsoil>)

@@ -1,0 +1,15 @@
+setIcon(<minecraft:chest>)
+
+setTitle("Carry Item")
+
+setDescription("Carry some blocks with SHIFT + right click!")
+
+addParent("building:stationary_storage")
+
+addRewardFunction("building:carry_item")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("carry", "minecraft:inventory_changed")
+
+criteria.addItem(<carryon:tile_item>)

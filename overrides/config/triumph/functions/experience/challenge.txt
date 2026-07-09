@@ -1,0 +1,2 @@
+xp 250 @s
+tellraw @s {"color":"blue","text":" +250 experience"}

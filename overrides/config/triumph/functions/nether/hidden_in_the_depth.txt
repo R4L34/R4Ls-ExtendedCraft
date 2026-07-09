@@ -1,0 +1,2 @@
+give @s futuremc:ancient_debris 1
+tellraw @s {"color":"blue","text":" +1 Ancient Debriы"}

@@ -1,0 +1,15 @@
+setIcon(<davincisvessels:crate_wood>)
+
+setTitle("Transportable Mobs")
+
+setDescription("Craft a Wooden Crate to transport mobs on your ship!")
+
+addParent("building:transportable_spawnpoint")
+
+addRewardFunction("building:transportable_mobs")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("crate_wood", "minecraft:inventory_changed")
+
+criteria.addItem(<davincisvessels:crate_wood>)

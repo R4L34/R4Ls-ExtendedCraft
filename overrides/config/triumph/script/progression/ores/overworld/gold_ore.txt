@@ -1,0 +1,18 @@
+setIcon(<minecraft:gold_ore>)
+
+setTitle("Gold Ore Progression")
+
+setDescription("Get access to the Gold Ore by using Gold Ore Exploration Book")
+
+addParent("progression:ores/root")
+
+//addRewardFunction("progression:something")
+
+addRewardFunction("experience:goal")
+
+criteria = addCriteria("gamestage", "triumph:gamestage")
+criteria.setStage("gold_ore")
+
+setFrameType("GOAL")
+
+alwaysVisible()

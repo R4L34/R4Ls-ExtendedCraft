@@ -1,0 +1,15 @@
+setIcon(<quark:witch_hat>)
+
+setTitle("Witch Hat")
+
+setDescription("Get the Witch hat from the witch!")
+
+addParent("combat:witch")
+
+addRewardFunction("combat:witch_hat")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("witch_hat", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:witch_hat>)

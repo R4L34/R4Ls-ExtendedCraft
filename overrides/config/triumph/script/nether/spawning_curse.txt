@@ -1,0 +1,15 @@
+setIcon(<quark:soul_bead>)
+
+setTitle("Curse of Spawning")
+
+setDescription("Get Curse of Spawning effect.")
+
+addParent("nether:your_worst_nightmare")
+
+addRewardFunction("nether:spawning_curse")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("curse", "minecraft:effects_changed")
+
+criteria.addEffect("quark:curse")

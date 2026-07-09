@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {"translate":"Heeere's Johnny!"},
+        "description": {"translate":"Kill a Vindicator"}
+    },
+    "parent": "adventure:house_of_psychos",
+    "rewards": {
+        "function": "adventure:heres_johnny",
+        "experience": 15
+    },	
+    "criteria": {
+        "vindication_illager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "vindication_illager"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+setIcon(<biomesoplenty:biome_finder>)
+
+setTitle("1st Class Compass")
+
+setDescription("Craft a Biome Finder")
+
+addParent("end:biome_essence")
+
+addRewardFunction("end:biome_finder")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("biome_finder", "minecraft:inventory_changed")
+
+criteria.addItem(<biomesoplenty:biome_finder>)

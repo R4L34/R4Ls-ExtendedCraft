@@ -1,0 +1,2 @@
+give @s quark:enderdragon_scale 2
+tellraw @s {"color":"blue","text":" +2 Small Dragon Scales"}

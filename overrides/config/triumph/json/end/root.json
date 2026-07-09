@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "title": {"translate":"The End"},
+        "description": {"translate":"Or the beginning?"},
+        "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "end:root"
+    },
+	
+    "criteria": {
+        "entered_end": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "the_end"
+            }
+        }
+    }
+}

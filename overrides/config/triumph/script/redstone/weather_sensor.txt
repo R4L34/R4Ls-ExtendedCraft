@@ -1,0 +1,15 @@
+setIcon(<quark:rain_detector>)
+
+setTitle("Weather sensor")
+
+setDescription("Craft a weather sensor.")
+
+addParent("redstone:solar_power")
+
+addRewardFunction("redstone:weather_sensor")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("rain_detector", "minecraft:inventory_changed")
+
+criteria.addItem(<quark:rain_detector>)

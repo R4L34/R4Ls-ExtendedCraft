@@ -1,0 +1,15 @@
+setIcon(<aether_legacy:enchanted_blueberry>)
+
+setTitle("Goldberry")
+
+setDescription("Eat an Enchanted Blueberry")
+
+addParent("aether_legacy:craft_altar")
+
+addRewardFunction("aether_legacy:goldberry")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("0", "minecraft:consume_item")
+
+criteria.setItem(<aether_legacy:enchanted_blueberry>)

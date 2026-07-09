@@ -1,0 +1,2 @@
+give @s quark:color_slime 8 0
+tellraw @s {"color":"blue","text":" +8 Red Slime Blocks"}

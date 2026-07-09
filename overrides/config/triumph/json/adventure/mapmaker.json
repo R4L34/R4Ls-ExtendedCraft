@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "title": {"translate":"Mapmaker"},
+        "description": {"translate":"Craft or trade an empty map"}
+    },
+    "parent": "adventure:what_a_deal",
+    "rewards": {
+        "function": "adventure:mapmaker",
+        "experience": 15
+    },		
+    "criteria": {
+        "map": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:map"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{ 
+	Profession: "vtt:miner", 
+	Career:"miner",
+
+	Offers:{
+		Recipes:[
+
+			{action:"add", buy:{id:"minecraft:emerald",Count:8},sell:{id:"gamestagebooks:gold_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:16},sell:{id:"gamestagebooks:iron_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:8},sell:{id:"gamestagebooks:lapis_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:4},sell:{id:"gamestagebooks:redstone_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:16},sell:{id:"gamestagebooks:biome_gems",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:8},sell:{id:"gamestagebooks:emerald_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:32},sell:{id:"gamestagebooks:diamond_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:16},sell:{id:"gamestagebooks:heart_crystal_ore",Count:1}, CareerLevel:1},
+
+			{action:"add", buy:{id:"minecraft:emerald",Count:8},sell:{id:"gamestagebooks:zanite_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:16},sell:{id:"gamestagebooks:gravitite_ore",Count:1}, CareerLevel:1},
+
+			{action:"add", buy:{id:"minecraft:emerald",Count:4},sell:{id:"gamestagebooks:quartz_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:2},sell:{id:"gamestagebooks:rime_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:16},sell:{id:"gamestagebooks:nether_amethyst_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:4},sell:{id:"gamestagebooks:cincinnasite_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:64},sell:{id:"gamestagebooks:netherite_ore",Count:1}, CareerLevel:1},
+
+			{action:"add", buy:{id:"minecraft:emerald",Count:16},sell:{id:"gamestagebooks:liveroot_ore",Count:1}, CareerLevel:1},
+
+			{action:"add", buy:{id:"minecraft:emerald",Count:16},sell:{id:"gamestagebooks:end_amethyst_ore",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:emerald",Count:2},sell:{id:"gamestagebooks:biotite_ore",Count:1}, CareerLevel:1}
+
+		]
+	}
+
+}

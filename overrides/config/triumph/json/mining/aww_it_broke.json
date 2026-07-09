@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wooden_pickaxe"
+        },
+        "title": {"translate":"Aww it broke!"},
+        "description": {"translate":"Break your first tool"}
+    },
+    "parent": "mining:root",
+    "rewards": {
+        "function": "mining:aww_it_broke"
+    },	
+    "criteria": {
+        "break_tool": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+				"durability": -1
+            }
+        }
+    }
+}

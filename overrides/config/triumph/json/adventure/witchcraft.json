@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cauldron"
+        },
+        "title": {"translate":"Witchcraft"},
+        "description": {"translate":"Find a witch hut in a swamp"}
+    },
+    "parent": "adventure:grave_robber",
+    "rewards": {
+        "function": "adventure:witchcraft",
+        "experience": 15
+    },	
+    "criteria": {
+        "temple_swamp": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Temple",
+				"biome": "minecraft:swampland"
+            }
+        },
+        "temple_swamp_m": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "Temple",
+				"biome": "minecraft:mutated_swampland"
+            }
+        }		
+    },
+    "requirements": [
+		[
+        "temple_swamp",
+        "temple_swamp_m"
+		]
+    ]
+}

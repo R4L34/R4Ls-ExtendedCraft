@@ -1,0 +1,14 @@
+setIcon(<inspirations:bookshelf>)
+
+setTitle("Advanced Bookshelf")
+
+setDescription("Craft a special bookshelf to store all of your books!")
+
+addParent("building:stationary_storage")
+
+addRewardFunction("building:bookshelf")
+
+addRewardFunction("experience:common")
+
+criteria = addCriteria("books", "minecraft:inventory_changed")
+criteria.addItem(<inspirations:bookshelf>)
